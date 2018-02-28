@@ -44,7 +44,9 @@ hello
 E. value of x is 4
 ```
 
-### Example 2
+Προσοχή: Η γραμμή Ε δεν εμφανίζεται από τη διεργασία "παιδί" διότι έχει πλέον αντικατασταθεί ο κώδικας που εκτελείται από τη διεργασία αυτή μέσω της execl από το πρόγραμμα echo. 
+
+### Παράδειγμα 2
 Παράδειγμα επικοινωνίας διεργασιών μέσω pipe.
 
 * [fork_example2.c](fork_example2.c)
@@ -62,7 +64,7 @@ gcc -Wall fork_example2.c -o fork_example2
 child process got data Greetings from parent process
 ```
 
-### Example 3
+### Παράδειγμα 3
 
 * [fork_example3.c](fork_example3.c)
 * [makefile](makefile)
@@ -78,6 +80,6 @@ make run
 
 ```bash
 ./fork_example3 56
-Collatz sequence for 56: 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
-Collatz sequence for 57: 172 86 43 130 65 196 98 49 148 74 37 112 56 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1	
+Parent process: Collatz sequence for 56: 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+Child process: Collatz sequence for 57: 172 86 43 130 65 196 98 49 148 74 37 112 56 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 ```
