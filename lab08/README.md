@@ -1,2 +1,1 @@
-## C++11 multithreading
-
+# C++11 multithreading

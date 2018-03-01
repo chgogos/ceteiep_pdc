@@ -1,1 +1,1 @@
-## OpenMP
+# OpenMP
