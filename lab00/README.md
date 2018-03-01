@@ -10,33 +10,32 @@
 H έξοδος της εκτέλεσης του προγράμματος σε όλες τις περιπτώσεις που ακολουθούν είναι η ακόλουθη:
 
 ```bash
-	hello
-	The factorial of 5 is 120
+hello
+The factorial of 5 is 120
 ```
 
 ### 1. Απευθείας μεταγλώττιση και εκτέλεση από το shell 
 
 ```bash
-	$ gcc factorial.c hello.c main.c -o hello
-	$ ./hello
+gcc factorial.c hello.c main.c -o hello
+./hello
 ```
-
 
 ### 2. Μεταγλώττιση μέσω ενός shell script και εκτέλεση από το shell
 
 * [hello.sh](hello.sh)
 
 ```bash
-	$ sh hello.sh
-	$ ./hello
+sh hello.sh
+./hello
 ```
 
 ή πρώτα μετατροπή του shell script σε εκτελέσιμο και μετά εκτέλεση του απευθείας 
 
 ```bash
-	$ chmod +x hello.sh
-	$ ./hello.sh
-	$ ./hello
+chmod +x hello.sh
+./hello.sh
+./hello
 ```
 
 ### 3. Μεταγλώττιση χρησιμοποιώντας ένα απλό makefile
@@ -44,8 +43,8 @@ H έξοδος της εκτέλεσης του προγράμματος σε ό
 * [Makefile1](Makefile1)
 
 ```bash
-	$ make -f Makefile1
-	$ ./hello
+make -f Makefile1
+./hello
 ```
 
 ### 4. Χρήση ενός makefile για τη μεταγλώττιση καθώς και τη διαγραφή object files και εκτελέσιμου αρχείου
@@ -53,9 +52,9 @@ H έξοδος της εκτέλεσης του προγράμματος σε ό
 * [Makefile2](Makefile2)
 
 ```bash
-	$ make -f Makefile2
-	$ ./hello
-	$ make -f Makefile2 clean	
+make -f Makefile2
+./hello
+make -f Makefile2 clean
 ```
 
 ### 5. Χρήση ενός πληρέστερου makefile
@@ -63,7 +62,7 @@ H έξοδος της εκτέλεσης του προγράμματος σε ό
 * [Makefile3](Makefile3)
 
 ```bash
-	$ make -f Makefile3
-	$ make -f Makefile3 run	
-	$ make -f Makefile2 clean
+make -f Makefile3
+make -f Makefile3 run
+make -f Makefile2 clean
 ```
