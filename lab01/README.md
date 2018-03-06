@@ -67,13 +67,13 @@ child process got data Greetings from parent process
 ### Παράδειγμα 3
 
 * [fork_example3.c](fork_example3.c)
-* [makefile](makefile)
+* [makefile3](makefile3)
 
 Μεταγλώττιση και εκτέλεση
 
 ```bash	
-make 
-make run
+make -f makefile3
+make -f makefile3 run
 ```
 
 Έξοδος
@@ -82,4 +82,14 @@ make run
 ./fork_example3 56
 Parent process: Collatz sequence for 56: 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 Child process: Collatz sequence for 57: 172 86 43 130 65 196 98 49 148 74 37 112 56 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+```
+
+---
+
+* [makefile](makefile)
+
+Και τα 3 παραδείγματα μπορούν να μεταγλωττιστούν μαζί με την εντολή:
+
+```bash	
+make
 ```

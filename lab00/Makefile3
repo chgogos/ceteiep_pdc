@@ -3,7 +3,7 @@ CFLAGS=-c -Wall
 
 all: hello
 
-run:
+run: hello
 	./hello
 
 hello: main.o factorial.o hello.o

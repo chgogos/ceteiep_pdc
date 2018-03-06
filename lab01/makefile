@@ -1,16 +1,21 @@
-all: fork_example3
+# makefile για όλα τα παραδείγματα
 
-run:
-	./fork_example3 56
+CC=gcc
+CFLAGS=-Wall
 
-fork_example3: collatz.o fork_example3.o 
-	gcc collatz.o fork_example3.o -o fork_example3
+all: fork_example0 fork_example1 fork_example2 fork_example3
 
-collatz.o: collatz.c 
-	gcc -c collatz.c
+fork_example0: fork_example0.c
+	$(CC) $(CFLAGS) $^ -o $@
 
-fork_example3.o: fork_example3.c
-	gcc -c fork_example3.c 
+fork_example1: fork_example1.c
+	$(CC) $(CFLAGS) $^ -o $@
 
-clean: 
-	rm *.o fork_example3
+fork_example2: fork_example2.c
+	$(CC) $(CFLAGS) $^ -o $@
+
+fork_example3: fork_example3.c collatz.c
+	$(CC) $(CFLAGS) $^ -o $@
+
+clean:
+	rm -f fork_example0 fork_example1 fork_example2 fork_example3

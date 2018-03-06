@@ -40,29 +40,39 @@ chmod +x hello.sh
 
 ### 3. Μεταγλώττιση χρησιμοποιώντας ένα απλό makefile
 
-* [Makefile1](Makefile1)
+* [makefile1](makefile1)
 
 ```bash
-make -f Makefile1
+make -f makefile1
 ./hello
 ```
 
 ### 4. Χρήση ενός makefile για τη μεταγλώττιση καθώς και τη διαγραφή object files και εκτελέσιμου αρχείου
 
-* [Makefile2](Makefile2)
+* [makefile2](makefile2)
 
 ```bash
-make -f Makefile2
+make -f makefile2
 ./hello
-make -f Makefile2 clean
+make -f makefile2 clean
 ```
 
 ### 5. Χρήση ενός πληρέστερου makefile
 
-* [Makefile3](Makefile3)
+* [makefile3](makefile3)
 
 ```bash
-make -f Makefile3
-make -f Makefile3 run
-make -f Makefile2 clean
+make -f makefile3
+make -f makefile3 run
+make -f makefile2 clean
+```
+
+### 6. Χρήση ενός συντομότερου makefile
+
+* [makefile](makefile)
+
+```bash
+make 
+make run
+make clean
 ```
