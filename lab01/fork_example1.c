@@ -2,8 +2,6 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-// gcc -Wall fork_example1.c -o fork_example1
-// ./fork_example1
 int main(){
 	int x = 5;
 	printf("A. value of x is %d\n", x);

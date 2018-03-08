@@ -4,8 +4,6 @@
 #include <assert.h>
 #include "collatz.h"
 
-// make
-// make run
 int main(int argc, char **argv) {
   if (argc != 2){
     fprintf(stderr, "wrong number of arguments");

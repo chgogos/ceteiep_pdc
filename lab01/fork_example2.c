@@ -6,8 +6,6 @@
 
 #define BUFFER_SIZE 25
 
-// gcc -Wall fork_example2.c -o fork_example2
-// ./fork_example2
 int main() {
   char write_msg[BUFFER_SIZE] = "Greetings";
   char read_msg[BUFFER_SIZE];
