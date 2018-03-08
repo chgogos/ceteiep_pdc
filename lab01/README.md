@@ -9,8 +9,8 @@
 Μεταγλώττιση και εκτέλεση
 
 ```bash
-$ gcc -Wall fork_example0.c -o fork_example0
-$ ./fork_example0
+gcc -Wall fork_example0.c -o fork_example0
+./fork_example0
 ```
 
 Έξοδος
@@ -88,7 +88,7 @@ Child process: Collatz sequence for 57: 172 86 43 130 65 196 98 49 148 74 37 112
 
 * [makefile](makefile)
 
-Και τα 3 παραδείγματα μπορούν να μεταγλωττιστούν μαζί με την εντολή:
+Και τα 4 παραδείγματα μπορούν να μεταγλωττιστούν μαζί με την εντολή:
 
 ```bash	
 make
