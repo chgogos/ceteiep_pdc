@@ -72,8 +72,8 @@ child process got data Greetings from parent process
 Μεταγλώττιση και εκτέλεση
 
 ```bash	
-make -f makefile3
-make -f makefile3 run
+make -f mf3.mk
+make -f mf3.mk run
 ```
 
 Έξοδος

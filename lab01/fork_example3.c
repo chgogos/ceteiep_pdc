@@ -2,10 +2,12 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 #include "collatz.h"
 
 int main(int argc, char **argv) {
-  if (argc != 2){
+  if (argc != 2) {
     fprintf(stderr, "wrong number of arguments");
     exit(-1);
   }
