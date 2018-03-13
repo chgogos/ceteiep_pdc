@@ -1,3 +1,3 @@
-# Go concurrency 
+# Go concurrency
 
 <https://golang.org/>

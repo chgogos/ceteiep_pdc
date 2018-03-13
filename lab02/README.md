@@ -1,13 +1,13 @@
-## POSIX Threads 
+# POSIX Threads
 
-### Παράδειγμα 1 
+## Παράδειγμα 1
 
 Δημιουργία ενός αριθμού νημάτων (ο αριθμός καθορίζεται από το όρισμα γραμμής εντολών) και εμφάνιση μηνύματος που περιέχει τον αριθμό νήματος για κάθε νήμα.
 
 * [pthreads_example01a.c](pthreads_example01a.c)
 
 ```bash
-gcc pthreads_example01a.c -o pthreads_example01a -lpthread 
+gcc pthreads_example01a.c -o pthreads_example01a -lpthread
 ./pthreads_example01a 4
 Hello from thread 0 (opaque thread id: 123145492553728) of 4
 Hello from thread 1 (opaque thread id: 123145493090304) of 4
@@ -16,11 +16,9 @@ Hello from the main thread
 Hello from thread 3 (opaque thread id: 123145494163456) of 4
 ```
 
-
 Δημιουργία 4 νημάτων. Κάθε νήμα "παράγει" έναν αριθμό που τον επιστρέφει στο κύριο νήμα. Εμφανίζονται όλες οι τιμές που παράγονται και επιστρέφονται.
 
 * [pthreads_example01b.c](pthreads_example01b.c)
-
 
 ```bash
 gcc pthreads_example01b.c -o pthreads_example01b -lpthread
@@ -35,16 +33,16 @@ Thread 2 returns 78
 Thread 3 returns 90
 ```
 
-### Παράδειγμα 2 
+## Παράδειγμα 2
 
 Πολλαπλασιασμός ενός πίνακα Α με m γραμμές και n στήλες με ένα διάνυσμα n στοιχείων
 
 * pthreads_example02a.c (σειριακή λύση)
-* pthreads_example02b.c (παράλληλη λύση) 
+* pthreads_example02b.c (παράλληλη λύση)
 
 ```bash
 gcc pthreads_example02a.c -o pthreads_example02a
-time ./pthreads_example02a 100000 1000 
+time ./pthreads_example02a 100000 1000
 0 -> 25925.70
 1 -> 25116.42
 2 -> 24880.10
@@ -57,7 +55,6 @@ time ./pthreads_example02a 100000 1000
 9 -> 25770.27
 ./pthreads_example02a 100000 1000  1.22s user 0.29s system 99% cpu 1.520 total
 ```
-
 
 ```bash
 gcc pthreads_example02b.c -o pthreads_example02b
@@ -74,10 +71,12 @@ time ./pthreads_example02b 100000 1000 4
 8 -> 25797.50
 9 -> 24254.58
 ./pthreads_example02b 100000 1000 4  1.52s user 0.27s system 141% cpu 1.269 total
-``` 
+```
 
 ### Παράδειγμα 3 (busy wait, mutexes)
-Υπολογισμός του π ως ένα άθροισμα σειράς (βλ. Pacheco σελ 229) 
+
+Υπολογισμός του π ως ένα άθροισμα σειράς (βλ. Pacheco σελ 229)
+
 * pthreads_example03a.c (σειριακός κώδικας, παράλληλος κώδικας χωρίς συγχρονισμό)
 * pthreads_example03b.c (παράλληλος κώδικας με busy wait)
 * pthreads_example03c.c (παράλληλος κώδικας με mutex)
@@ -101,8 +100,10 @@ gcc pthreads_example03c.c -o pthreads_example03c
 Pi value computed using 1000000 terms and 10 threads (mutex) = 3.141591653590
 ```
 
-### Παράδειγμα 4 (condition variables - μεταβλητές συνθήκης)
-Μεταβλητές υπό συνθήκη. Εννέα threads παράγουν από έναν αριθμό (π.χ. τον αριθμό 1) και τον τοποθετούν σε διαφορετικές θέσεις ενός κοινόχρηστου πίνακα. Ένα επιπλέον thread λειτουργεί ως καταναλωτής των τιμών που παρήγαγαν τα νήματα παραγωγοί τις οποίες και διπλασιάζει. Το κύριο πρόγραμμα αθροίζει όλες τις τιμές του κοινόχρηστου πίνακα.     
+## Παράδειγμα 4 (condition variables - μεταβλητές συνθήκης)
+
+Μεταβλητές υπό συνθήκη. Εννέα threads παράγουν από έναν αριθμό (π.χ. τον αριθμό 1) και τον τοποθετούν σε διαφορετικές θέσεις ενός κοινόχρηστου πίνακα. Ένα επιπλέον thread λειτουργεί ως καταναλωτής των τιμών που παρήγαγαν τα νήματα παραγωγοί τις οποίες και διπλασιάζει. Το κύριο πρόγραμμα αθροίζει όλες τις τιμές του κοινόχρηστου πίνακα.
+
 * pthreads_example04a.c
 
 ```bash
@@ -140,11 +141,11 @@ Consumer thread 9 reads shared value 42
 Main: shared value 42
 ```
 
-### Παράδειγμα 5 (barriers - κλήσεις φραγής)
+## Παράδειγμα 5 (barriers - κλήσεις φραγής)
+
 * pthreads_example05a.c
 
 10 νήματα ξεκινούν και καθένα από αυτά εμφανίζει πρώτα το μήνυμα Phase A και μετά το μήνυμα Phase B. Θέλουμε πρώτα να εμφανιστούν όλα τα μηνύματα Α και μετά όλα τα μηνύματα Β (δεν λειτουργεί στο OSX).
-
 
 ```bash
 gcc -pthread pthreads_example05a.c -o pthreads_example05a -lpthread
@@ -171,7 +172,8 @@ Thread 2 phase B
 Thread 9 phase B
 ```
 
-Μια κοινόχρηστη μεταβλητή με αρχική τιμή 0 πρώτα αυξάνεται κατά 1 από 10 νήματα και εφόσον ολοκληρωθεί η φάση αυτή καθένα από τα 10 νήματα διπλασιάζει την τιμή της. 
+Μια κοινόχρηστη μεταβλητή με αρχική τιμή 0 πρώτα αυξάνεται κατά 1 από 10 νήματα και εφόσον ολοκληρωθεί η φάση αυτή καθένα από τα 10 νήματα διπλασιάζει την τιμή της.
+
 * 1+1+...+1=10
 * 10\*2\*2\*...\*2 = 10240
 

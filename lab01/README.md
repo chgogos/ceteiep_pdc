@@ -1,10 +1,10 @@
-## Διεργασίες POSIX στη C
+# Διεργασίες POSIX στη C
 
-### Παράδειγμα 0
+## Παράδειγμα 0
+
 Απλό παράδειγμα με την fork().
 
 * [fork_example0.c](fork_example0.c)
-
 
 Μεταγλώττιση και εκτέλεση
 
@@ -21,7 +21,8 @@ B. value of x is 6 as reported by process:6962
 B. value of x is 4 as reported by process:6963
 ```
 
-### Παράδειγμα 1
+## Παράδειγμα 1
+
 Παράδειγμα με 2 διεργασίες που η διεργασία γονέας περιμένει τη διεργασία παιδί για να ολοκληρώσει την εκτέλεσή της.
 
 * [fork_example1.c](fork_example1.c)
@@ -31,10 +32,9 @@ B. value of x is 4 as reported by process:6963
 $ gcc -Wall fork_example1.c -o fork_example1
 $ ./fork_example1
 
-
 Έξοδος
 
-```bash	
+```bash
 A. value of x is 5
 B. value of x is 5
 D. parent process 7047 with child 7048, value of x is 4
@@ -44,9 +44,10 @@ hello
 E. value of x is 4
 ```
 
-Προσοχή: Η γραμμή Ε δεν εμφανίζεται από τη διεργασία "παιδί" διότι έχει πλέον αντικατασταθεί ο κώδικας που εκτελείται από τη διεργασία αυτή μέσω της execl από το πρόγραμμα echo. 
+Προσοχή: Η γραμμή Ε δεν εμφανίζεται από τη διεργασία "παιδί" διότι έχει πλέον αντικατασταθεί ο κώδικας που εκτελείται από τη διεργασία αυτή μέσω της execl από το πρόγραμμα echo.
 
-### Παράδειγμα 2
+## Παράδειγμα 2
+
 Παράδειγμα επικοινωνίας διεργασιών μέσω pipe.
 
 * [fork_example2.c](fork_example2.c)
@@ -58,7 +59,7 @@ gcc -Wall fork_example2.c -o fork_example2
 ./fork_example2
 ```
 
-Έξοδος 
+Έξοδος
 
 ```bash
 child process got data Greetings from parent process
@@ -71,7 +72,7 @@ child process got data Greetings from parent process
 
 Μεταγλώττιση και εκτέλεση
 
-```bash	
+```bash
 make -f mf3.mk
 make -f mf3.mk run
 ```
@@ -90,6 +91,6 @@ Child process: Collatz sequence for 57: 172 86 43 130 65 196 98 49 148 74 37 112
 
 Και τα 4 παραδείγματα μπορούν να μεταγλωττιστούν μαζί με την εντολή:
 
-```bash	
+```bash
 make
 ```
