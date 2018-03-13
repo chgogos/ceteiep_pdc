@@ -37,8 +37,8 @@ Thread 3 returns 90
 
 Πολλαπλασιασμός ενός πίνακα Α με m γραμμές και n στήλες με ένα διάνυσμα n στοιχείων
 
-* pthreads_example02a.c (σειριακή λύση)
-* pthreads_example02b.c (παράλληλη λύση)
+* [pthreads_example02a.c](pthreads_example02a.c) (σειριακή λύση)
+* [pthreads_example02b.c](pthreads_example02b.c) (παράλληλη λύση)
 
 ```bash
 gcc pthreads_example02a.c -o pthreads_example02a
@@ -77,9 +77,9 @@ time ./pthreads_example02b 100000 1000 4
 
 Υπολογισμός του π ως ένα άθροισμα σειράς (βλ. Pacheco σελ 229)
 
-* pthreads_example03a.c (σειριακός κώδικας, παράλληλος κώδικας χωρίς συγχρονισμό)
-* pthreads_example03b.c (παράλληλος κώδικας με busy wait)
-* pthreads_example03c.c (παράλληλος κώδικας με mutex)
+* [pthreads_example03a.c](pthreads_example03a.c) (σειριακός κώδικας, παράλληλος κώδικας χωρίς συγχρονισμό)
+* [pthreads_example03b.c](pthreads_example03b.c) (παράλληλος κώδικας με busy wait)
+* [pthreads_example03c.c](pthreads_example03c.c) (παράλληλος κώδικας με mutex)
 
 ```bash
 gcc pthreads_example03a.c -o pthreads_example03a -lpthread
@@ -104,7 +104,7 @@ Pi value computed using 1000000 terms and 10 threads (mutex) = 3.141591653590
 
 Μεταβλητές υπό συνθήκη. Εννέα threads παράγουν από έναν αριθμό (π.χ. τον αριθμό 1) και τον τοποθετούν σε διαφορετικές θέσεις ενός κοινόχρηστου πίνακα. Ένα επιπλέον thread λειτουργεί ως καταναλωτής των τιμών που παρήγαγαν τα νήματα παραγωγοί τις οποίες και διπλασιάζει. Το κύριο πρόγραμμα αθροίζει όλες τις τιμές του κοινόχρηστου πίνακα.
 
-* pthreads_example04a.c
+* [pthreads_example04a.c](pthreads_example04a.c)
 
 ```bash
 gcc pthreads_example04a.c -o pthreads_example04a -lpthread
@@ -143,9 +143,9 @@ Main: shared value 42
 
 ## Παράδειγμα 5 (barriers - κλήσεις φραγής)
 
-* pthreads_example05a.c
+* [pthreads_example05a.c](pthreads_example05a.c)
 
-10 νήματα ξεκινούν και καθένα από αυτά εμφανίζει πρώτα το μήνυμα Phase A και μετά το μήνυμα Phase B. Θέλουμε πρώτα να εμφανιστούν όλα τα μηνύματα Α και μετά όλα τα μηνύματα Β (δεν λειτουργεί στο OSX).
+10 νήματα ξεκινούν και καθένα από αυτά εμφανίζει πρώτα το μήνυμα Phase A και μετά το μήνυμα Phase B. Θέλουμε πρώτα να εμφανιστούν όλα τα μηνύματα Α και μετά όλα τα μηνύματα Β.
 
 ```bash
 gcc -pthread pthreads_example05a.c -o pthreads_example05a -lpthread
@@ -171,6 +171,9 @@ Thread 0 phase B
 Thread 2 phase B
 Thread 9 phase B
 ```
+
+
+* [pthreads_example05b.c](pthreads_example05b.c)
 
 Μια κοινόχρηστη μεταβλητή με αρχική τιμή 0 πρώτα αυξάνεται κατά 1 από 10 νήματα και εφόσον ολοκληρωθεί η φάση αυτή καθένα από τα 10 νήματα διπλασιάζει την τιμή της.
 
