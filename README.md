@@ -20,6 +20,18 @@
 
 POSIX processes, pThreads, Java concurrency, MPI, OpenMP
 
+Δημιουργία όλων των εκτελέσιμων
+
+```bash
+bash makeall.sh
+```
+
+Διαγραφή όλων των εκτελέσιμων
+
+```bash
+bash makeall.sh clean
+```
+
 ### Εργαστήριο 1 (POSIX processes)
 
 * [makefiles](./lab00/README.md)
@@ -27,6 +39,7 @@ POSIX processes, pThreads, Java concurrency, MPI, OpenMP
 
 ### Εργαστήριο 2 (pThreads)
 
+* []
 
 ### Εργαστήριο 3 (java concurrency)
 

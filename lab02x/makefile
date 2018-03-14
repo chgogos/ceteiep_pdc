@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall
+CFLAGS=-Wall -std=gnu99
 LDFLAGS=-lpthread
 
 all: pthreads_exercise01 pthreads_exercise02 pthreads_exercise03 \

@@ -11,4 +11,5 @@ int main() {
 		printf("Parent process\n");
 		wait(NULL);
 	}
+	return 0;
 }

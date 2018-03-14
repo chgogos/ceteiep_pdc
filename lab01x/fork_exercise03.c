@@ -26,4 +26,5 @@ int main() {
 		printf("Parent receives value %d from child\n", val);
 		printf("The total sum is %d\n", sum + val);
 	}
+	return 0;
 }

@@ -26,4 +26,5 @@ int main() {
     printf("child process got data %s from parent process\n", read_msg);
     close(fd[0]);
   }
+  return 0;
 }

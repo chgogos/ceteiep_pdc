@@ -20,4 +20,5 @@ int main() {
 		wait(NULL);
 	}
 	printf("E. value of x is %d\n", x);
+	return 0;
 }

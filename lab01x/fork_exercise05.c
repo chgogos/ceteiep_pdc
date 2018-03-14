@@ -17,4 +17,5 @@ int main(int argc, char* argv[]) {
 	int rv;
 	pid_t childid = wait(&rv);
 	printf("Parent got value %d from child with id %d\n", WEXITSTATUS(rv), childid);
+	return 0;
 }

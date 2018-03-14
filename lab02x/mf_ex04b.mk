@@ -1,7 +1,7 @@
 # θα πρέπει να έχει εγκατασταθεί η βιβλιοθήκη gsl
 
 CC=gcc
-CFLAGS=-Wall
+CFLAGS=-Wall -gnu99
 LDFLAGS=-lpthread -lm -lgsl -lgslcblas
 
 pthreads_exercise04b:pthreads_exercise04b.c

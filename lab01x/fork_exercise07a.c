@@ -24,6 +24,5 @@ int main(int argc, char** argv) {
 	}
 	double pi = (double)c / (double)points * 4;
 	printf("PI estimation %f  vs %f\n", pi, M_PI);
-
 	return 0;
 }

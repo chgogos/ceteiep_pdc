@@ -10,4 +10,5 @@ int main() {
 	else
 		x++;
 	printf("B. value of x is %d as reported by process:%d\n", x, getpid());
+	return 0;
 }

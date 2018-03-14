@@ -1,5 +1,6 @@
 CC=gcc
-CFLAGS=-c -Wall
+# gnu99 C99 + extensions provided by gcc by default
+CFLAGS=-c -Wall -std=gnu99
 
 all: hello
 

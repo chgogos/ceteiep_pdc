@@ -1,7 +1,7 @@
 # makefile για όλα τα παραδείγματα
 
 CC=gcc
-CFLAGS=-Wall
+CFLAGS=-Wall -std=gnu99
 
 all: fork_example0 fork_example1 fork_example2 fork_example3
 
