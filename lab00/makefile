@@ -12,5 +12,6 @@ hello: main.o factorial.o hello.o
 %.o: %.c
 	$(CC) $(CFLAGS) $^
 
+.PHONY:clean
 clean:
 	rm *.o hello
