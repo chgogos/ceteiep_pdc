@@ -1,5 +1,3 @@
-// Pacheco example 4.3
-// gcc -g -Wall lab6_02c.c -o lab6_02c
 // the value of pi computed by the parallel code is correct because race
 // conditions are handled by a mutex
 

@@ -1,5 +1,39 @@
 # POSIX Threads
 
+## Παράδειγμα 0
+
+Δημιουργία 2 νημάτων και εμφάνιση μηνύματος από το καθένα.
+
+* [pthreads_example00a.c](pthreads_example00a.c)
+
+```bash
+gcc pthreads_example00a.c -o pthreads_example00a -lpthread
+./pthreads_example00a
+This is a message from the main thread
+This is a message from thread: B
+This is a message from thread: A
+```
+
+Δημιουργία 10 νημάτων και εμφάνιση μηνύματος από το καθένα.
+
+* [pthreads_example0b.c](pthreads_example00b.c)
+
+```bash
+gcc pthreads_example00b.c -o pthreads_example00b -lpthread
+./pthreads_example00b
+This is a message from the main thread
+This is a message from thread: 6
+This is a message from thread: 7
+This is a message from thread: 8
+This is a message from thread: 9
+This is a message from thread: 5
+This is a message from thread: 4
+This is a message from thread: 3
+This is a message from thread: 2
+This is a message from thread: 1
+This is a message from thread: 0
+```
+
 ## Παράδειγμα 1
 
 Δημιουργία ενός αριθμού νημάτων (ο αριθμός καθορίζεται από το όρισμα γραμμής εντολών) και εμφάνιση μηνύματος που περιέχει τον αριθμό νήματος για κάθε νήμα.
@@ -73,13 +107,14 @@ time ./pthreads_example02b 100000 1000 4
 ./pthreads_example02b 100000 1000 4  1.52s user 0.27s system 141% cpu 1.269 total
 ```
 
-### Παράδειγμα 3 (busy wait, mutexes)
+### Παράδειγμα 3 (busy wait, mutexes, semaphores)
 
 Υπολογισμός του π ως ένα άθροισμα σειράς (βλ. Pacheco σελ 229)
 
 * [pthreads_example03a.c](pthreads_example03a.c) (σειριακός κώδικας, παράλληλος κώδικας χωρίς συγχρονισμό)
 * [pthreads_example03b.c](pthreads_example03b.c) (παράλληλος κώδικας με busy wait)
 * [pthreads_example03c.c](pthreads_example03c.c) (παράλληλος κώδικας με mutex)
+* [pthreads_example03d.c](pthreads_example03d.c) (παράλληλος κώδικας με semaphores)
 
 ```bash
 gcc pthreads_example03a.c -o pthreads_example03a -lpthread
@@ -95,9 +130,15 @@ Pi value computed using 1000000 terms and 10 threads (busy wait) = 3.14159165359
 ```
 
 ```bash
-gcc pthreads_example03c.c -o pthreads_example03c
+gcc pthreads_example03c.c -o pthreads_example03c -lpthread
 ./pthreads_example03c
 Pi value computed using 1000000 terms and 10 threads (mutex) = 3.141591653590
+```
+
+```bash
+gcc pthreads_example03d.c -o pthreads_example03d -lpthread
+./pthreads_example03d
+Pi value computed using 1000000 terms and 10 threads (semaphore) = 3.141591653590
 ```
 
 ## Παράδειγμα 4 (condition variables - μεταβλητές συνθήκης)

@@ -1,5 +1,4 @@
 // Pacheco example 4.5
-// gcc -g -Wall lab6_02b.c -o lab6_02b
 // the value of pi computed by the parallel code is correct because race
 // conditions are handled using busy waiting
 
