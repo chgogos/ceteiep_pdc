@@ -1,6 +1,6 @@
 # Παράλληλα και Κατανεμημένα Συστήματα (Θεωρία και εργαστήριο)
 
-Τμήμα Μηχανικών Πληροφορικής ΤΕΙ Ηπείρου 
+Τμήμα Μηχανικών Πληροφορικής ΤΕΙ Ηπείρου
 
 ## Θεωρία
 
@@ -36,12 +36,12 @@ bash makeall.sh clean
 
 ### Εργαστήριο 1 (POSIX processes)
 
-* [Εισαγωγή στα makefiles (pdf)](00.makefiles.pdf)
+* [Εισαγωγή στα makefiles (pdf)](./docs/00.makefiles.pdf)
 * [makefiles](./lab00/README.md)
 
-* [Εισαγωγή στα POSIX processes (pdf)](01.POSIX%20processes.pdf)
+* [Εισαγωγή στα POSIX processes (pdf)](./docs/01.POSIX%20processes.pdf)
 * [POSIX processes](./lab01/README.md)
-* [Ασκήσεις εργαστηρίου 1 (pdf)](02.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%201%20(POSIX%20PROCESSES).pdf)
+* [Ασκήσεις εργαστηρίου 1 (pdf)](./docs/02.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%201%20(POSIX%20PROCESSES).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 1](./lab01x/README.md)
 
 #### Επιπλέον υλικό για POSIX processes
@@ -50,9 +50,9 @@ bash makeall.sh clean
 
 ### Εργαστήριο 2 (pThreads)
 
-* [Παραδείγματα με POSIX threads (pdf)](03.POSIX%20threads.pdf)
+* [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
 * [POSIX threads](./lab02/README.md)
-* [Ασκήσεις εργαστηρίου 2 (pdf)](04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%202%20(POSIX%20THREADS).pdf)
+* [Ασκήσεις εργαστηρίου 2 (pdf)](./docs/04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%202%20(POSIX%20THREADS).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 2](./lab02x/README.md)
 
 #### Επιπλέον υλικό για POSIX threads
