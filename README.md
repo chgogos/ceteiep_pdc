@@ -68,3 +68,7 @@ Java concurrency
 ### Εργαστήριο 4 (OpenMP)
 
 OpenMP
+
+### Εργαστήριο 5 (MPI)
+
+
