@@ -9,6 +9,8 @@ JC = javac
 CLASSES = \
     HelloRunnable.java \
 	HelloThread.java \
+	HelloAnonymous.java \
+	HelloLambdas.java \
 	SleepMessages.java \
 	SimpleThreads.java \
 	Counter.java \
@@ -38,60 +40,68 @@ default: classes
 
 classes: $(CLASSES:.java=.class)
 
-# 
-run1: HelloRunnable.java
+# HelloRunnable.java
+run1: 
 	java HelloRunnable
 
-#
-run2: HelloThread.java
+# HelloThread.java
+run2: 
 	java HelloThread
 
-#
-run3: SleepMessages.java
+# HelloAnonymous.java
+run3: 
+	java HelloAnonymous
+
+# HelloLambdas.java
+run4: 
+	java HelloLambdas
+
+# SleepMessages.java
+run5: 
 	java SleepMessages
 
-#
-run4: SimpleThreads.java
+# SimpleThreads.java
+run6: 
 	java SimpleThreads
 
 # Counter.java, CounterExample.java
-run5: CounterExample.java
+run7: 
 	java CounterExample
 
 # SynchronizedCounter.java, SynchronizedCounterExample.java
-run6: SynchronizedCounterExample.java
+run8: 
 	java SynchronizedCounterExample
 
 # SynchronizedCounter2.java, SynchronizedCounter2Example.java
-run7: SynchronizedCounter2Example.java
+run9: 
 	java SynchronizedCounter2Example
 
 # MsLunch.java, MsLunchExample.java
-run8: MsLunchExample.java
+run10: 
 	java MsLunchExample
 
 # Deadlock.java
-run9: Deadlock.java
+run11:
 	java Deadlock
 
 # Drop.java, Producer.java, Consumer.java, ProducerConsumerExample.java
-run10: ProducerConsumerExample.java
+run12:
 	java ProducerConsumerExample
 
 # Producer2.java, Consumer2.java, ProducerConsumerBlockingQueueExample.java
-run11: ProducerConsumerBlockingQueueExample.java
+run13:
 	java ProducerConsumerBlockingQueueExample
 
 # RGBExample.java, SynchronizedRGB.java, ImmutableRGB.java
-run12: RGBExample.java
+run14:
 	java RGBExample
 
-# 
-run13: Safelock.java
+#  Safelock.java
+run15:
 	java Safelock
 
 # AtomicCounter.java, AtomicCounterExample.java
-run14: AtomicCounterExample.java
+run16: 
 	java AtomicCounterExample
 
 clean:

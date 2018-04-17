@@ -1,5 +1,7 @@
 class SynchronizedCounter2Example {
+
   static SynchronizedCounter2 c = new SynchronizedCounter2();
+  
   private static class IncrementCounter implements Runnable {
     public void run() {
       for (int i = 0; i < 100; i++) {

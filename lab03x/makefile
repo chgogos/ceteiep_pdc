@@ -7,10 +7,10 @@ JC = javac
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-    Exercise01Runnables.java \
+    Exercise01Runnable.java \
     Exercise01Extends.java \
     Exercise01Anonymous.java \
-    Exercise01Lambdas.java \
+    Exercise01Lambda.java \
 	Exercise02Synchronized.java \
 	Exercise02Futures.java \
 	Exercise03Synchronized.java \
@@ -20,7 +20,13 @@ CLASSES = \
 	Exercise04Consumer.java \
 	Exercise05Swing.java \
 	Exercise05Fx.java \
-	Exercise06TUI.java 
+	Exercise06TUI.java \
+	Exercise07Extends.java \
+	Exercise07Runnable.java \
+	Exercise07Lambda.java \
+	Exercise08.java \
+	Exercise08Synchronized.java \
+	Exercise08Futures.java 
 
 default: classes exercise06gui
 
@@ -30,7 +36,7 @@ exercise06gui: Exercise06GUI.java
 	$(JC) $(JFLAGS) -cp commons-lang3-3.5.jar Exercise06GUI.java
 
 run1a:
-	java Exercise01Runnables
+	java Exercise01Runnable
 
 run1b:
 	java Exercise01Extends
@@ -39,7 +45,7 @@ run1c:
 	java Exercise01Anonymous
 
 run1d:
-	java Exercise01Lambdas
+	java Exercise01Lambda
 
 run2a:
 	java Exercise02Synchronized
@@ -68,13 +74,31 @@ run6a:
 run6b: 
 	java -cp .:commons-lang3-3.5.jar Exercise06GUI
 
-# windows
+run7a: 
+	java -ea Exercise07Extends
+
+run7b: 
+	java -ea Exercise07Runnable
+
+run7c: 
+	java -ea Exercise07Lambda
+
+run8a:
+	java Exercise08
+
+run8b:
+	java Exercise08Synchronized
+
+run8c:
+	java Exercise08Futures
+
+# on windows
 # run6b: 
 # 	java -cp .;commons-lang3-3.5.jar Exercise06GUI
 
 clean:
 	$(RM) *.class
 
-# windows
+# on windows
 # clean:
 # 	del *.class
