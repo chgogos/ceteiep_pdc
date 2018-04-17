@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Exercise08 {
+public class Exercise08Join {
   static int[] a;
   static int SUM;
   static final int N = 1_000_000;

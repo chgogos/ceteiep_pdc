@@ -24,7 +24,7 @@ CLASSES = \
 	Exercise07Extends.java \
 	Exercise07Runnable.java \
 	Exercise07Lambda.java \
-	Exercise08.java \
+	Exercise08Join.java \
 	Exercise08Synchronized.java \
 	Exercise08Futures.java 
 
@@ -84,7 +84,7 @@ run7c:
 	java -ea Exercise07Lambda
 
 run8a:
-	java Exercise08
+	java Exercise08Join
 
 run8b:
 	java Exercise08Synchronized
