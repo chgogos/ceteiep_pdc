@@ -1,6 +1,6 @@
 # https://www.cs.swarthmore.edu/~newhall/unixhelp/javamakefiles.html
 
-JFLAGS = -g 
+JFLAGS = -g
 JC = javac
 .SUFFIXES: .java .class
 .java.class:

@@ -113,6 +113,7 @@ public class Exercise06GUI extends JFrame {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	protected void throwPoints() {
 		SwingWorker<Double, Void> worker = new SwingWorker<Double, Void>() {
 			@Override
