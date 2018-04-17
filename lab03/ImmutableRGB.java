@@ -57,7 +57,15 @@ final public class ImmutableRGB {
   public String getName() { return name; }
 
   public ImmutableRGB invert() {
-    return new ImmutableRGB(255 - red, 255 - green, 255 - blue,
-                            "Inverse of " + name);
+    String newName;
+    if (name.charAt(0) == '-')
+      newName = "+" + name;
+    else
+      newName = "-" + name;
+    return new ImmutableRGB(255 - red, 255 - green, 255 - blue, newName);
+  }
+
+  public String toString() {
+    return String.format("%s (%d %d %d)", name, red, green, blue);
   }
 }

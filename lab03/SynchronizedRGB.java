@@ -72,6 +72,13 @@ public class SynchronizedRGB {
     red = 255 - red;
     green = 255 - green;
     blue = 255 - blue;
-    name = "Inverse of " + name;
+    if (name.charAt(0) == '-')
+      name = "+" + name;
+    else
+      name = "-" + name;
+  }
+
+  public String toString() {
+    return String.format("%s (%d %d %d)", name, red, green, blue);
   }
 }

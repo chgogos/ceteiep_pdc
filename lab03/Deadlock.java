@@ -8,7 +8,7 @@ public class Deadlock {
                             + "  has bowed to me!%n",
                         this.name, bower.getName());
       
-      // με την προσθήκη του Thread.sleep πραγματοποιείται σίγουρα deadlock
+      // add Thread.sleep in order to have a certain deadlock
       // try {
       //   Thread.sleep(50);
       // } catch (InterruptedException ex) {
