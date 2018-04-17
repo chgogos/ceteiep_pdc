@@ -10,7 +10,7 @@ void *thread1_work(void *arg) {
   for (int i = 0; i < 5; i++)
     q += A[i];
 
-  while(flag!=0);
+  while (flag != 0);
   sum += q;
   flag++;
   return NULL;
@@ -21,7 +21,7 @@ void *thread2_work(void *arg) {
   for (int i = 5; i < 10; i++)
     q += A[i];
 
-  while(flag!=1);
+  while (flag != 1);
   sum += q;
   return NULL;
 }
