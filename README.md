@@ -48,12 +48,13 @@ bash makeall.sh clean
 
 * <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html>
 
-### Εργαστήριο 2 (pThreads)
+### Εργαστήριο 2 (POSIX threads)
 
 * [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
-* [POSIX threads](./lab02/README.md)
+* [Κώδικας παραδειγμάτων](./lab02/README.md)
 * [Ασκήσεις εργαστηρίου 2 (pdf)](./docs/04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%202%20(POSIX%20THREADS).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 2](./lab02x/README.md)
+* [Udacity - Georgia Tech - Advanced OS (pthreads examples)](./lab02gt/README.md)
 
 #### Επιπλέον υλικό για POSIX threads
 
@@ -63,7 +64,16 @@ bash makeall.sh clean
 
 ### Εργαστήριο 3 (java concurrency)
 
-Java concurrency
+* [Παραδείγματα java concurrency (pdf)](./docs/05.JAVA%20CONCURRENCY.pdf)
+* [Κώδικας παραδειγμάτων](./lab03/README.md)
+* [Ασκήσεις εργαστηρίου 3 (pdf)](./docs/04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%203%20(JAVA%20CONCURRENCY).pdf)
+* [Λύσεις ασκήσεων εργαστηρίου 3](./lab03x/README.md)
+
+#### Επιπλέον υλικό για Java concurrency
+
+* [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03_ca/javaConcurrentAnimated.jar)
+* [DZone Java concurrency](https://dzone.com/refcardz/core-java-concurrency) 
+* [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
 
 ### Εργαστήριο 4 (OpenMP)
 
