@@ -2,7 +2,7 @@
 
 ## Άσκηση 1
 
-* [Exercise01Runnable.java](Exercise01Runnable.java])
+* [Exercise01Runnable.java](Exercise01Runnable.java)
 * [Exercise01Extends.java](Exercise01Extends.java)
 * [Exercise01Anonymous.java](Exercise01Anonymous.java)
 * [Exercise01Lambda.java](Exercise01Lambda.java)
