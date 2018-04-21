@@ -4,8 +4,7 @@
 
 ## Θεωρία
 
-Παράλληλο υλικό και λογισμικό, προγραμματισμός κατανεμημένης μνήμης (MPI), προγραμματισμός κοινόχρηστης μνήμης
-
+Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός κατανεμημένης μνήμης (MPI) 
 ### Συγγράμματα
 
 * Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 <http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo>
@@ -20,7 +19,7 @@
 
 ## Εργαστήριο
 
-POSIX processes, pThreads, Java concurrency, MPI, OpenMP
+POSIX processes, POSIX threads, Java concurrency, MPI, OpenMP
 
 Δημιουργία όλων των εκτελέσιμων
 
@@ -71,9 +70,10 @@ bash makeall.sh clean
 
 #### Επιπλέον υλικό για Java concurrency
 
-* [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03_ca/javaConcurrentAnimated.jar)
-* [DZone Java concurrency](https://dzone.com/refcardz/core-java-concurrency) 
+* [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03ca/javaConcurrentAnimated.jar)
+* [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency) 
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
+* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
 
 ### Εργαστήριο 4 (OpenMP)
 
@@ -81,4 +81,4 @@ OpenMP
 
 ### Εργαστήριο 5 (MPI)
 
-
+MPI
