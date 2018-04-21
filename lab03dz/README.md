@@ -7,16 +7,18 @@
 * [DataRace.java](./DataRace.java)
 
 ```bash
-java DataRace
+for i in {1..10}; do java DataRace; done
 
 ```
 
 ## Χειρισμός data race με volatile μεταβλητή
 
+<https://www.javamex.com/tutorials/synchronization_volatile.shtml>
+
 * [DataRaceVolatileFlag.java](./DataRaceVolatileFlag.java)
 
 ```bash
-java DataRaceVolatileFlag
+for i in {1..10}; do java DataRaceVolatileFlag; done
 
 ```
 
@@ -28,7 +30,7 @@ java DataRaceVolatileFlag
 java Deadlock
 
 Account1 1000 - Account2 1000
-...
+<DEADLOCK>
 ```
 
 ## Χειρισμός αδιεξόδου
