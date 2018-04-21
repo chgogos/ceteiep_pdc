@@ -2,8 +2,8 @@
 #include <thread>
 using namespace std;
 
-void func(int x) {
-    cout << "Message from thread " << x << endl;
+void func(int tid) {
+    cout << "Message from thread " << tid << endl;
 }
 
 int main() {

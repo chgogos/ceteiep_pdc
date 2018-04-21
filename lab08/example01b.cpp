@@ -4,8 +4,9 @@ using namespace std;
 
 // thread creation using lambda function
 int main() {
-    thread th([](){
-            cout << "Message from thread" << endl;
+    int tid = 123;
+    thread th([&tid](){
+            cout << "Message from thread " << tid << endl;
     });
     th.join();
     cout << "Message from the main thread" << endl;
