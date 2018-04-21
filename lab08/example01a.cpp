@@ -3,7 +3,7 @@
 using namespace std;
 
 void func(int tid) {
-    cout << "Message from thread " << tid << endl;
+    cout << "Message from thread " << tid << " (" << this_thread::get_id() << ")" << endl;
 }
 
 int main() {

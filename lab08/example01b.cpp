@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int tid = 123;
     thread th([&tid](){
-            cout << "Message from thread " << tid << endl;
+        cout << "Message from thread " << tid << " (" << this_thread::get_id() << ")" << endl;
     });
     th.join();
     cout << "Message from the main thread" << endl;
