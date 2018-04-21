@@ -17,7 +17,7 @@ int main() {
         while (!notified) {
             cond_var.wait(lock);
         }
-        cout << "The value is " << value << endl;
+        cout << "The value is " << value << ((value==20)?" (correct)":" (incorrect)") << endl;
     });
 
     thread assigner([&]() {

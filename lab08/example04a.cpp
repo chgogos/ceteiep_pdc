@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     int value = 100;
     thread reporter([&]() {
-        cout << "The value is " << value << endl;
+        cout << "The value is " << value << ((value==20)?" (correct)":" (incorrect)") << endl;
     });
 
     thread assigner([&]() {
