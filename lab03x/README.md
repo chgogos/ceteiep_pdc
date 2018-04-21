@@ -47,4 +47,6 @@
 
 ## Άσκηση 8
 
+* [Exercise08Join.java](Exercise08Join.java)
 * [Exercise08Synchronized.java](Exercise08Synchronized.java)
+* [Exercise08Futures.java](Exercise08Futures.java)
