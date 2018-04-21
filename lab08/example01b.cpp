@@ -2,12 +2,11 @@
 #include <thread>
 using namespace std;
 
-void func(int x) {
-    cout << "Message from thread " << x << endl;
-}
-
+// thread creation using lambda function
 int main() {
-    thread th(&func, 123);
+    thread th([](){
+            cout << "Message from thread" << endl;
+    });
     th.join();
     cout << "Message from the main thread" << endl;
     return 0;
