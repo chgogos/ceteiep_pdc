@@ -8,14 +8,14 @@
 
 * [example01a.cpp](./example01a.cpp)
 
-```
+```bash
     Message from thread 123 (140626021418752)
     Message from the main thread
 ```
 
 * [example01b.cpp](./example01b.cpp) με lambda συνάρτηση
 
-```
+```bash
     Message from thread 123 (140366472177408)
     Message from the main thread
 ```
@@ -27,7 +27,7 @@
 * [example02a.cpp](./example02a.cpp) χρήση καθολικής μεταβλητής, λάθος αποτελέσματα (race condition)
 
 ```bash
-    for i in {1..100}; do ./example02a; done | sort | uniq -c 
+    for i in {1..100}; do ./example02a; done | sort | uniq -c
 
     1 accum = 17350000
     1 accum = 17850000
@@ -37,7 +37,7 @@
 * [example02b.cpp](./example02b.cpp) χρήση ref(...), λάθος αποτελέσματα (race condition)
 
 ```bash
-    for i in {1..100}; do ./example02b; done | sort | uniq -c 
+    for i in {1..100}; do ./example02b; done | sort | uniq -c
 
     1 accum = 17850000
     99 accum = 28700000
@@ -46,7 +46,7 @@
 * [example02c.cpp](./example02c.cpp) επίλυση race condition με mutex
 
 ```bash
-    for i in {1..100}; do ./example02c; done | sort | uniq -c 
+    for i in {1..100}; do ./example02c; done | sort | uniq -c
 
     100 accum = 28700000
 ```
@@ -54,7 +54,7 @@
 * [example02d.cpp](./example02d.cpp) επίλυση race condition με atomic variable
 
 ```bash
-    for i in {1..100}; do ./example02d; done | sort | uniq -c 
+    for i in {1..100}; do ./example02d; done | sort | uniq -c
 
     100 accum = 28700000
 ```
@@ -65,10 +65,10 @@
 
 async (promise + future)
 
-* [example03.cpp](./example03.cpp) 
+* [example03.cpp](./example03.cpp)
 
-```
-    Message 1 from the main thread 
+```bash
+    Message 1 from the main thread
     Message from thread 1 (sleeping for 5 seconds)
     The thread returned 42
     Message 2 from the main thread
@@ -80,12 +80,12 @@ async (promise + future)
 
 * [example04a.cpp](./example04a.cpp) χωρίς συγχρονισμό
 
-```
+```bash
     The value is 100 (incorrect)
 ```
 
 * [example04b.cpp](./example04b.cpp) με συγχρονισμό χρησιμοποιώντας condition variable
 
-```
+```bash
     The value is 20 (correct)
 ```
