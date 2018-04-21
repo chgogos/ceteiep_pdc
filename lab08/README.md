@@ -18,8 +18,13 @@
 * [example02c.cpp](./example02c.cpp) επίλυση race condition με mutex
 * [example02d.cpp](./example02d.cpp) επίλυση race condition με atomic variable
 
+έλεγχος αποτελεσμάτων εκτελέωντας πολλές φορές το κάθε εκτελέσιμο:
+
 ```bash
     for i in {1..100}; do ./example02a; done | sort | uniq -c 
+    for i in {1..100}; do ./example02b; done | sort | uniq -c 
+    for i in {1..100}; do ./example02c; done | sort | uniq -c 
+    for i in {1..100}; do ./example02d; done | sort | uniq -c 
 ```
 
 ## Example03

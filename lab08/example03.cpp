@@ -6,7 +6,7 @@ using namespace std;
 
 int work(int tid) {
     cout << "Message from thread " << tid << " (sleeping for 5 seconds)" << endl;
-    this_thread::sleep_for(chrono::milliseconds(5000));
+    this_thread::sleep_for(chrono::seconds(5));
     return 42;
 }
 
