@@ -21,18 +21,6 @@
 
 POSIX processes, POSIX threads, Java concurrency, MPI, OpenMP
 
-Δημιουργία όλων των εκτελέσιμων
-
-```bash
-bash makeall.sh
-```
-
-Διαγραφή όλων των εκτελέσιμων
-
-```bash
-bash makeall.sh clean
-```
-
 ### Εργαστήριο 1 (POSIX processes)
 
 * [Εισαγωγή στα makefiles (pdf)](./docs/00.makefiles.pdf)
@@ -82,3 +70,15 @@ OpenMP
 ### Εργαστήριο 5 (MPI)
 
 MPI
+
+<!-- Δημιουργία όλων των εκτελέσιμων
+
+```bash
+bash makeall.sh
+```
+
+Διαγραφή όλων των εκτελέσιμων
+
+```bash
+bash makeall.sh clean
+``` -->
