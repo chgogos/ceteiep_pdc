@@ -49,4 +49,5 @@
 
 * [Exercise08Join.java](Exercise08Join.java)
 * [Exercise08Synchronized.java](Exercise08Synchronized.java)
+* [Exercise08Lock.java](Exercise08Lock.java)
 * [Exercise08Futures.java](Exercise08Futures.java)
