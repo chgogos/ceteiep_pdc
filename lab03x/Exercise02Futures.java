@@ -4,10 +4,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Exercise02Futures {
-  static Lock lock = new ReentrantLock();
   static long SUM = 0;
   static long X;
   static int NUMBER_OF_THREADS;
@@ -31,9 +29,7 @@ public class Exercise02Futures {
 
     for (int tid = 0; tid < futures.length; tid++) {
       try {
-        lock.lock();
         SUM += futures[tid].get();
-        lock.unlock();
       } catch (InterruptedException | ExecutionException e) {
         e.printStackTrace();
       }
