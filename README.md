@@ -19,13 +19,12 @@
 
 ## Εργαστήριο
 
-POSIX processes, POSIX threads, Java concurrency, MPI, OpenMP
+POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 ### Εργαστήριο 1 (POSIX processes)
 
 * [Εισαγωγή στα makefiles (pdf)](./docs/00.makefiles.pdf)
 * [makefiles](./lab00/README.md)
-
 * [Εισαγωγή στα POSIX processes (pdf)](./docs/01.POSIX%20processes.pdf)
 * [POSIX processes](./lab01/README.md)
 * [Ασκήσεις εργαστηρίου 1 (pdf)](./docs/02.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%201%20(POSIX%20PROCESSES).pdf)
