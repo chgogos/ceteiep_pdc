@@ -26,7 +26,8 @@ CLASSES = \
 	Exercise07Lambda.java \
 	Exercise08Join.java \
 	Exercise08Synchronized.java \
-	Exercise08Futures.java 
+	Exercise08Futures.java \
+	Exercise08Lock.java 
 
 default: classes exercise06gui
 
@@ -91,6 +92,9 @@ run8b:
 
 run8c:
 	java Exercise08Futures
+
+run8d:
+	java Exercise08Lock
 
 # on windows
 # run6b: 

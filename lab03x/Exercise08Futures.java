@@ -6,7 +6,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Exercise08Futures {
   static int[] a;
@@ -24,7 +23,6 @@ public class Exercise08Futures {
       check_sum += a[i];
     }
 
-    ReentrantLock mylock = new ReentrantLock();
     ExecutorService executor = Executors.newCachedThreadPool();
     List<Future<Integer>> futures = new ArrayList<>(T);
     for (int i = 0; i < T; i++) {
@@ -35,9 +33,7 @@ public class Exercise08Futures {
     int sum = 0;
     for (int i = 0; i < T; i++) {
       Integer x = futures.get(i).get();
-      mylock.lock();
       sum += x;
-      mylock.unlock();
     }
 
     if (check_sum == sum)

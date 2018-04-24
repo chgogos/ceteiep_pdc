@@ -6,7 +6,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Exercise03Futures {
   static final int T = 4;
@@ -16,7 +15,6 @@ public class Exercise03Futures {
 
   public static void main(String[] args)
       throws InterruptedException, ExecutionException {
-    ReentrantLock lock = new ReentrantLock();
     int sum = 0;
     long seed = 123456789L;
     Random rnd = new Random(seed);
@@ -39,9 +37,7 @@ public class Exercise03Futures {
 
     for (int i = 0; i < T; i++) {
       Integer x = futures.get(i).get();
-      lock.lock();
       sum += x;
-      lock.unlock();
     }
     System.out.println("dot product " + sum);
   }
