@@ -52,7 +52,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 * [Παραδείγματα java concurrency (pdf)](./docs/05.JAVA%20CONCURRENCY.pdf)
 * [Κώδικας παραδειγμάτων](./lab03/README.md)
-* [Ασκήσεις εργαστηρίου 3 (pdf)](./docs/04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%203%20(JAVA%20CONCURRENCY).pdf)
+* [Ασκήσεις εργαστηρίου 3 (pdf)](./docs/06.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%203%20(JAVA%20CONCURRENCY).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 3](./lab03x/README.md)
 
 #### Επιπλέον υλικό για Java concurrency
