@@ -1,5 +1,7 @@
-public class Exercise02Synchronized {
-  static Object lock = new Object();
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Exercise02Lock {
+  static ReentrantLock lock = new ReentrantLock();
   static long SUM = 0;
   static long X;
   static int NUMBER_OF_THREADS;
@@ -43,7 +45,9 @@ public class Exercise02Synchronized {
       for (long i = left; i <= right; i++) {
         mysum += i;
       }
-      synchronized (lock) { SUM += mysum; }
+      lock.lock(); 
+      SUM += mysum; 
+      lock.unlock();
       System.out.printf("Sum computed by thread %d is %d\n", tid, mysum);
     }
   }

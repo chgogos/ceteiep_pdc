@@ -13,6 +13,7 @@ CLASSES = \
     Exercise01Lambda.java \
 	Exercise02Synchronized.java \
 	Exercise02Futures.java \
+	Exercise02Lock.java \
 	Exercise03Synchronized.java \
 	Exercise03Futures.java \
 	Exercise04Main.java \
@@ -53,6 +54,9 @@ run2a:
 
 run2b:
 	java Exercise02Futures
+
+run2c:
+	java Exercise02Lock
 
 run3a:
 	java Exercise03Synchronized

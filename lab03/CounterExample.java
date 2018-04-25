@@ -2,7 +2,7 @@ class CounterExample {
   static Counter c = new Counter();
   private static class IncrementCounter implements Runnable {
     public void run() {
-      for (int i = 0; i < 100; i++) {
+      for (int i = 0; i < 1000000; i++) {
         if (i % 2 == 0)
           c.increment();
         else
