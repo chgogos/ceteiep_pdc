@@ -4,7 +4,8 @@
 
 ## Θεωρία
 
-Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός κατανεμημένης μνήμης (MPI) 
+Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός κατανεμημένης μνήμης (MPI)
+
 ### Συγγράμματα
 
 * Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 <http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo>
@@ -58,13 +59,17 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 #### Επιπλέον υλικό για Java concurrency
 
 * [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03ca/javaConcurrentAnimated.jar)
-* [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency) 
+* [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency)
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
 * [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
 
 ### Εργαστήριο 4 (OpenMP)
 
-OpenMP
+* [Παραδείγματα με OpenMP (pdf)](./docs/04.OPENMP.pdf)
+* [Κώδικας παραδειγμάτων](./lab04/README.md)
+* [Ασκήσεις εργαστηρίου 4 (pdf)](./docs/09.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%204%20(OPENMP).pdf)
+* [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md)
+* [Επιπλέον παραδείγματα OpenMP (Tim Mattson)](./docs/08.OPENMP%20(Tim%20Mattson).pdf)
 
 ### Εργαστήριο 5 (MPI)
 
