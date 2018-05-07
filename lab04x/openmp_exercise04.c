@@ -8,12 +8,16 @@ int TOTAL_POINTS; // number of points
 int T;            // number of threads
 
 int main(int argc, char **argv) {
+  if (argc != 3) {
+    printf("Usage: %s <number_of_points> <number_of_threads>\n", argv[0]);
+    exit(-1);
+  }
   TOTAL_POINTS = atoi(argv[1]);
   T = atoi(argv[2]);
   int k = 0; // number of points inside the circle
   srand(time(NULL));
 
-#pragma omp paralell for num_threads(T) reduction(+ : k)
+#pragma omp parallel for num_threads(T) reduction(+ : k)
   for (int i = 0; i < TOTAL_POINTS; i++) {
     double x, y, d;
     x = rand()/(double)RAND_MAX;

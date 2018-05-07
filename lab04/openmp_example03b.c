@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
 #pragma omp parallel num_threads(5)
   {
     double my_result = trapezio_parallel(a, b, n);
-#pragma omp_critical
+#pragma omp critical
     global_result += my_result;
   }
   printf("result from the parallel code: %.5f\n", global_result);

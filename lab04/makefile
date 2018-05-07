@@ -1,8 +1,8 @@
 CC=gcc
-LDFLAGS=-fopenmp
+LDFLAGS=-fopenmp -lm 
 CFLAGS=-Wall
 
-all:	openmp_example01a openmp_example01b \
+all:openmp_example01a openmp_example01b \
 	openmp_example02a openmp_example02b \
 	openmp_example03a openmp_example03b openmp_example03c \
 	openmp_example04a \

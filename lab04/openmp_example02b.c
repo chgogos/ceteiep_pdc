@@ -7,6 +7,7 @@ int main() {
 
 #pragma omp parallel shared(b), private(c), firstprivate(d) num_threads(4)
   {
+    // c=1;
     c++;
     d++;
 #pragma omp critical
@@ -18,6 +19,5 @@ int main() {
            d);
   }
   printf("3. a=%d, b=%d, c=%d, d=%d\n", a, b, c, d);
-
   return 0;
 }

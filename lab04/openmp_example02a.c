@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     int my_rank = omp_get_thread_num();
 #pragma omp critical
     a++;
-
+    
     printf("%d a=%d b=%d\n", my_rank, a, b);
   }
   printf("a=%d b=%d\n", a, b);

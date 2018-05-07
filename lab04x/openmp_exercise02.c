@@ -3,6 +3,10 @@
 #include <stdlib.h> // atoi()
 
 int main(int argc, char *argv[]) {
+  if (argc != 3) {
+    printf("Usage: %s <number> <number_of_threads>\n", argv[0]);
+    exit(-1);
+  }
   long long x;
   long long sum = 0;
   x = atoll(argv[1]);

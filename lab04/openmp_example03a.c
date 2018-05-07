@@ -34,7 +34,7 @@ void trapezio_parallel(double a, double b, int n, double *global_result) {
   }
   my_result *= h;
 
-#pragma omp_critical
+#pragma omp critical
   *global_result += my_result;
 }
 
