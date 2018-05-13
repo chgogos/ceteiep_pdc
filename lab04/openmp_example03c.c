@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
   int n = 1000000000;
   double a = 0.0, b = 10.0;
 
-#pragma omp parallel num_threads(5) reduction(+ : global_result)
+  #pragma omp parallel num_threads(5) reduction(+ : global_result)
   global_result = trapezio_parallel(a, b, n);
 
   printf("result from the parallel code using reduction : %.5f\n",

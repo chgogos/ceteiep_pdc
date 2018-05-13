@@ -37,8 +37,8 @@ void odd_even_sort_parallel1(int *a, int n, int thread_count) {
   int i, phase, tmp;
   for (phase = 0; phase < n; phase++)
     if (phase % 2 == 0) {
-#pragma omp parallel for num_threads(thread_count) default(none)               \
-    shared(a, n) private(i, tmp)
+      #pragma omp parallel for num_threads(thread_count) default(none)               \
+      shared(a, n) private(i, tmp)
       for (i = 1; i < n; i += 2)
         if (a[i - 1] > a[i]) {
           tmp = a[i];
@@ -46,8 +46,8 @@ void odd_even_sort_parallel1(int *a, int n, int thread_count) {
           a[i - 1] = tmp;
         }
     } else {
-#pragma omp parallel for num_threads(thread_count) default(none)               \
-    shared(a, n) private(i, tmp)
+      #pragma omp parallel for num_threads(thread_count) default(none)               \
+      shared(a, n) private(i, tmp)
       for (i = 1; i < n - 1; i += 2)
         if (a[i] > a[i + 1]) {
           tmp = a[i];
@@ -59,11 +59,11 @@ void odd_even_sort_parallel1(int *a, int n, int thread_count) {
 
 void odd_even_sort_parallel2(int *a, int n, int thread_count) {
   int i, phase, tmp;
-#pragma omp parallel num_threads(thread_count) default(none)                   \
-    shared(a, n) private(i, tmp, phase)
+  #pragma omp parallel num_threads(thread_count) default(none)                   \
+  shared(a, n) private(i, tmp, phase)
   for (phase = 0; phase < n; phase++)
     if (phase % 2 == 0) {
-#pragma omp for
+      #pragma omp for
       for (i = 1; i < n; i += 2)
         if (a[i - 1] > a[i]) {
           tmp = a[i];
@@ -71,7 +71,7 @@ void odd_even_sort_parallel2(int *a, int n, int thread_count) {
           a[i - 1] = tmp;
         }
     } else {
-#pragma omp for
+      #pragma omp for
       for (i = 1; i < n - 1; i += 2)
         if (a[i] > a[i + 1]) {
           tmp = a[i];

@@ -28,10 +28,10 @@ int main(int argc, char **argv) {
   int n = 1000000000;
   double a = 0.0, b = 10.0;
 
-#pragma omp parallel num_threads(5)
+  #pragma omp parallel num_threads(5)
   {
     double my_result = trapezio_parallel(a, b, n);
-#pragma omp critical
+    #pragma omp critical
     global_result += my_result;
   }
   printf("result from the parallel code: %.5f\n", global_result);

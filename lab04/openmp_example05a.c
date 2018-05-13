@@ -14,13 +14,13 @@ double compute_pi_serial() {
 void compute_pi_parallel() {
   int i;
   double pi = 0.0, mysum = 0.0, w = 1.0 / n;
-#pragma omp parallel firstprivate(mysum) num_threads(1000)
+  #pragma omp parallel firstprivate(mysum) num_threads(1000)
   {
-#pragma omp for
+    #pragma omp for
     for (i = 0; i < n; i++)
       mysum += 4 * w / (1 + (i + 0.5) * (i + 0.5) * w * w);
 
-#pragma omp critical
+    #pragma omp critical
     pi += mysum;
   }
   printf("Pi computed in parallel using 10^9 terms: %.14f\n", pi);
@@ -29,7 +29,7 @@ void compute_pi_parallel() {
 void compute_pi_parallel_using_reduction() {
   int i;
   double pi = 0.0, w = 1.0 / n;
-#pragma omp parallel for reduction(+ : pi)
+  #pragma omp parallel for reduction(+ : pi)
   for (i = 0; i < n; i++)
     pi += 4 * w / (1 + (i + 0.5) * (i + 0.5) * w * w);
 

@@ -31,7 +31,7 @@ int main() {
   start = omp_get_wtime();
   sum = 0;
 // χρονοδιάγραμμα τύπου μπλοκ
-#pragma omp parallel for num_threads(4) reduction(+ : sum)
+  #pragma omp parallel for num_threads(4) reduction(+ : sum)
   for (i = 0; i <= n; i++)
     sum += f(i);
   printf("The sum is %.2f\n", sum);
@@ -41,7 +41,7 @@ int main() {
   start = omp_get_wtime();
   sum = 0;
 // κυκλικό χρονοδιάγραμμα
-#pragma omp parallel for num_threads(4) reduction(+ : sum) schedule(static, 1)
+  #pragma omp parallel for num_threads(4) reduction(+ : sum) schedule(static, 1)
   for (i = 0; i <= n; i++)
     sum += f(i);
   printf("The sum is %.2f\n", sum);

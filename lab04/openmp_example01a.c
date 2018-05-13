@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     exit(-1);
   }
   int thread_count = strtol(argv[1], NULL, 10);
-#pragma omp parallel num_threads(thread_count)
+  #pragma omp parallel num_threads(thread_count)
   {
     int my_rank = omp_get_thread_num();
     int thread_count = omp_get_num_threads();

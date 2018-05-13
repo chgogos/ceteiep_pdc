@@ -17,7 +17,7 @@ double compute_pi_serial() {
 void compute_pi_parallel() {
   int k;
   double sum = 0.0, factor;
-#pragma omp parallel for reduction(+ : sum) private(factor)
+  #pragma omp parallel for reduction(+ : sum) private(factor)
   for (k = 0; k < n; k++) {
     if (k % 2 == 0)
       factor = 1.0;
