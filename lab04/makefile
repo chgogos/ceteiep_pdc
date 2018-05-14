@@ -9,7 +9,8 @@ all:openmp_example01a openmp_example01b openmp_example01c\
 	openmp_example05a openmp_example05b \
 	openmp_example06 \
 	openmp_example07 \
-	openmp_example08
+	openmp_example08 \
+	openmp_example09
 
 %:%.c
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
@@ -22,4 +23,5 @@ clean:
 	openmp_example05a openmp_example05b \
 	openmp_example06 \
 	openmp_example07 \
-	openmp_example08
+	openmp_example08 \
+	openmp_example09

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
+#include <math.h>
 
 // example f(x)=x^2
 double f(double x) { return x * x; }

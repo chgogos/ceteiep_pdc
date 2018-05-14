@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
+#include <math.h>
 
 // example f(x)=x^2
 double f(double x) { return x * x; }
@@ -34,12 +35,11 @@ void trapezio_parallel(double a, double b, int n, double *global_result) {
   }
   my_result *= h;
 
-#pragma omp critical
+  #pragma omp critical
   *global_result += my_result;
 }
 
 int main(int argc, char **argv) {
-  int thread_count = 5;
   double global_result = 0.0;
 
   int n = 1000000000;
@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
   approx = trapezio_serial(a, b, n);
   printf("result from the serial code: %.5f\n", approx);
 
-#pragma omp parallel num_threads(thread_count)
+  #pragma omp parallel num_threads(5)
   trapezio_parallel(a, b, n, &global_result);
 
   printf("result from the parallel code: %.5f\n", global_result);
