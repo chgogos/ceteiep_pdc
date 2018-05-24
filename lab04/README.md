@@ -32,5 +32,3 @@
 ## Παράδειγμα 7
 
 * [openmp_example07.c](openmp_example07.c)
-
-

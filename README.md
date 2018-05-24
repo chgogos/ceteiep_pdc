@@ -65,10 +65,10 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 ### Εργαστήριο 4 (OpenMP)
 
-* [Παραδείγματα με OpenMP (pdf)](./docs/04.OPENMP.pdf)
+* [Παραδείγματα με OpenMP (pdf)](./docs/07.OPENMP.pdf)
 * [Κώδικας παραδειγμάτων](./lab04/README.md)
 * [Ασκήσεις εργαστηρίου 4 (pdf)](./docs/09.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%204%20(OPENMP).pdf)
-<!-- * [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md) -->
+* [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md)
 
 #### Επιπλέον υλικό για OpenMP
 
@@ -78,7 +78,10 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 ### Εργαστήριο 5 (MPI)
 
-MPI
+* [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
+* [Κώδικας παραδειγμάτων](./lab05/README.md)
+* [Ασκήσεις εργαστηρίου 5 (pdf)](./docs/11.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%204%20(MPI).pdf)
+* [Λύσεις ασκήσεων εργαστηρίου 5](./lab05x/README.md)
 
 <!-- Δημιουργία όλων των εκτελέσιμων
 
