@@ -83,6 +83,11 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Ασκήσεις εργαστηρίου 5 (pdf)](./docs/11.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%205%20(MPI).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 5](./lab05x/README.md)
 
+#### Επιπλέον υλικό για MPI
+
+* [MPI tutorials](http://mpitutorial.com/tutorials/)
+* [Εισαγωγή στο MPI](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml)
+
 <!-- Δημιουργία όλων των εκτελέσιμων
 
 ```bash
