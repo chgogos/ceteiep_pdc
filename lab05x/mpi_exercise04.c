@@ -7,7 +7,7 @@
 #define TOTAL_POINTS 300000000
 
 int main(int argc, char *argv[]) {
-  int my_rank, comm_sz, dest, total;
+  int my_rank, comm_sz, total;
 
   MPI_Init(NULL, NULL);
   MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);

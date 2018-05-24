@@ -1,4 +1,4 @@
-CC=gcc
+CC=mpicc
 LDFLAGS=
 CFLAGS=-Wall
 
