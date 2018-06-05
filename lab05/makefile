@@ -9,7 +9,8 @@ all:mpi_example01 \
 	mpi_example05 \
 	mpi_example06 \
 	mpi_example07 \
-	mpi_example08 
+	mpi_example08 \
+	mpi_example09
 
 %:%.c
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
@@ -23,3 +24,4 @@ clean:
 	mpi_example06 \
 	mpi_example07 \
 	mpi_example08 \
+	mpi_example09
