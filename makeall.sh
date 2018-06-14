@@ -1,6 +1,13 @@
 #!/bin/bash
 
-declare -a arr=("lab00" "lab01" "lab01x" "lab02" "lab02x" "lab02gt" "lab03" "lab03x" "lab03dz" "lab04" "lab04x" "lab04ma" "lab08")
+declare -a arr=("lab00" 
+"lab01" "lab01x" 
+"lab02" "lab02x" "lab02gt" 
+"lab03" "lab03x" "lab03dz" 
+"lab04" "lab04x" "lab04ma" 
+"lab05" "lab05x"
+"lab08")
+
 current_dir=$PWD
 
 for i in "${arr[@]}"
