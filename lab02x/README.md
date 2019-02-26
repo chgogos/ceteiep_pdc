@@ -1,7 +1,8 @@
 # Λύσεις ασκήσεων εργαστηρίου 2
 
 * [pthreads_exercise01.c](pthreads_exercise01.c)
-* [pthreads_exercise02.c](pthreads_exercise02.c)
+* [pthreads_exercise02a.c](pthreads_exercise02a.c)
+* [pthreads_exercise02b.c](pthreads_exercise02b.c)
 * [pthreads_exercise03.c](pthreads_exercise03.c)
 * [pthreads_exercise04a.c](pthreads_exercise04a.c)
 * [pthreads_exercise04b.c](pthreads_exercise04b.c)

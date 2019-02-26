@@ -2,20 +2,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef long long ll;
 int thread_num;
-long long x;
-long long sum = 0;
+ll x;
+ll sum = 0;
 pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 
 void *thread_work(void *tid) {
   long mytid = (long)tid;
-  long long mysum = 0;
-  long long stride = x / thread_num;
-  long long left = mytid * stride + 1;
-  long long right = mytid * stride + stride;
+  ll mysum = 0;
+  ll stride = x / thread_num;
+  ll left = mytid * stride + 1;
+  ll right = mytid * stride + stride;
   if (right > x)
     right = x;
-  for (long long i = left; i <= right; i++)
+  for (ll i = left; i <= right; i++)
     mysum += i;
   printf("sum computed by thread %ld is %lld\n", mytid, mysum);
   pthread_mutex_lock(&lock);
