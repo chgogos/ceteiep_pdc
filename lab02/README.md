@@ -73,6 +73,7 @@ Thread 3 returns 90
 
 * [pthreads_example02a.c](pthreads_example02a.c) (σειριακή λύση)
 * [pthreads_example02b.c](pthreads_example02b.c) (παράλληλη λύση)
+* [pthreads_example02c.c](pthreads_example02c.c) (παράλληλη λύση με στατικούς πίνακες - απλούστερος κώδικας)
 
 ```bash
 gcc pthreads_example02a.c -o pthreads_example02a
@@ -93,7 +94,6 @@ time ./pthreads_example02a 100000 1000
 ```bash
 gcc pthreads_example02b.c -o pthreads_example02b
 time ./pthreads_example02b 100000 1000 4
-time ./pthreads_example02b 100000 1000 4
 0 -> 24343.15
 1 -> 24505.63
 2 -> 24254.85
@@ -105,6 +105,19 @@ time ./pthreads_example02b 100000 1000 4
 8 -> 25797.50
 9 -> 24254.58
 ./pthreads_example02b 100000 1000 4  1.52s user 0.27s system 141% cpu 1.269 total
+```
+
+```bash
+gcc pthreads_example02c.c -o pthreads_example02c
+time ./pthreads_example02c
+time ./pthreads_example02c
+y[0] = 199238.33
+...
+y[99999] = 197795.70
+
+real 1m9.398s
+user 0m12.236s
+sys 0m13.821s
 ```
 
 ### Παράδειγμα 3 (busy wait, mutexes, semaphores)
