@@ -11,7 +11,7 @@
 * Προγραμματιστικές ασκήσεις (παραδείγματα με Pthreads)
   * Δημιουργία νημάτων:
     * <https://raw.githubusercontent.com/chgogos/ceteiep_pdc/master/lab02/pthreads_example00a.c>
-    * <https://raw.githubusercontent.com/chgogos/ceteiep_pdc/master/lab02/pthreads_example00a.c>
+    * <https://raw.githubusercontent.com/chgogos/ceteiep_pdc/master/lab02/pthreads_example00b.c>
   * Υπολογισμοί χωρίς ανάγκη συγχρονισμού:
     * <https://raw.githubusercontent.com/chgogos/ceteiep_pdc/master/lab02/pthreads_example02c.c>
   * Αναμονή σε εκρήγορση (busy wait):
