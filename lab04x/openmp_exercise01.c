@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h> // srnad(), rand()
+#include <stdlib.h> // srand(), rand()
 #include <omp.h>
 #include <time.h> // time()
 
 #define T 5
 
 int main() {
-#pragma omp parallel num_threads(5)
+#pragma omp parallel num_threads(T)
   {
     int tid = omp_get_thread_num();
     srand(time(NULL) + tid);
