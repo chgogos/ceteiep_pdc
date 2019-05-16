@@ -1,6 +1,6 @@
 # OpenMP
 
-* [Παραδείγματα OpenMP (Tim Mattson) (pdf)](./docs/08.OPENMP(Tim%20Mattson).pdf)
+* [Παραδείγματα OpenMP (Tim Mattson) (pdf)](~/docs/08.OPENMP(Tim%20Mattson).pdf)
 
 ## Παράδειγμα 6
 
