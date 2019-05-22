@@ -32,7 +32,7 @@ int main()
 
     start = clock();
     srand(time(NULL));
-    int *played = (int *)malloc(sizeof(int) * COLUMNS_PLAYED * 6);
+    int *played = (int *)malloc(sizeof(int) * COLUMNS_PLAYED * MARKS);
 
     int winning_column[MARKS];
     random_column(winning_column);
@@ -64,10 +64,10 @@ int main()
     }
     end = clock();
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-    printf("Time elapsed = %.2f\n", cpu_time_used);
 
     for (int i = 0; i < MARKS + 1; i++)
         printf("Found %d lucky numbers by %d columns\n", i, results[i]);
+    printf("Time elapsed = %.2f\n", cpu_time_used);
 
     free(played);
     return 0;

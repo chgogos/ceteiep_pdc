@@ -39,7 +39,7 @@ int main()
     start = clock();
     srand(time(NULL));
     // srand(42);
-    int *played = (int *)malloc(sizeof(int) * COLUMNS_PLAYED * 6);
+    int *played = (int *)malloc(sizeof(int) * COLUMNS_PLAYED * MARKS);
 
     int winning_column[MARKS];
     random_column(winning_column);

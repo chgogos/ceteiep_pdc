@@ -32,7 +32,7 @@ int main()
 
     start = clock();
     srand(time(NULL));
-    int *played = (int *)malloc(sizeof(int) * COLUMNS_PLAYED * 6);
+    int *played = (int *)malloc(sizeof(int) * COLUMNS_PLAYED * MARKS);
 
     int winning_column[MARKS];
     random_column(winning_column);
@@ -70,7 +70,7 @@ int main()
         printf("Found %d lucky numbers by %d columns\n", i, results[i]);
 
     // ###################################################################
-    printf("OMP\n");
+    printf("OpenMP\n");
     double start_d = omp_get_wtime();
     int results_OMP[MARKS + 1] = {0};
 #pragma omp parallel for reduction(+ \
@@ -85,10 +85,10 @@ int main()
         results_OMP[c]++;
     }
     double end_d = omp_get_wtime();
-    printf("Time elapsed = %.2f\n", end_d - start_d);
 
     for (int i = 0; i < MARKS + 1; i++)
         printf("Found %d lucky numbers by %d columns\n", i, results_OMP[i]);
+    printf("Time elapsed = %.2f\n", end_d - start_d);
     // ###################################################################
 
     free(played);
