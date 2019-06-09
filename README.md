@@ -2,7 +2,7 @@
 
 Τμήμα Πληροφορικής και Τηλεπικοινωνιών Πανεπιστημίου Ιωαννίνων (πρώην Τμήμα Μηχανικών Πληροφορικής ΤΕΙ Ηπείρου)
 
-~~## ΠΡΟΟΔΟΣ (ΘΕΩΡΙΑ) ΣΤΙΣ 17/4/2019 10:00-12:00~~
+## ~~ΠΡΟΟΔΟΣ (ΘΕΩΡΙΑ) ΣΤΙΣ 17/4/2019 10:00-12:00~~
 
 ~~[Ύλη προόδου](./proodos.md)~~
 
@@ -46,7 +46,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html> -->
 
 <!-- ### Εργαστήριο 2 (POSIX threads) -->
-### Εργαστήριο (POSIX threads)
+### Εργαστήριο (POSIX threads) :fire:
 
 * [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
 * [Κώδικας παραδειγμάτων](./lab02/README.md)
@@ -76,7 +76,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 <!-- ### Εργαστήριο 4 (OpenMP) -->
 
-### Εργαστήριο (OpenMP)
+### Εργαστήριο (OpenMP) :fire:
 
 * [Παραδείγματα με OpenMP (pdf)](./docs/07.OPENMP.pdf)
 * [Κώδικας παραδειγμάτων](./lab04/README.md)
@@ -91,7 +91,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 <!-- ### Εργαστήριο 5 (MPI) -->
 
-### Εργαστήριο (MPI)
+### Εργαστήριο (MPI) :fire:
 
 * [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
 * [Κώδικας παραδειγμάτων](./lab05/README.md)
