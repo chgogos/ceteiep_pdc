@@ -45,7 +45,8 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 * <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html> -->
 
-### Εργαστήριο 2 (POSIX threads)
+<!-- ### Εργαστήριο 2 (POSIX threads) -->
+### Εργαστήριο (POSIX threads)
 
 * [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
 * [Κώδικας παραδειγμάτων](./lab02/README.md)
@@ -73,7 +74,9 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
 * [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/) -->
 
-### Εργαστήριο 4 (OpenMP)
+<!-- ### Εργαστήριο 4 (OpenMP) -->
+
+### Εργαστήριο (OpenMP)
 
 * [Παραδείγματα με OpenMP (pdf)](./docs/07.OPENMP.pdf)
 * [Κώδικας παραδειγμάτων](./lab04/README.md)
@@ -86,7 +89,9 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Παραδείγματα OpenMP (Tim Mattson) (pdf)](./docs/08.OPENMP%20(Tim%20Mattson).pdf)
 * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
 
-### Εργαστήριο 5 (MPI)
+<!-- ### Εργαστήριο 5 (MPI) -->
+
+### Εργαστήριο (MPI)
 
 * [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
 * [Κώδικας παραδειγμάτων](./lab05/README.md)
