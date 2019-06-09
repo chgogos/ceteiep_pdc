@@ -1,14 +1,16 @@
 # Παράλληλα και Κατανεμημένα Συστήματα (Θεωρία και εργαστήριο)
 
-Τμήμα Μηχανικών Πληροφορικής ΤΕΙ Ηπείρου
+Τμήμα Πληροφορικής και Τηλεπικοινωνιών Πανεπιστημίου Ιωαννίνων (πρώην Τμήμα Μηχανικών Πληροφορικής ΤΕΙ Ηπείρου)
 
-## ΠΡΟΟΔΟΣ (ΘΕΩΡΙΑ) ΣΤΙΣ 17/4/2019 10:00-12:00
+~~## ΠΡΟΟΔΟΣ (ΘΕΩΡΙΑ) ΣΤΙΣ 17/4/2019 10:00-12:00~~
 
 ~~[Ύλη προόδου](./proodos.md)~~
 
 ## ΕΞΕΤΑΣΗ ΕΡΓΑΣΤΗΡΙΟΥ ΣΤΙΣ 14/6/2019 10:00-13:00
 
-[Λυμένα Θέματα προετοιμασίας για το εργαστήριο](./exams_preparation/lab_exams_prep_19.pdf)
+[Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου](./exams_preparation/lab_exams_prep_19.pdf)
+
+## ΕΞΕΤΑΣΗ ΘΕΩΡΙΑΣ ΣΤΙΣ 25/6/2019 14:30-16:30
 
 ## Θεωρία
 
@@ -26,7 +28,7 @@
 * [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
 * [CSinParallel](https://csinparallel.org/index.html)
 
-## Εργαστήριο
+<!-- ## Εργαστήριο
 
 POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
@@ -41,7 +43,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 #### Επιπλέον υλικό για POSIX processes
 
-* <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html>
+* <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html> -->
 
 ### Εργαστήριο 2 (POSIX threads)
 
@@ -57,7 +59,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Basic use of pthreads](https://www.ibm.com/developerworks/library/l-pthred/index.html)
 * <http://www.csc.villanova.edu/~mdamian/threads/posixthreadslong.html>
 
-### Εργαστήριο 3 (java concurrency)
+<!-- ### Εργαστήριο 3 (java concurrency)
 
 * [Παραδείγματα java concurrency (pdf)](./docs/05.JAVA%20CONCURRENCY.pdf)
 * [Κώδικας παραδειγμάτων](./lab03/README.md)
@@ -69,7 +71,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03ca/javaConcurrentAnimated.jar)
 * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency)
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
-* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
+* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/) -->
 
 ### Εργαστήριο 4 (OpenMP)
 
