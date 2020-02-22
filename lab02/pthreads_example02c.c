@@ -56,7 +56,7 @@ int main()
 
   for (long thread_id = 0; thread_id < T; thread_id++)
     pthread_create(&thread_handles[thread_id], NULL, Pth_mat_vect,
-                  (void *)thread_id);
+                   (void *)thread_id);
 
   for (long thread_id = 0; thread_id < T; thread_id++)
     pthread_join(thread_handles[thread_id], NULL);

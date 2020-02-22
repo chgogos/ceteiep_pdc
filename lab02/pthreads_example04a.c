@@ -9,7 +9,8 @@ pthread_cond_t cond_var = PTHREAD_COND_INITIALIZER;
 
 int c = 0;
 int values[T - 1];
-void *produce(void *tid) {
+void *produce(void *tid)
+{
   long mytid = (long)tid;
   printf("Thread %ld produces value 1\n", mytid);
   values[mytid] = 1;
@@ -21,7 +22,8 @@ void *produce(void *tid) {
   return NULL;
 }
 
-void *consume(void *tid) {
+void *consume(void *tid)
+{
   long mytid = (long)tid;
   pthread_mutex_lock(&lock);
   if (c < T - 1)
@@ -33,7 +35,8 @@ void *consume(void *tid) {
   return NULL;
 }
 
-int main() {
+int main()
+{
   pthread_t thread_handles[T];
   for (long t = 0; t < T - 1; t++)
     pthread_create(&thread_handles[t], NULL, produce, (void *)t);

@@ -12,7 +12,8 @@
 
  ./pthreads_example02a 100000 1000
 */
-void generate_random_data(double **A, double *x, int m, int n) {
+void generate_random_data(double **A, double *x, int m, int n)
+{
   srand(time(NULL));
   for (int i = 0; i < m; i++)
     for (int j = 0; j < n; j++)
@@ -21,12 +22,14 @@ void generate_random_data(double **A, double *x, int m, int n) {
     x[i] = a * (double)rand() / (double)RAND_MAX;
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
   double **A;
   double *x, *y;
   int m, n;
 
-  if (argc != 3) {
+  if (argc != 3)
+  {
     printf("Usage: %s m n\n", argv[0]);
     exit(-1);
   }
@@ -43,7 +46,8 @@ int main(int argc, char **argv) {
 
   generate_random_data(A, x, m, n);
 
-  for (int i = 0; i < m; i++) {
+  for (int i = 0; i < m; i++)
+  {
     y[i] = 0.0;
     for (int j = 0; j < n; j++)
       y[i] += A[i][j] * x[j];

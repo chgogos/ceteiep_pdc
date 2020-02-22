@@ -13,18 +13,21 @@ pthread_mutex_t mutex;
 
 void *compute_pi_parallel(void *rank);
 
-int main() {
+int main()
+{
   long thread;
   pthread_t thread_handles[T];
   pthread_mutex_init(&mutex, NULL);
 
   sum = 0.0;
-  for (thread = 0; thread < T; thread++) {
+  for (thread = 0; thread < T; thread++)
+  {
     pthread_create(&thread_handles[thread], NULL, compute_pi_parallel,
                    (void *)thread);
   }
 
-  for (thread = 0; thread < T; thread++) {
+  for (thread = 0; thread < T; thread++)
+  {
     pthread_join(thread_handles[thread], NULL);
   }
   sum = 4 * sum;
@@ -34,7 +37,8 @@ int main() {
   return 0;
 }
 
-void *compute_pi_parallel(void *rank) {
+void *compute_pi_parallel(void *rank)
+{
   long my_rank = (long)rank;
   double factor;
   long i;
@@ -47,7 +51,8 @@ void *compute_pi_parallel(void *rank) {
     factor = 1.0;
   else
     factor = -1.0;
-  for (i = my_first_i; i < my_last_i; i++, factor = -factor) {
+  for (i = my_first_i; i < my_last_i; i++, factor = -factor)
+  {
     my_sum += factor / (2 * i + 1);
   }
   pthread_mutex_lock(&mutex);

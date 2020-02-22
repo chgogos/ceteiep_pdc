@@ -5,15 +5,17 @@
 #define T 10
 pthread_barrier_t bar;
 
-void *thread_func(void *tid) { 
-    long mytid = (long)tid;
-    printf("Thread %ld phase A\n",mytid);    
-    pthread_barrier_wait(&bar);
-    printf("Thread %ld phase B\n",mytid); 
-    return NULL;
+void *thread_func(void *tid)
+{
+  long mytid = (long)tid;
+  printf("Thread %ld phase A\n", mytid);
+  pthread_barrier_wait(&bar);
+  printf("Thread %ld phase B\n", mytid);
+  return NULL;
 }
 
-int main() {
+int main()
+{
   pthread_barrier_init(&bar, NULL, T);
   pthread_t thread_handles[T];
   for (long t = 0; t < T; t++)

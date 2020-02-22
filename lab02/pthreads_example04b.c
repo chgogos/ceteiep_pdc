@@ -10,7 +10,8 @@ pthread_cond_t cond_var = PTHREAD_COND_INITIALIZER;
 
 int shared_value = -1;
 int flag = 0;
-void *produce(void *tid) {
+void *produce(void *tid)
+{
   long mytid = (long)tid;
   printf("Producer thread %ld is busy, consumers have to wait\n", mytid);
   sleep(2);
@@ -24,7 +25,8 @@ void *produce(void *tid) {
   return NULL;
 }
 
-void *consume(void *tid) {
+void *consume(void *tid)
+{
   long mytid = (long)tid;
   pthread_mutex_lock(&lock);
   if (flag == 0)
@@ -34,7 +36,8 @@ void *consume(void *tid) {
   return NULL;
 }
 
-int main() {
+int main()
+{
   pthread_t thread_handles[T];
   pthread_create(&thread_handles[0], NULL, produce, (void *)0);
   for (long t = 1; t < T; t++)
