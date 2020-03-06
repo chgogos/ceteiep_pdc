@@ -10,14 +10,13 @@ int a[T];
 void *work(void *id)
 {
     int t_id = *((int *)id); // μετατροπή από void* σε int* και αποαναφορά
-    printf("%d\n", t_id);
 
     int sum = 0;
     for (int i = t_id * N / T + 1; i <= (t_id + 1) * N / T; i++)
     {
         sum += i;
     }
-    printf("Process %d computes sum =%d\n", t_id, sum);
+    printf("Process %d computes sum = %d\n", t_id, sum);
     a[t_id] = sum;
     return NULL;
 }

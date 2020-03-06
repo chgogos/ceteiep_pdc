@@ -28,6 +28,7 @@ void *work(void *id)
 
 int main(int argc, char *argv[])
 {
+    assert(argc==2);
     T = atoi(argv[1]);
     assert(N % T == 0);
     pthread_mutex_init(&mutex, NULL);

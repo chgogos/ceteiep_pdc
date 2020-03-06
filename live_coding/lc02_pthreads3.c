@@ -17,13 +17,14 @@ void *work(void *id)
     {
         sum += i;
     }
-    printf("Process %ld computes sum =%d\n", t_id, sum);
+    printf("Process %ld computes sum = %d\n", t_id, sum);
     a[t_id] = sum;
     return NULL;
 }
 
 int main(int argc, char *argv[])
 {
+    assert(argc==2);
     T = atoi(argv[1]);
     a = malloc(sizeof(int)* T);
     assert(N % T == 0);

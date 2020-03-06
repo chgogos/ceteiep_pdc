@@ -12,6 +12,7 @@ void *work1(void *id)
         sum += i;
     }
     printf("%d\n", sum);
+    printf("Process %s computes sum = %d\n", (char*)id, sum);
     a[0] = sum;
     return NULL;
 }
@@ -23,7 +24,7 @@ void *work2(void *id)
     {
         sum += i;
     }
-    printf("%d\n", sum);
+    printf("Process %s computes sum = %d\n", (char*)id, sum);
     a[1] = sum;
     return NULL;
 }
