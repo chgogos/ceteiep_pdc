@@ -15,6 +15,7 @@
 
 * [lc00_serial.c](./lc00_serial.c)
 
+    ```sh
     $ gcc lc00_serial.c -o lc00_serial
     $ ./lc00_serial
 
@@ -22,6 +23,7 @@
 
 * [lc01_processes.c](./lc01_processes.c)
 
+    ```sh
     $ gcc lc01_processes.c -o lc01_processes
     $ ./lc01_processes
 
@@ -29,25 +31,30 @@
 
 * [lc02_pthreads.c](./lc02_pthreads.c) Απλοϊκή έκδοση, ξεχωριστή συνάρτηση για κάθε νήμα.
 
+    ```sh
     $ gcc lc02_pthreads.c -o lc02_pthreads -lpthread
     $ ./lc02_pthreads
 
 * [lc02_pthreads1.c](./lc02_pthreads1.c) Έκδοση που λειτουργεί και με περισσότερα από 2 threads.
 
+    ```sh
     $ gcc lc02_pthreads1.c -o lc02_pthreads1 -lpthread
     $ ./lc02_pthreads1
 
 * [lc02_pthreads2.c](./lc02_pthreads2.c) Έκδοση που λειτουργεί και με περισσότερα από 2 threads (αλλαγή στον τρόπο με τον οποίο περνά το αναγνωριστικό νήματος στη συνάρτηση που θα εκτελέσει το νήμα).
 
+    ```sh
     $ gcc lc02_pthreads2.c -o lc02_pthreads2 -lpthread
     $ ./lc02_pthreads2
 
 * [lc02_pthreads3.c](./lc02_pthreads3.c) Έκδοση του κώδικα που δέχεται τον αριθμό νημάτων ως παράμετρο γραμμής εντολών.
 
+    ```sh
     $ gcc lc02_pthreads3.c -o lc02_pthreads3 -lpthread
     $ ./lc02_pthreads3 10
 
 * [lc02_pthreads4.c](./lc02_pthreads4.c) Έκδοση του κώδικα που δέχεται τον αριθμό νημάτων ως παράμετρο γραμμής εντολών και χρησιμοποιεί mutex για συγχρονισμό των νημάτων.
 
+    ```sh
     $ gcc lc02_pthreads4.c -o lc02_pthreads4 -lpthread
     $ ./lc02_pthreads4 10
