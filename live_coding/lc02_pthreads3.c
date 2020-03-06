@@ -1,11 +1,12 @@
 #include <assert.h>
 #include <pthread.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #define N 10000
-#define T 2
 
-int a[T];
+int T;
+int* a;
 
 void *work(void *id)
 {
@@ -21,10 +22,13 @@ void *work(void *id)
     return NULL;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
+    T = atoi(argv[1]);
+    a = malloc(sizeof(int)* T);
     assert(N % T == 0);
-    pthread_t t[T];
+
+    pthread_t* t = malloc(sizeof(pthread_t)* T);
     for (long i = 0; i < T; i++)
     {
         pthread_create(&t[i], NULL, work, (void *)i);
@@ -39,4 +43,6 @@ int main()
     for (int i = 0; i < T; i++)
         sum += a[i];
     printf("%d\n", sum);
+    free(t);
+    free(a);
 }
