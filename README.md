@@ -2,15 +2,15 @@
 
 Τμήμα Πληροφορικής και Τηλεπικοινωνιών Πανεπιστημίου Ιωαννίνων (πρώην Τμήμα Μηχανικών Πληροφορικής ΤΕΙ Ηπείρου)
 
-## ~~ΠΡΟΟΔΟΣ (ΘΕΩΡΙΑ) ΣΤΙΣ 17/4/2019 10:00-12:00~~
+<!-- ## ~~ΠΡΟΟΔΟΣ (ΘΕΩΡΙΑ) ΣΤΙΣ 17/4/2019 10:00-12:00~~
 
 ~~[Ύλη προόδου](./proodos.md)~~
 
 ## ΕΞΕΤΑΣΗ ΕΡΓΑΣΤΗΡΙΟΥ ΣΤΙΣ 14/6/2019 10:00-13:00
-
+ -->
 [Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου](./exams_preparation/lab_exams_prep_19.pdf)
 
-## ΕΞΕΤΑΣΗ ΘΕΩΡΙΑΣ ΣΤΙΣ 25/6/2019 14:30-16:30
+<!-- ## ΕΞΕΤΑΣΗ ΘΕΩΡΙΑΣ ΣΤΙΣ 25/6/2019 14:30-16:30 -->
 
 [Ύλη θεωρίας](./teliki.md)
 
@@ -30,11 +30,11 @@
 * [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
 * [CSinParallel](https://csinparallel.org/index.html)
 
-<!-- ## Εργαστήριο
+## Εργαστήριο
 
 POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
-### Εργαστήριο 1 (POSIX processes)
+### Εργαστήριο (POSIX processes)
 
 * [Εισαγωγή στα makefiles (pdf)](./docs/00.makefiles.pdf)
 * [makefiles](./lab00/README.md)
@@ -45,9 +45,8 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
 #### Επιπλέον υλικό για POSIX processes
 
-* <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html> -->
+* <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html>
 
-<!-- ### Εργαστήριο 2 (POSIX threads) -->
 ### Εργαστήριο (POSIX threads) :fire:
 
 * [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
@@ -62,7 +61,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Basic use of pthreads](https://www.ibm.com/developerworks/library/l-pthred/index.html)
 * <http://www.csc.villanova.edu/~mdamian/threads/posixthreadslong.html>
 
-<!-- ### Εργαστήριο 3 (java concurrency)
+### Εργαστήριο (java concurrency)
 
 * [Παραδείγματα java concurrency (pdf)](./docs/05.JAVA%20CONCURRENCY.pdf)
 * [Κώδικας παραδειγμάτων](./lab03/README.md)
@@ -74,9 +73,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03ca/javaConcurrentAnimated.jar)
 * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency)
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
-* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/) -->
-
-<!-- ### Εργαστήριο 4 (OpenMP) -->
+* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
 
 ### Εργαστήριο (OpenMP) :fire:
 
@@ -90,8 +87,6 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [A hands on introduction to OpenMP by Tim Mattson (pdf)](http://www.openmp.org/wp-content/uploads/Intro_To_OpenMP_Mattson.pdf)
 * [Παραδείγματα OpenMP (Tim Mattson) (pdf)](./docs/08.OPENMP%20(Tim%20Mattson).pdf)
 * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
-
-<!-- ### Εργαστήριο 5 (MPI) -->
 
 ### Εργαστήριο (MPI) :fire:
 
