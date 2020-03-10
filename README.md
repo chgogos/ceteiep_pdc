@@ -34,7 +34,7 @@
 
 POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 
-[Κώδικας εργαστηρίου 2019-2020 (εαρινού εξαμήνου)][./live_coding/] :fire:
+[Κώδικας εργαστηρίου 2019-2020 (εαρινού εξαμήνου)](./live_coding/) :fire:
 
 ### Εργαστήριο (POSIX processes)
 
