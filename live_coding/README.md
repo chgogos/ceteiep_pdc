@@ -67,8 +67,8 @@
 Κώδικες που επιδεικνύουν την αναγκαιότητα συγχρονισμού στον παράλληλο και ταυτόχρονο προγραμματισμό,
 
 * [lc03_pthreads5.c](./lc03_pthreads5.c) 
-* [lc03_pthreads5_busy_wait.c](./lc03_pthreads6_busy_wait.c) 
-* [lc03_pthreads5_busy_wait_volatile.c](./lc03_pthreads6_busy_wait_volatile.c)
-* [lc03_pthreads5_mutex.c](./lc03_pthreads6_mutex.c) 
-* [lc03_pthreads5_semaphore.c](./lc03_pthreads6_semaphore.c)
-* [lc03_pthreads5_semaphores.c](./lc03_pthreads6_semaphores.c)
+* [lc03_pthreads6_busy_wait.c](./lc03_pthreads6_busy_wait.c) 
+* [lc03_pthreads6_busy_wait_volatile.c](./lc03_pthreads6_busy_wait_volatile.c)
+* [lc03_pthreads6_mutex.c](./lc03_pthreads6_mutex.c) 
+* [lc03_pthreads6_semaphore.c](./lc03_pthreads6_semaphore.c)
+* [lc03_pthreads6_semaphores.c](./lc03_pthreads6_semaphores.c)
