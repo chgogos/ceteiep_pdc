@@ -19,17 +19,19 @@ void *work(void *id)
 {
     long tid = (long)id;
 
+    // ΦΑΣΗ 1
     pthread_mutex_lock(&barrier_mutex);
     counter++;
     pthread_mutex_unlock(&barrier_mutex);
 
-    // ΦΑΣΗ 1
+    // BARRIER (START)
     pthread_mutex_lock(&lock);
     total++;
     pthread_mutex_unlock(&lock);
 
     while (counter < T)
         ;
+    // BARRIER (END)
 
     // ΦΑΣΗ 2
     pthread_mutex_lock(&lock);

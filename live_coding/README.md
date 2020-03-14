@@ -66,19 +66,33 @@
 
 Κώδικες που επιδεικνύουν την αναγκαιότητα συγχρονισμού στον παράλληλο και ταυτόχρονο προγραμματισμό,
 
-* [lc03_pthreads5.c](./lc03_pthreads5.c) 
-* [lc03_pthreads6_busy_wait.c](./lc03_pthreads6_busy_wait.c) 
+* [lc03_pthreads5.c](./lc03_pthreads5.c)
+* [lc03_pthreads6_busy_wait.c](./lc03_pthreads6_busy_wait.c)
 * [lc03_pthreads6_busy_wait_volatile.c](./lc03_pthreads6_busy_wait_volatile.c)
-* [lc03_pthreads6_mutex.c](./lc03_pthreads6_mutex.c) 
+* [lc03_pthreads6_mutex.c](./lc03_pthreads6_mutex.c)
 * [lc03_pthreads6_semaphore.c](./lc03_pthreads6_semaphore.c)
 * [lc03_pthreads6_semaphores.c](./lc03_pthreads6_semaphores.c)
 
 ### ΕΡΓΑΣΤΗΡΙΟ 4
 
-Barrier (χρησιμότητα για χρονομέτρηση)
+Πολλές υλοποιήσεις pthreads δεν έχουν υλοποίηση των φραγμάτων. Προκειμένου να είναι ο κώδικας μεταφέρσιμος μπορεί να κατασκευαστεί κάποια custom υλοποίηση.
 
-Barrier (χρησιμότητα για αποσφαλμάτωση)
+[lc04_simple_custom_barrier.c](./lc04_simple_custom_barrier.c)
 
-Πολλές υλοποιήσεις pthreads δεν έχουν υλοποίηση των φραγμάτων. Προκειμένου να είναι ο κώδικας μεταφέρσιμος μπορεί να κατασκευαστεί κάποια custom υλοποίηση:
+Χρησιμότητες των barriers
 
-* Υλοποίηση φράγματος με mutex και αναμονή σε εκρήγορση.
+* Αναγκαιότητα εφαρμογής (υπολογισμοί Φάσης Α που πρέπει να ολοκληρωθεί από κάποια threads πριν τα νήματα προχωρήσουν σε μια δεύτερη φάση υπολογισμών)
+* Χρονομέτρηση κώδικα
+* Διευκόλυνση αποσφαλμάτωσης
+
+Παράδειγμα προβλήματος με απαίτηση barrier: Έστω ότι 10 νήματα πρέπει πρώτα να προσθέσουν από μια μονάδα σε μια κοινόχρηστη μεταβλητή και μετά το καθένα να διπλασιάσει τη μεταβλητή.
+
+* Κώδικας χωρίς barrier (λάθος αποτελέσματα)
+  * [lc04_custom_barrier1.c](./lc04_custom_barrier1.c)
+* Custom υλοποίηση φράγματος με mutex και αναμονή σε εκρήγορση
+  * [lc04_custom_barrier2.c](./lc04_custom_barrier2.c)
+* Custom υλοποίηση φράγματος με conditional variable
+  * [lc04_custom_barrier3.c](./lc04_custom_barrier3.c)
+* Σε Linux (π.χ. Ubuntu) υπάρχει υλοποίηση των barriers στο gcc
+  * [lc04_barrier.c](./lc04_barrier.c)
+
