@@ -72,3 +72,16 @@
 * [lc03_pthreads6_mutex.c](./lc03_pthreads6_mutex.c) 
 * [lc03_pthreads6_semaphore.c](./lc03_pthreads6_semaphore.c)
 * [lc03_pthreads6_semaphores.c](./lc03_pthreads6_semaphores.c)
+
+### ΕΡΓΑΣΤΗΡΙΟ 4
+
+Barrier (χρησιμότητα για χρονομέτρηση)
+
+Barrier (χρησιμότητα για αποσφαλμάτωση)
+
+Πολλές υλοποιήσεις pthreads δεν έχουν υλοποίηση των φραγμάτων. Για να είναι ο κώδικας μεταφέρσιμος θα πρέπει να κατασκευαστεί δική μας υλοποίηση
+
+Υλοποίηση φράγματος με αναμονή σε εκρήγορση
+
+
+
