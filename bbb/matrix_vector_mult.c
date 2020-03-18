@@ -28,7 +28,7 @@ void *work(void *id)
     {
         y[i] = 0;
         for (int j = 0; j < N; j++)
-            y[i] += A[i][j] * x[i];
+            y[i] += A[i][j] * x[j];
     }
     return NULL;
 }
