@@ -4,7 +4,7 @@
 
 ## Θεωρία
 
-Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός κατανεμημένης μνήμης (MPI)
+Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός συστημάτων κατανεμημένης μνήμης.
 
 [Ύλη θεωρίας](./teliki.md)
 
@@ -22,11 +22,13 @@
 
 ## Εργαστήριο
 
-POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
+POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 
 [Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου (2019)](./exams_preparation/lab_exams_prep_19.pdf)
 
-[Κώδικας εργαστηρίου 2019-2020 (εαρινού εξαμήνου)](./live_coding/)
+[Κώδικας εργαστηρίου (εαρινού εξαμήνου 2019-2020)](./live_coding/)
+
+[Εκφωνήσεις ασκήσεων](./lab_exercises.md)
 
 ### Εργαστήριο (POSIX processes)
 
@@ -36,10 +38,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [POSIX processes](./lab01/README.md)
 * [Ασκήσεις εργαστηρίου 1 (pdf)](./docs/02.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%201%20(POSIX%20PROCESSES).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 1](./lab01x/README.md)
-
-#### Επιπλέον υλικό για POSIX processes
-
-* <https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html>
+* [Επικοινωνία μεταξλυ διεργασιών](https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html)
 
 ### Εργαστήριο (POSIX threads)
 
@@ -63,7 +62,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
 * [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
 
-### Εργαστήριο (OpenMP) :fire:
+### Εργαστήριο (OpenMP)
 
 * [Παραδείγματα με OpenMP (pdf)](./docs/07.OPENMP.pdf)
 * [Κώδικας παραδειγμάτων](./lab04/README.md)
@@ -73,7 +72,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI
 * [Παραδείγματα OpenMP (Tim Mattson) (pdf)](./docs/08.OPENMP%20(Tim%20Mattson).pdf)
 * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
 
-### Εργαστήριο (MPI) :fire:
+### Εργαστήριο (MPI)
 
 * [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
 * [Κώδικας παραδειγμάτων](./lab05/README.md)
