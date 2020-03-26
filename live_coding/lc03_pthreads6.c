@@ -37,3 +37,17 @@ int main()
     }
     printf("counter = %d\n", counter);
 }
+
+/* Έξοδος
+Thread 1 is working
+Thread 2 is working
+Thread 0 is working
+Thread 3 is working
+Thread 5 is working
+Thread 6 is working
+Thread 7 is working
+Thread 9 is working
+Thread 8 is working
+Thread 4 is working
+counter = -5366
+*/ 
