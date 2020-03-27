@@ -5,3 +5,4 @@
 *.class
 .vscode
 a.out
+*.exe
