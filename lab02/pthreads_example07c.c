@@ -39,8 +39,9 @@ int main()
     for (long tid = 0; tid < T; tid++)
         messages[tid] = NULL;
 
+    // αρχικά όλοι οι σημαφόροι είναι κλειδωμένοι
     for (long tid = 0; tid < T; tid++)
-        sem_init(&semaphores[tid], 0, 1);
+        sem_init(&semaphores[tid], 0, 0);
 
     for (long tid = 0; tid < T; tid++)
         pthread_create(&threads[tid], NULL, Send_msg, (void *)tid);
