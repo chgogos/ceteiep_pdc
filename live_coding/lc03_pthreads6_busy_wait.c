@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <pthread.h>
 
-#define T 10
+#define T 4
 
 int counter = 0;
 
@@ -14,18 +14,20 @@ int flag = 0;
 void *work(void *id)
 {
     long tid = (long)id;
-    while (flag != tid)
-        ;
     printf("Thread %ld started\n", tid);
     for (int i = 0; i < 1000000; i++)
     {
+        while (flag != tid)
+            ;
+        // κρίσιμο τμήμα (αρχή)
         if (i % 2 == 0)
             counter++;
         else
             counter--;
+        // κρίσιμο τμήμα (τέλος)
+        flag = (flag + 1) % T;
     }
     printf("Thread %ld finished\n", tid);
-    flag++;
     return NULL;
 }
 

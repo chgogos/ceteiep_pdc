@@ -15,10 +15,12 @@ void *work(void *id)
     for (int i = 0; i < 1000000; i++)
     {
         pthread_mutex_lock(&mutex);
+        // κρίσιμο τμήμα (αρχή)
         if (i % 2 == 0)
             counter++;
         else
             counter--;
+        // κρίσιμο τμήμα (τέλος)
         pthread_mutex_unlock(&mutex);
     }
     printf("Thread %ld finished\n", tid);

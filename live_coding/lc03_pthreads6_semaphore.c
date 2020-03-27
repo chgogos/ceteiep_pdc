@@ -1,4 +1,5 @@
 // Χειρισμός του race condition με semaphore
+// Linux
 
 #include <stdio.h>
 #include <pthread.h>
@@ -16,10 +17,12 @@ void *work(void *id)
     for (int i = 0; i < 1000000; i++)
     {
         sem_wait(&sem);
+        // κρίσιμο τμήμα (αρχή)
         if (i % 2 == 0)
             counter++;
         else
             counter--;
+        // κρίσιμο τμήμα (τέλος)
         sem_post(&sem);
     }
     printf("Thread %ld finished\n", tid);
