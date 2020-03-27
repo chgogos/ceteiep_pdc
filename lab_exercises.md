@@ -4,5 +4,5 @@
 
 Λύση:
 
-[cartesian.c](./lab_ex1/cartesian.c) σειριακός κώδικας
-[cartesianp.c](./lab_ex1/cartesianp.c) παράλληλος κώδικας με mutex
+* [cartesian.c](./lab_ex1/cartesian.c) σειριακός κώδικας
+* [cartesianp.c](./lab_ex1/cartesianp.c) παράλληλος κώδικας με mutex
