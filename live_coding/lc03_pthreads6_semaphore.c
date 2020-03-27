@@ -1,5 +1,5 @@
 // Χειρισμός του race condition με semaphore
-// Linux
+// λειτουργεί σωστά σε Linux
 
 #include <stdio.h>
 #include <pthread.h>
