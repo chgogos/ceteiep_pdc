@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <pthread.h>
-#define T 3
-#define M 6
-#define N 2
+#define T 3 // αριθμός των threads
+#define M 6 // αριθμός γραμμών
+#define N 2 // αριθμός στήλων
 
 // y = A * x
 int A[M][N] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}, {11, 12}};
@@ -20,7 +20,7 @@ void *work(void *id)
         y[i] = 0;
         for (int j = 0; j < N; j++)
         {
-            y[i] += A[i][j] * y[j];
+            y[i] += A[i][j] * x[j];
         }
     }
     return NULL;
