@@ -8,7 +8,7 @@
 
 #define T 10
 
-int counter = 0;
+int counter = 0; // shared variable
 
 void *work(void *id)
 {

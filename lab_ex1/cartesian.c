@@ -13,7 +13,7 @@ struct point
 int main()
 {
     int counter = 0;
-    long seed = 1821L;
+    long seed = 1821L; // time(NULL)
     srand(seed);
     struct point points[N];
     for (int i = 0; i < N; i++)
@@ -22,6 +22,7 @@ int main()
         points[i].y = (double)rand() / RAND_MAX * 2.0 - 1.0;
     }
 
+    // η εργασία γίνεται εδώ
     for (int i = 0; i < N; i++)
         for (int j = i + 1; j < N; j++)
         {
@@ -30,6 +31,7 @@ int main()
             if (sqrt(pow(x, 2) + pow(y, 2)) < DISTANCE)
                 counter++;
         }
+    
     printf("Number of points: %d\n", counter);
 }
 
