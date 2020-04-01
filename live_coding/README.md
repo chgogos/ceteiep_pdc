@@ -99,7 +99,6 @@
 ### ΕΡΓΑΣΤΗΡΙΟ 4
 
 
-
 ### ΕΡΓΑΣΤΗΡΙΟ 5
 
 Πολλές υλοποιήσεις pthreads δεν έχουν υλοποίηση των φραγμάτων. Προκειμένου να είναι ο κώδικας μεταφέρσιμος μπορεί να κατασκευαστεί κάποια custom υλοποίηση.
@@ -115,10 +114,10 @@
 Παράδειγμα προβλήματος με απαίτηση barrier: Έστω ότι 10 νήματα πρέπει πρώτα να προσθέσουν από μια μονάδα σε μια κοινόχρηστη μεταβλητή και μετά το καθένα να διπλασιάσει τη μεταβλητή.
 
 * Κώδικας χωρίς barrier (λάθος αποτελέσματα)
-  * [lc04_custom_barrier1.c](./lc04_custom_barrier1.c)
+  * [lc04_no_barrier.c](./lc04_no_barrier1.c)
 * Custom υλοποίηση φράγματος με mutex και αναμονή σε εκρήγορση
-  * [lc04_custom_barrier2.c](./lc04_custom_barrier2.c)
+  * [lc04_custom_barrier1.c](./lc04_custom_barrier1.c)
 * Custom υλοποίηση φράγματος με conditional variable
-  * [lc04_custom_barrier3.c](./lc04_custom_barrier3.c)
+  * [lc04_custom_barrier2.c](./lc04_custom_barrier2.c)
 * Σε Linux (π.χ. Ubuntu) υπάρχει υλοποίηση των barriers στο gcc
   * [lc04_barrier.c](./lc04_barrier.c)
