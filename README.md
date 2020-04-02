@@ -4,7 +4,7 @@
 
 Γκόγκος Χρήστος @ Άρτα 2020
 
-Τελευταία ενημέρωση: 27/3/2020
+Τελευταία ενημέρωση: 2/4/2020
 
 ## Θεωρία
 
@@ -23,6 +23,10 @@
 * [Livermore computing center - high performance computing](https://hpc.llnl.gov/training/tutorials)
 * [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
 * [CSinParallel](https://csinparallel.org/index.html)
+
+### MOOCs
+* [Python in High Performance Computing](https://www.futurelearn.com/courses/python-in-hpc/2) ξεκινά στις 27-4-2020 (διάρκεια 4 εβδομάδες)
+* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided) ξεκινά στις 20-4-2020 (διάρκεια 4 εβδομάδες)
 
 ## Εργαστήριο
 
