@@ -6,6 +6,7 @@
 
 Λύση:
 
+* [timer.h](./lab_ex1/timer.h) κώδικας από το [IPP](https://www.cs.usfca.edu/~peter/ipp/) για χρονομέτρηση.
 * [cartesian_serial.c](./lab_ex1/cartesian_serial.c) σειριακός κώδικας 
 * [cartesian_parallel0.c](./lab_ex1/cartesian_parallel0.c) απόπειρα επίλυσης με παράλληλο κώδικα (δεν λειτουργεί σωστά καθώς δεν υπάρχει συγχρονισμός των νημέτων έτσι ώστε να αποφεύγεται η ταυτόχρονη ενημέρωση της καθολικής μεταβλητής counter)
 * [cartesian_parallel1.c](./lab_ex1/cartesian_parallel1.c) τοπικός μετρητής για κάθε νήμα, χωρίς συγχρονισμό (επικίνδυνο)

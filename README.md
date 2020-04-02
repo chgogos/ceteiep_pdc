@@ -15,6 +15,7 @@
 ### Συγγράμματα
 
 * Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 <http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo>
+  * [IPP Book](https://www.cs.usfca.edu/~peter/ipp/)
 * Παράλληλα συστήματα και προγραμματισμός, Δημακόπουλος Βασίλειος, ΚΑΛΛΙΠΟΣ, 2016 <https://repository.kallipos.gr/handle/11419/3209>
 * Introduction to Parallel Computing, Ananth Grama, George Karypis, Vipin Kumar and Anshul Gupta, PEARSON, Second Edition, 2003
 
