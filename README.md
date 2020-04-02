@@ -18,13 +18,14 @@
 * Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 <http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo>
   * [IPP Book](https://www.cs.usfca.edu/~peter/ipp/)
 
-## Εργαστήριο
+## Εργαστήριο (υλικό εαρινού εξαμήνου 2019-2020)
 
 POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 
+* [Εργασίες εργαστηρίου](./assignments2020/README.md)
+* [Κώδικας εργαστηρίου](./lab2020/)
+* [Εκφωνήσεις ασκήσεων](./lab2020/lab_exercises.md)
 * [Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου (2019)](./exams_preparation/lab_exams_prep_19.pdf)
-* [Κώδικας εργαστηρίου (εαρινού εξαμήνου 2019-2020)](./lab2020/)
-* [Εκφωνήσεις ασκήσεων (εαρινού εξαμήνου 2019-2020)](./lab2020/lab_exercises.md)
 
 ### Εργαστήριο (POSIX processes)
 
