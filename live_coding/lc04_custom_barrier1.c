@@ -30,7 +30,7 @@ void *work(void *id)
     total++;
     pthread_mutex_unlock(&lock);
 
-    while (counter < T)
+    while (total < T)
         ;
     // BARRIER (END)
 
