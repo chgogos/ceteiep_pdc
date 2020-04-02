@@ -68,3 +68,7 @@ int main()
     pthread_mutex_destroy(&lock2);
     pthread_cond_destroy(&cond_var);
 }
+
+/*
+Total = 10240 (expected total = 10240)
+*/

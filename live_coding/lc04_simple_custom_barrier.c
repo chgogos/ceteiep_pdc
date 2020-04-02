@@ -7,7 +7,8 @@
 #include <pthread.h>
 #include <unistd.h> // sleep
 #include <stdlib.h> // srand, rand
-#include <time.h>
+#include <time.h> // time
+#include <stdint.h> // intptr_t
 
 #define T 10
 

@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <pthread.h>
+#include <math.h>
 
 #define T 10
 
@@ -60,3 +61,7 @@ int main()
 
     printf("Total = %d (expected total = %d)\n", total, (int)(T * pow(2, T)));
 }
+
+/*
+Total = 10240 (expected total = 10240)
+*/

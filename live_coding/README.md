@@ -68,7 +68,7 @@
     $ ./lc02_pthreads4 10
     ```
 
-### ΕΡΓΑΣΤΗΡΙΟ 3
+### ΕΡΓΑΣΤΗΡΙΟ 3 (κρίσιμες περιοχές)
 
 Κώδικας υπολογισμού y = A * x (δίνεται ο δισδιάστατος πίνακας Α και το διάνυσμα x)
 
@@ -96,14 +96,12 @@
 
 * [lc03_pthreads6_semaphore.c](./lc03_pthreads6_semaphore.c)
 
-### ΕΡΓΑΣΤΗΡΙΟ 4
-
-
-### ΕΡΓΑΣΤΗΡΙΟ 5
+### ΕΡΓΑΣΤΗΡΙΟ 4 (φράγματα - μεταβλητές συνθήκες)
 
 Πολλές υλοποιήσεις pthreads δεν έχουν υλοποίηση των φραγμάτων. Προκειμένου να είναι ο κώδικας μεταφέρσιμος μπορεί να κατασκευαστεί κάποια custom υλοποίηση.
 
-[lc04_simple_custom_barrier.c](./lc04_simple_custom_barrier.c)
+* [lc04_simple_custom_barrier.c](./lc04_simple_custom_barrier.c)
+* [lc04_simple_builtin_barrier.c](./lc04_simple_builtin_barrier.c)
 
 Χρησιμότητες των barriers
 
@@ -120,4 +118,4 @@
 * Custom υλοποίηση φράγματος με conditional variable
   * [lc04_custom_barrier2.c](./lc04_custom_barrier2.c)
 * Σε Linux (π.χ. Ubuntu) υπάρχει υλοποίηση των barriers στο gcc
-  * [lc04_barrier.c](./lc04_barrier.c)
+  * [lc04_builtin_barrier.c](./lc04_builtin_barrier.c)

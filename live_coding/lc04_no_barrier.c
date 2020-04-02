@@ -49,3 +49,8 @@ int main()
 
     pthread_mutex_destroy(&lock);
 }
+
+
+/*
+Total = 2046 (expected total = 10240)
+*/
