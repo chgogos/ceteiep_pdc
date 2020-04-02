@@ -45,15 +45,15 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [Εισαγωγή στα POSIX processes (pdf)](./docs/01.POSIX%20processes.pdf)
 * [POSIX processes](./lab01/README.md)
 * [Ασκήσεις εργαστηρίου 1 (pdf)](./docs/02.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%201%20(POSIX%20PROCESSES).pdf)
-* [Λύσεις ασκήσεων εργαστηρίου 1](./lab01x/README.md)
+  * [Λύσεις ασκήσεων εργαστηρίου 1](./lab01x/README.md)
 * [Επικοινωνία μεταξύ διεργασιών](https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html)
 
 ### Εργαστήριο (POSIX threads)
 
 * [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
-* [Κώδικας παραδειγμάτων](./lab02/README.md)
+  * [Κώδικας παραδειγμάτων](./lab02/README.md)
 * [Ασκήσεις εργαστηρίου 2 (pdf)](./docs/04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%202%20(POSIX%20THREADS).pdf)
-* [Λύσεις ασκήσεων εργαστηρίου 2](./lab02x/README.md)
+  * [Λύσεις ασκήσεων εργαστηρίου 2](./lab02x/README.md)
 * [Udacity - Georgia Tech - Advanced OS (pthreads examples)](./lab02gt/README.md)
 * <https://computing.llnl.gov/tutorials/pthreads/>
 * [Basic use of pthreads](https://www.ibm.com/developerworks/library/l-pthred/index.html)
@@ -62,9 +62,9 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 ### Εργαστήριο (java concurrency)
 
 * [Παραδείγματα java concurrency (pdf)](./docs/05.JAVA%20CONCURRENCY.pdf)
-* [Κώδικας παραδειγμάτων](./lab03/README.md)
+  * [Κώδικας παραδειγμάτων](./lab03/README.md)
 * [Ασκήσεις εργαστηρίου 3 (pdf)](./docs/06.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%203%20(JAVA%20CONCURRENCY).pdf)
-* [Λύσεις ασκήσεων εργαστηρίου 3](./lab03x/README.md)
+  * [Λύσεις ασκήσεων εργαστηρίου 3](./lab03x/README.md)
 * [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03ca/javaConcurrentAnimated.jar)
 * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency)
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
@@ -73,19 +73,19 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 ### Εργαστήριο (OpenMP)
 
 * [Παραδείγματα με OpenMP (pdf)](./docs/07.OPENMP.pdf)
-* [Κώδικας παραδειγμάτων](./lab04/README.md)
+  * [Κώδικας παραδειγμάτων](./lab04/README.md)
 * [Ασκήσεις εργαστηρίου 4 (pdf)](./docs/09.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%204%20(OPENMP).pdf)
-* [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md)
+  * [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md)
 * [A hands on introduction to OpenMP by Tim Mattson (pdf)](./resources/Intro_To_OpenMP_Mattson.pdf)
 * [Παραδείγματα OpenMP(Tim Mattson) (pdf)](./docs/08.OPENMP(Tim%20Mattson).pdf)
-* [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
+  * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
 
 ### Εργαστήριο (MPI)
 
 * [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
-* [Κώδικας παραδειγμάτων](./lab05/README.md)
+  * [Κώδικας παραδειγμάτων](./lab05/README.md)
 * [Ασκήσεις εργαστηρίου 5 (pdf)](./docs/11.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%205%20(MPI).pdf)
-* [Λύσεις ασκήσεων εργαστηρίου 5](./lab05x/README.md)
+  * [Λύσεις ασκήσεων εργαστηρίου 5](./lab05x/README.md)
 * [MPI tutorials](http://mpitutorial.com/tutorials/)
 * [Εισαγωγή στο MPI](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml)
 
