@@ -4,30 +4,19 @@
 
 Γκόγκος Χρήστος @ Άρτα 2020
 
-Τελευταία ενημέρωση: 2/4/2020
+Τελευταία ενημέρωση: 3/4/2020
 
 ## Θεωρία
 
 Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός συστημάτων κατανεμημένης μνήμης.
 
-[Ύλη θεωρίας](./teliki.md)
+* [Ύλη θεωρίας](./teliki.md)
+* [Προαιρετικές εργασίες θεωρίας](./docs/ΚΠΣ_ΕΡΓΑΣΙΕΣ_2019-2020.pdf)
 
-### Συγγράμματα
+### Σύγγραμμα μαθήματος
 
 * Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 <http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo>
   * [IPP Book](https://www.cs.usfca.edu/~peter/ipp/)
-* Παράλληλα συστήματα και προγραμματισμός, Δημακόπουλος Βασίλειος, ΚΑΛΛΙΠΟΣ, 2016 <https://repository.kallipos.gr/handle/11419/3209>
-* Introduction to Parallel Computing, Ananth Grama, George Karypis, Vipin Kumar and Anshul Gupta, PEARSON, Second Edition, 2003
-
-### Ενδιαφέρουσες ιστοσελίδες
-
-* [Livermore computing center - high performance computing](https://hpc.llnl.gov/training/tutorials)
-* [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
-* [CSinParallel](https://csinparallel.org/index.html)
-
-### MOOCs
-* [Python in High Performance Computing](https://www.futurelearn.com/courses/python-in-hpc/2) ξεκινά στις 27-4-2020 (διάρκεια 4 εβδομάδες)
-* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided) ξεκινά στις 20-4-2020 (διάρκεια 4 εβδομάδες)
 
 ## Εργαστήριο
 
@@ -88,6 +77,24 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [MPI tutorials](http://mpitutorial.com/tutorials/)
 * [Εισαγωγή στο MPI](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml)
 
+---
+
+## Βιβλία
+
+* Παράλληλα συστήματα και προγραμματισμός, Δημακόπουλος Βασίλειος, ΚΑΛΛΙΠΟΣ, 2016 <https://repository.kallipos.gr/handle/11419/3209>
+* Introduction to Parallel Computing, Ananth Grama, George Karypis, Vipin Kumar and Anshul Gupta, PEARSON, Second Edition, 2003
+
+## MOOCs
+* [Python in High Performance Computing](https://www.futurelearn.com/courses/python-in-hpc/2) ξεκινά στις 27-4-2020 (διάρκεια 4 εβδομάδες)
+* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided) ξεκινά στις 20-4-2020 (διάρκεια 4 εβδομάδες)
+
+## Ενδιαφέρουσες ιστοσελίδες
+
+* [Livermore computing center - high performance computing](https://hpc.llnl.gov/training/tutorials)
+* [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
+* [CSinParallel](https://csinparallel.org/index.html)
+
+* 
 <!-- Δημιουργία όλων των εκτελέσιμων
 
 ```bash
