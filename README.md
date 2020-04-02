@@ -46,7 +46,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [POSIX processes](./lab01/README.md)
 * [Ασκήσεις εργαστηρίου 1 (pdf)](./docs/02.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%201%20(POSIX%20PROCESSES).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 1](./lab01x/README.md)
-* [Επικοινωνία μεταξλυ διεργασιών](https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html)
+* [Επικοινωνία μεταξύ διεργασιών](https://www.ibm.com/developerworks/aix/library/au-spunix_sharedmemory/index.html)
 
 ### Εργαστήριο (POSIX threads)
 
@@ -76,8 +76,8 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [Κώδικας παραδειγμάτων](./lab04/README.md)
 * [Ασκήσεις εργαστηρίου 4 (pdf)](./docs/09.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%204%20(OPENMP).pdf)
 * [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md)
-* [A hands on introduction to OpenMP by Tim Mattson (pdf)](http://www.openmp.org/wp-content/uploads/Intro_To_OpenMP_Mattson.pdf)
-* [Παραδείγματα OpenMP (Tim Mattson) (pdf)](./docs/08.OPENMP%20(Tim%20Mattson).pdf)
+* [A hands on introduction to OpenMP by Tim Mattson (pdf)](./resources/Intro_To_OpenMP_Mattson.pdf)
+* [Παραδείγματα OpenMP (Tim Mattson) (pdf)](./docs/08.OPENMP(Tim%20Mattson).pdf)
 * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
 
 ### Εργαστήριο (MPI)
