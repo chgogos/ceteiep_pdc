@@ -22,7 +22,7 @@
 
 POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 
-* [Εργασίες εργαστηρίου](./assignments2020/README.md)
+* [Εργασίες εργαστηρίου](./assignments2020.md)
 * [Κώδικας εργαστηρίου](./lab2020/)
 * [Εκφωνήσεις ασκήσεων](./lab2020/lab_exercises.md)
 * [Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου (2019)](./exams_preparation/lab_exams_prep_19.pdf)
@@ -78,7 +78,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [MPI tutorials](http://mpitutorial.com/tutorials/)
 * [Εισαγωγή στο MPI](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml)
 
----
+-----
 
 ## Βιβλία
 
@@ -95,7 +95,8 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
 * [CSinParallel](https://csinparallel.org/index.html)
 
-* 
+
+
 <!-- Δημιουργία όλων των εκτελέσιμων
 
 ```bash
