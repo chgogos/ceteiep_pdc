@@ -22,7 +22,7 @@
 
 POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 
-* [Εργασίες εργαστηρίου](./assignments2020.md)
+* [Εργασίες εργαστηρίου](./lab2020/assignments2020.md)
 * [Κώδικας εργαστηρίου](./lab2020/)
 * [Εκφωνήσεις ασκήσεων](./lab2020/lab_exercises.md)
 * [Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου (2019)](./exams_preparation/lab_exams_prep_19.pdf)
