@@ -47,8 +47,12 @@ int main(int argc, char *argv[]) {
   a = malloc(sizeof(ll) * N);
   srand(time(NULL));
   for (ll i = 0; i < N; i++) {
-    a[i] = (RAND_MAX + 1) * (ll)rand() +
-           rand(); // get larger random number than RAND_MAX
+    // (Windows + MinGW-W64 gcc 8.1.0): Καθώς το RAND_MAX είναι 32767 με την ακόλουθη εντολή λαμβάνουμε
+    // τυχαίες τιμές μεγαλύτερες από RAND_MAX
+    a[i] = (RAND_MAX + 1) * (ll)rand() + rand();
+    // (Linux): 
+    // a[i] = rand();
+
   }
 
   pthread_t *threads = malloc(sizeof(pthread_t) * T);

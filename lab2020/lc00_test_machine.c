@@ -3,6 +3,7 @@
 #include <stdlib.h> // RAND_MAX
 #include <stdint.h>
 #include <pthread.h>
+#include <limits.h>
 
 #define T 100
 
@@ -20,7 +21,15 @@ int main()
     printf("size of void = %lu\n", sizeof(void));
     printf("size of void* = %lu\n", sizeof(void *));
     printf("size of intptr_t = %lu\n", sizeof(intptr_t));
+    
     printf("RAND_MAX = %d\n", RAND_MAX);
+
+    printf("INT_MAX = %d\n", INT_MAX);
+    printf("INT_MIN = %d\n", INT_MIN);
+    printf("LONG_MAX = %ld\n", LONG_MAX);
+    printf("LONG_MIN = %ld\n", LONG_MIN);
+    printf("ULONG_MAX = %ul\n", ULONG_MAX);
+    printf("ULLONG_MAX = %ull\n", ULLONG_MAX);
 
 #ifdef __clang_major__
     printf("clang detected version %d.%d\n", __clang_major__, __clang_minor__);
@@ -62,7 +71,14 @@ size of void = 1
 size of void* = 8
 size of intptr_t = 8
 RAND_MAX = 32767
-clang detected version 11.0
+INT_MAX = 2147483647
+INT_MIN = -2147483648
+LONG_MAX = 2147483647
+LONG_MIN = -2147483648
+ULONG_MAX = 4294967295l
+ULLONG_MAX = 4294967295ll
+gcc detected version 8.1
+Time elapsed for spawning 100 threads: 4.998922e-003
 */
 
 /*
@@ -84,4 +100,5 @@ size of intptr_t = 8
 RAND_MAX = 2147483647
 clang detected version 11.0
 gcc detected version 4.2
+Time elapsed for spawning 100 threads: 2.363920e-003
 */

@@ -1,4 +1,5 @@
-// παραλλαγή της prepare_pthreads01.c με δημιουργία τυχαίων τιμών και πίνακα 100Κ
+// παραλλαγή της prepare_pthreads01.c με δημιουργία τυχαίων τιμών και πίνακα
+// 100Κ
 
 #include <pthread.h>
 #include <stdint.h>
@@ -28,8 +29,11 @@ void *maximum(void *tid) {
 int main() {
   srand(time(NULL));
   for (ll i = 0; i < N; i++) {
-    a[i] = (RAND_MAX + 1) * (ll)rand() +
-           rand(); // get larger random number than RAND_MAX
+    // (Windows + MinGW-W64 gcc 8.1.0): Καθώς το RAND_MAX είναι 32767 με την ακόλουθη εντολή λαμβάνουμε
+    // τυχαίες τιμές μεγαλύτερες από RAND_MAX
+    a[i] = (RAND_MAX + 1) * (ll)rand() + rand();
+    // (Linux): 
+    // a[i] = rand();
   }
 
   pthread_t threads[T];
@@ -52,3 +56,16 @@ int main() {
 
   return 0;
 }
+
+/*
+#############################################
+OS: Windows 10
+CPU: Intel Core i7 7700K
+RAM: 16GB
+Cores/Threads: 4/8
+C compiler: gcc (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
+#############################################
+έξοδος:
+#############################################
+Maximun Element is : 1073730801
+*/
