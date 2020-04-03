@@ -51,7 +51,7 @@ int main()
 
     GET_TIME(finish);
     elapsed = finish - start;
-    printf("Time elapsed for spawning %d threads: %e\n", T, elapsed);
+    printf("Spawn %d threads: %e\n", T, elapsed);
 }
 
 /*
@@ -75,16 +75,16 @@ INT_MAX = 2147483647
 INT_MIN = -2147483648
 LONG_MAX = 2147483647
 LONG_MIN = -2147483648
-ULONG_MAX = 4294967295l
-ULLONG_MAX = 4294967295ll
+ULONG_MAX = 4294967295
+ULLONG_MAX = 18446744073709551615
 gcc detected version 8.1
-Time elapsed for spawning 100 threads: 4.998922e-003
+Spawn 100 threads: 4.999876e-003
 */
 
 /*
 #############################################
 OS: macOS Catalina
-CPU: 2,9 GHz Dual-Core Intel Core i7
+CPU: 2.9 GHz Dual-Core Intel Core i7
 RAM: 8GB
 Cores/Threads: 2/4
 C compiler: Apple clang version 11.0.0 (clang-1100.0.33.16)
@@ -106,5 +106,5 @@ ULONG_MAX = 18446744073709551615
 ULLONG_MAX = 18446744073709551615
 clang detected version 11.0
 gcc detected version 4.2
-Time elapsed for spawning 100 threads: 2.559900e-03
+Spawn 100 threads: 2.559900e-03
 */

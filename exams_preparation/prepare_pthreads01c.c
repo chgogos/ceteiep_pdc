@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
       max = max_num[i];
   }
 
-  printf("Maximun Element is : %lld\n", max);
+  printf("Maximum Element is : %lld\n", max);
 
   free(threads);
   free(a);

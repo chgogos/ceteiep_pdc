@@ -54,7 +54,7 @@ int main() {
       max = max_num[i];
   }
 
-  printf("Maximun Element is : %lld\n", max);
+  printf("Maximum Element is : %lld\n", max);
 
   return 0;
 }

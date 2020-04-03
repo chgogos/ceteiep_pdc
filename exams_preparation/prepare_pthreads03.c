@@ -22,6 +22,7 @@ void *core(void *tid)
                 c++;
         temp[c] = a[i];
     }
+    return NULL;
 }
 
 int is_sorted(int a[], int n)
