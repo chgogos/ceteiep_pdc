@@ -29,7 +29,7 @@ void *maximum(void *tid) {
 
 int main(int argc, char *argv[]) {
   if (argc == 3) {
-    N = atoi(argv[1]);
+    N = atoll(argv[1]);
     T = atoi(argv[2]);
     if (N % T != 0) {
       printf("Wrong arguments!\n");
