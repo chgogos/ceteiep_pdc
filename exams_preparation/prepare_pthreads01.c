@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 1000000
+#define N 12
 #define T 4
 
 int a[N] = {23, 11, 18, 90, 16, 22, 34, 52, 19, 41, 88, 72};
