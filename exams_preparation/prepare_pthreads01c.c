@@ -18,13 +18,14 @@ ll *max_num;
 
 void *maximum(void *tid) {
   intptr_t mytid = (intptr_t)tid;
-  ll maxs = 0;
+  ll local_max = 0;
 
   for (ll i = mytid * (N / T); i < (mytid + 1) * (N / T); i++) {
-    if (a[i] > maxs)
-      maxs = a[i];
+    if (a[i] > local_max)
+      local_max = a[i];
   }
-  max_num[mytid] = maxs;
+  max_num[mytid] = local_max;
+  return NULL;
 }
 
 int main(int argc, char *argv[]) {
@@ -46,6 +47,7 @@ int main(int argc, char *argv[]) {
     // (Windows + MinGW-W64 gcc 8.1.0): Καθώς το RAND_MAX είναι 32767 με την ακόλουθη εντολή λαμβάνουμε
     // τυχαίες τιμές μεγαλύτερες από RAND_MAX
     a[i] = (RAND_MAX + 1) * (ll)rand() + rand();
+    
     // (Linux): 
     // a[i] = rand();
   }
@@ -60,13 +62,13 @@ int main(int argc, char *argv[]) {
     pthread_join(threads[i], NULL);
   }
 
-  ll maxs = 0;
+  ll max = 0;
   for (int i = 0; i < T; i++) {
-    if (max_num[i] > maxs)
-      maxs = max_num[i];
+    if (max_num[i] > max)
+      max = max_num[i];
   }
 
-  printf("Maximun Element is : %ld\n", maxs);
+  printf("Maximun Element is : %lld\n", max);
 
   free(threads);
   free(a);
@@ -75,7 +77,7 @@ int main(int argc, char *argv[]) {
 }
 
 /*
-$  gcc prepare_pthreads01c.c -o prepare_pthreads01c -lpthread
+$ gcc prepare_pthreads01c.c -o prepare_pthreads01c -lpthread
 $ prepare_pthreads01c 100000000 10
 Maximun Element is : 1073741821
 */

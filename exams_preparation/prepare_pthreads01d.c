@@ -20,16 +20,17 @@ pthread_mutex_t lock;
 
 void *maximum(void *tid) {
   intptr_t mytid = (intptr_t)tid;
-  ll maxs = 0;
+  ll local_max = 0;
 
   for (ll i = mytid * (N / T); i < (mytid + 1) * (N / T); i++) {
-    if (a[i] > maxs)
-      maxs = a[i];
+    if (a[i] > local_max)
+      local_max = a[i];
   }
   pthread_mutex_lock(&lock);
-  if (maxs>max)
-    max= maxs;
+  if (local_max>max)
+    max= local_max;
   pthread_mutex_unlock(&lock);
+  return NULL;
 }
 
 int main(int argc, char *argv[]) {
@@ -50,9 +51,9 @@ int main(int argc, char *argv[]) {
     // (Windows + MinGW-W64 gcc 8.1.0): Καθώς το RAND_MAX είναι 32767 με την ακόλουθη εντολή λαμβάνουμε
     // τυχαίες τιμές μεγαλύτερες από RAND_MAX
     a[i] = (RAND_MAX + 1) * (ll)rand() + rand();
+    
     // (Linux): 
     // a[i] = rand();
-
   }
 
   pthread_t *threads = malloc(sizeof(pthread_t) * T);
@@ -65,7 +66,7 @@ int main(int argc, char *argv[]) {
     pthread_join(threads[i], NULL);
   }
 
-  printf("Maximun Element is : %ld\n", max);
+  printf("Maximun Element is : %lld\n", max);
 
   pthread_mutex_destroy(&lock);
   free(threads);

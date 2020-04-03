@@ -11,19 +11,19 @@ int max_num[T];
 void *maximum(void *tid)
 {
     long mytid = (long)tid;
-    int maxs = 0;
+    int local_max = 0;
 
     for (int i = mytid * (N / T); i < (mytid + 1) * (N / T); i++)
     {
-        if (a[i] > maxs)
-            maxs = a[i];
+        if (a[i] > local_max)
+            local_max = a[i];
     }
-    max_num[mytid] = maxs;
+    max_num[mytid] = local_max;
+    return NULL;
 }
 
 int main()
 {
-    int maxs = 0;
     pthread_t threads[T];
 
     for (long i = 0; i < T; i++)
@@ -37,13 +37,14 @@ int main()
         pthread_join(threads[i], NULL);
     }
 
+    int max = 0;
     for (int i = 0; i < T; i++)
     {
-        if (max_num[i] > maxs)
-            maxs = max_num[i];
+        if (max_num[i] > max)
+            max = max_num[i];
     }
 
-    printf("Maximun Element is : %d\n", maxs);
+    printf("Maximun Element is : %d\n", max);
 
     return 0;
 }
