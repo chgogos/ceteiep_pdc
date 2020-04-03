@@ -1,3 +1,5 @@
+// τοπικός μετρητής για κάθε νήμα, συγχρονισμός νημάτων με busy wait
+
 #include "timer.h"
 #include <math.h>
 #include <pthread.h>
