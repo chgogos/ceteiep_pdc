@@ -28,8 +28,8 @@ int main()
     printf("INT_MIN = %d\n", INT_MIN);
     printf("LONG_MAX = %ld\n", LONG_MAX);
     printf("LONG_MIN = %ld\n", LONG_MIN);
-    printf("ULONG_MAX = %ul\n", ULONG_MAX);
-    printf("ULLONG_MAX = %ull\n", ULLONG_MAX);
+    printf("ULONG_MAX = %lu\n", ULONG_MAX);
+    printf("ULLONG_MAX = %llu\n", ULLONG_MAX);
 
 #ifdef __clang_major__
     printf("clang detected version %d.%d\n", __clang_major__, __clang_minor__);
@@ -98,7 +98,13 @@ size of void = 1
 size of void* = 8
 size of intptr_t = 8
 RAND_MAX = 2147483647
+INT_MAX = 2147483647
+INT_MIN = -2147483648
+LONG_MAX = 9223372036854775807
+LONG_MIN = -9223372036854775808
+ULONG_MAX = 18446744073709551615
+ULLONG_MAX = 18446744073709551615
 clang detected version 11.0
 gcc detected version 4.2
-Time elapsed for spawning 100 threads: 2.363920e-003
+Time elapsed for spawning 100 threads: 2.559900e-03
 */
