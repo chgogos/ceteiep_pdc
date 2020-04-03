@@ -1,1 +1,1 @@
-1000000
+// get larger random number than RAND_MAX
