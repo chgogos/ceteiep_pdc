@@ -57,14 +57,14 @@ int main()
 }
 
 /*
-Thread 0 > No message from 9
 Thread 1 > Hello to 1 from 0
 Thread 2 > Hello to 2 from 1
+Thread 3 > Hello to 3 from 2
 Thread 4 > Hello to 4 from 3
 Thread 5 > Hello to 5 from 4
+Thread 8 > Hello to 8 from 7
+Thread 9 > Hello to 9 from 8
+Thread 0 > Hello to 0 from 9
 Thread 6 > Hello to 6 from 5
 Thread 7 > Hello to 7 from 6
-Thread 8 > Hello to 8 from 7
-Thread 3 > Hello to 3 from 2
-^C
 */

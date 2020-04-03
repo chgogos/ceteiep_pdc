@@ -83,6 +83,33 @@ Spawn 100 threads: 4.999876e-003
 
 /*
 #############################################
+OS: WSL on Windows 10 (Ubuntu 18.04.1)
+CPU: Intel Core i7 7700K
+RAM: 16GB
+Cores/Threads: 4/8
+C compiler: gcc (Ubuntu 9.2.1-17ubuntu1~18.04.1) 9.2.1 20191102
+#############################################
+έξοδος:
+#############################################
+size of int = 4
+size of long = 8
+size of long long = 8
+size of void = 1
+size of void* = 8
+size of intptr_t = 8
+RAND_MAX = 2147483647
+INT_MAX = 2147483647
+INT_MIN = -2147483648
+LONG_MAX = 9223372036854775807
+LONG_MIN = -9223372036854775808
+ULONG_MAX = 18446744073709551615
+ULLONG_MAX = 18446744073709551615
+gcc detected version 9.2
+Time elapsed for spawning 100 threads: 8.327961e-03
+*/
+
+/*
+#############################################
 OS: macOS Catalina
 CPU: 2.9 GHz Dual-Core Intel Core i7
 RAM: 8GB

@@ -19,8 +19,21 @@
 
 Θέματα Α1, Α2 και A3 από το <https://chgogos.github.io/ceteiep_pdc/exams_preparation/lab_exams_prep_19.pdf>.
 
+Παραλλαγές εκφωνήσεων του θέματος Α1 και οι λύσεις τους:
 
-<!-- Παραλλαγές εκφωνήσεων του θέματος Α1 και οι λύσεις τους:
+* [prepare_pthreads01](../exams_preparation/prepare_pthreads01.c)
 * [prepare_pthreads01b](../exams_preparation/prepare_pthreads01b.c)
 * [prepare_pthreads01c](../exams_preparation/prepare_pthreads01c.c)
-* [prepare_pthreads01d](../exams_preparation/prepare_pthreads01d.c) -->
+* [prepare_pthreads01d](../exams_preparation/prepare_pthreads01d.c)
+
+<!-- Λύση θέματος Α2
+
+* [prepare_pthreads02](../exams_preparation/prepare_pthreads02.c)
+
+Λύση θέματος Α3
+
+* [prepare_pthreads03](../exams_preparation/prepare_pthreads03.c)
+
+
+## pThreads: 10/4/2020 -->
+
