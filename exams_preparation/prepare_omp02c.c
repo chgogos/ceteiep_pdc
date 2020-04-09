@@ -12,11 +12,15 @@ int main(int argc, char *argv[])
 {
     int x = atoi(argv[1]);
     double sum = 0.0;
-#pragma omp parallel for num_threads(2) reduction(+ \
-                                                  : sum)
-    for (int i = 1; i <= x; i++)
+#pragma omp parallel num_threads(100)
     {
-        sum += sqrt(i);
+        double local_sum = 0.0;
+        for (int i = 1; i <= x; i++)
+        {
+            local_sum += sqrt(i);
+        }
+#pragma omp critical
+        sum += local_sum;
     }
     printf("Sum is %.2f\n", sum);
 
