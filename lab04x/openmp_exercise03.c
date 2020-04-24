@@ -9,7 +9,7 @@
 int main() {
   int A[N];
   int B[N];
-  srand(1940);
+  srand(time(NULL));
   for (int i = 0; i < N; i++) {
     A[i] = rand() % 10 + 1;
     B[i] = rand() % 10 + 1;

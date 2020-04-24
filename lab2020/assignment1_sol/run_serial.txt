@@ -1,0 +1,12 @@
+size =  1000000
+Number of primes = 78498
+The code to be timed took 7.256830e-01 seconds
+size =  2000000
+Number of primes = 148933
+The code to be timed took 1.944656e+00 seconds
+size =  4000000
+Number of primes = 283146
+The code to be timed took 5.084447e+00 seconds
+size =  8000000
+Number of primes = 539777
+The code to be timed took 1.347974e+01 seconds

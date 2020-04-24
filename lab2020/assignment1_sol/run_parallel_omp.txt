@@ -1,0 +1,72 @@
+size =  1000000 threads =  2
+Number of primes = 78498
+The code to be timed took 3.441739e-01 seconds
+size =  1000000 threads =  4
+Number of primes = 78498
+The code to be timed took 2.827880e-01 seconds
+size =  1000000 threads =  8
+Number of primes = 78498
+The code to be timed took 2.755799e-01 seconds
+size =  1000000 threads =  16
+Number of primes = 78498
+The code to be timed took 2.806752e-01 seconds
+size =  1000000 threads =  32
+Number of primes = 78498
+The code to be timed took 2.766922e-01 seconds
+size =  1000000 threads =  64
+Number of primes = 78498
+The code to be timed took 2.841141e-01 seconds
+size =  2000000 threads =  2
+Number of primes = 148933
+The code to be timed took 8.670309e-01 seconds
+size =  2000000 threads =  4
+Number of primes = 148933
+The code to be timed took 8.115380e-01 seconds
+size =  2000000 threads =  8
+Number of primes = 148933
+The code to be timed took 8.459060e-01 seconds
+size =  2000000 threads =  16
+Number of primes = 148933
+The code to be timed took 7.779450e-01 seconds
+size =  2000000 threads =  32
+Number of primes = 148933
+The code to be timed took 7.480390e-01 seconds
+size =  2000000 threads =  64
+Number of primes = 148933
+The code to be timed took 7.305639e-01 seconds
+size =  4000000 threads =  2
+Number of primes = 283146
+The code to be timed took 2.361985e+00 seconds
+size =  4000000 threads =  4
+Number of primes = 283146
+The code to be timed took 2.254352e+00 seconds
+size =  4000000 threads =  8
+Number of primes = 283146
+The code to be timed took 2.184584e+00 seconds
+size =  4000000 threads =  16
+Number of primes = 283146
+The code to be timed took 2.177921e+00 seconds
+size =  4000000 threads =  32
+Number of primes = 283146
+The code to be timed took 2.258473e+00 seconds
+size =  4000000 threads =  64
+Number of primes = 283146
+The code to be timed took 2.205220e+00 seconds
+size =  8000000 threads =  2
+Number of primes = 539777
+The code to be timed took 6.279564e+00 seconds
+size =  8000000 threads =  4
+Number of primes = 539777
+The code to be timed took 5.578374e+00 seconds
+size =  8000000 threads =  8
+Number of primes = 539777
+The code to be timed took 5.375680e+00 seconds
+size =  8000000 threads =  16
+Number of primes = 539777
+The code to be timed took 5.398041e+00 seconds
+size =  8000000 threads =  32
+Number of primes = 539777
+The code to be timed took 5.407638e+00 seconds
+size =  8000000 threads =  64
+Number of primes = 539777
+The code to be timed took 5.508062e+00 seconds
