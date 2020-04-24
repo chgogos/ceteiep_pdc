@@ -1,7 +1,5 @@
 # Λύση άσκησης 1 (pThreads)
 
-* [Πλήρης κώδικας](./)
-
 * [runs.pdf](./runs.pdf)
 * [runs.xlsx](./runs.xlsx)
 
