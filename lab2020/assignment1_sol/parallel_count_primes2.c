@@ -42,7 +42,7 @@ void *prime_work(void *arg) {
 }
 
 int main(int argc, char **argv) {
-  if (argc != 2) {
+  if (argc != 3) {
     printf("Wrong arguments\n");
     exit(-1);
   }
