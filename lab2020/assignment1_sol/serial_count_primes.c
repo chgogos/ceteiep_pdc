@@ -43,8 +43,8 @@ int main() {
 /*
 #############################################
 OS: Windows 10
-CPU: Intel Core i7 7700K
-RAM: 16GB
+CPU: 4,2GHz Intel Core i7-7700K
+RAM: 32GB DDR4
 Cores/Threads: 4/8
 C compiler: gcc (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
 #############################################

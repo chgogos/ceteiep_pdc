@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#define N 20000000
+#define N 4000000
 
 typedef long long ll;
 
@@ -36,22 +36,34 @@ int main() {
 
   GET_TIME(finish_t);
   elapsed_t = finish_t - start_t;
-  printf("Number of primes = %ld\n", p_count);
+  printf("Number of primes = %lld\n", p_count);
   printf("The code to be timed took %e seconds\n", elapsed_t);
 }
-
 
 /*
 #############################################
 OS: Windows 10
-CPU: Intel Core i7 7700K
-RAM: 16GB
+CPU: 4,2GHz Intel Core i7-7700K
+RAM: 32GB DDR4
 Cores/Threads: 4/8
 C compiler: gcc (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
 #############################################
-έξοδος:
+έξοδος για Ν = 4000000
 #############################################
+Number of primes = 283146
+The code to be timed took 2.237571e+00 seconds
+*/
 
-Number of primes = 1270607
-The code to be timed took 3.061203e+001 seconds
+/*
+#############################################
+OS: macOS Catalina 10.15.3
+CPU: 2,9 GHz Dual-Core Intel Core i7
+RAM: 8 GB 1600 MHz DDR3
+Cores/Threads: 2/4
+C compiler: Apple clang version 11.0.0 (clang-1100.0.33.16)
+#############################################
+έξοδος για Ν = 4000000
+#############################################
+Number of primes = 283146
+The code to be timed took 4.847461e+00 seconds
 */
