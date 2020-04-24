@@ -3,7 +3,7 @@
 * [runs.pdf](./runs.pdf)
 * [runs.xlsx](./runs.xlsx)
 
-* Σειριακός κώδικας υπολογισμού πλήθους πρώτων αριθμών [serial_count_primes.c](./serial_count_primes.c)
+* Σειριακός κώδικας υπολογισμού πλήθους πρώτων αριθμών, N = 4000000 [serial_count_primes.c](./serial_count_primes.c)
 
 ```bash
 $ gcc serial_count_primes.c -o serial_count_primes -lm
@@ -43,7 +43,7 @@ The code to be timed took 1.312780e+01 seconds
 **************************************
 ```
 
-* Παράλληλος κώδικας υπολογισμού πλήθους πρώτων αριθμών με δύο νήματα [parallel_count_primes1.c](./parallel_count_primes1.c)
+* Παράλληλος κώδικας υπολογισμού πλήθους πρώτων αριθμών με δύο νήματα, N = 4000000 [parallel_count_primes1.c](./parallel_count_primes1.c)
 
 ```bash
 $ gcc parallel_count_primes1.c -o parallel_count_primes1 -lm -lpthread
