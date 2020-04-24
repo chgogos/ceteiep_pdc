@@ -1,5 +1,8 @@
 # Λύση άσκησης 1 (pThreads)
 
+* [runs.pdf](./runs.pdf)
+* [runs.xlsx](./runs.xlsx)
+
 * Σειριακός κώδικας υπολογισμού πλήθους πρώτων αριθμών [serial_count_primes.c](./serial_count_primes.c)
 
     ```bash
@@ -66,8 +69,8 @@
     Number of primes = 78498
     The code to be timed took 2.830162e-01 seconds
     size =  1000000 threads =  64
-    Number of primes = 39473
-    The code to be timed took 1.414630e-01 seconds
+    Number of primes = 78498
+    The code to be timed took 2.824630e-01 seconds
     size =  2000000 threads =  2
     Number of primes = 148933
     The code to be timed took 1.238416e+00 seconds
