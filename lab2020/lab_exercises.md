@@ -48,3 +48,9 @@
 Λύση θέματος B3
 
 * [prepare_omp03](../exams_preparation/prepare_omp03.c)
+
+
+## OpenMP: 24/4/2020
+
+* [Ασκήσεις με το OpenMP](../lab04x/README.md)
+
