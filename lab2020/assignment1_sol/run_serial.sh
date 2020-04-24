@@ -5,4 +5,5 @@ for n in "${numbers[@]}"
 do
     echo "size = " $n
     ./serial_count_primes2 $n
+    echo "**************************************"
 done

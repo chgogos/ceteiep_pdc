@@ -8,5 +8,6 @@ do
     do
         echo "size = " $n "threads = " $t
         ./parallel_count_primes2_omp $n $t
+        echo "**************************************"
     done
 done
