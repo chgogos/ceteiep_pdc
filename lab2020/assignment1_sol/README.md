@@ -35,14 +35,14 @@
 * Παράλληλος κώδικας υπολογισμού πλήθους πρώτων αριθμών με δύο νήματα [parallel_count_primes1.c](./parallel_count_primes1.c)
 
     ```bash
-    $ gcc parallel_count_primes2.c -o serial_count_primes2
-    $ ./parallel_count_primes2 4000000
+    $ gcc parallel_count_primes1.c -o serial_count_primes1 -lm -lpthread
+    $ ./parallel_count_primes1
     ```
 
 * Παράλληλος κώδικας υπολογισμού πλήθους πρώτων αριθμών με ορίσματα γραμμής εντολών για το πλήθος των τιμών και το πλήθος των νημάτων [parallel_count_primes2.c](./parallel_count_primes2.c)
 
     ```bash
-    $ gcc parallel_count_primes2.c -o serial_count_primes2
+    $ gcc parallel_count_primes2.c -o parallel_count_primes2 -lm -lpthread
     $ ./parallel_count_primes2 4000000 4
     ```
 

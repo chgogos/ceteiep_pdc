@@ -35,6 +35,8 @@ void *prime_work(void *arg) {
       local_count++;
     }
   }
+  printf("Inside range=%lld - %lld primes=%d\n", parg->start, parg->finish,
+         local_count);
   pthread_mutex_lock(&m);
   p_count += local_count;
   pthread_mutex_unlock(&m);
@@ -58,10 +60,15 @@ int main(int argc, char **argv) {
 
   pthread_mutex_init(&m, NULL);
   for (int i = 0; i < T; i++) {
-    targs[i].start = upto / T * i + 1;
     if (i == 0)
       targs[i].start = 3;
+    else {
+      targs[i].start = upto / T * i + 1;
+      if (targs[i].start % 2 == 0)
+        targs[i].start++;
+    }
     targs[i].finish = upto / T * (i + 1);
+    printf("T=%d range=%lld - %lld\n", i, targs[i].start, targs[i].finish);
     pthread_create(&threads[i], NULL, prime_work, &targs[i]);
   }
 
