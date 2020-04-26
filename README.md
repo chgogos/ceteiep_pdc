@@ -4,7 +4,7 @@
 
 Γκόγκος Χρήστος @ Άρτα 2020
 
-Τελευταία ενημέρωση: 3/4/2020
+Τελευταία ενημέρωση: 26/4/2020
 
 ## Θεωρία
 
@@ -86,16 +86,15 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * Introduction to Parallel Computing, Ananth Grama, George Karypis, Vipin Kumar and Anshul Gupta, PEARSON, Second Edition, 2003
 
 ## MOOCs
+
 * [Python in High Performance Computing](https://www.futurelearn.com/courses/python-in-hpc/2) ξεκινά στις 27-4-2020 (διάρκεια 4 εβδομάδες)
-* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided) ξεκινά στις 20-4-2020 (διάρκεια 4 εβδομάδες)
+* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided) ξεκινά στις 20-4-2020 (διάρκεια 2 εβδομάδες)
 
 ## Ενδιαφέρουσες ιστοσελίδες
 
 * [Livermore computing center - high performance computing](https://hpc.llnl.gov/training/tutorials)
 * [Introduction to parallel programming](https://computing.llnl.gov/tutorials/parallel_comp/)
 * [CSinParallel](https://csinparallel.org/index.html)
-
-
 
 <!-- Δημιουργία όλων των εκτελέσιμων
 
