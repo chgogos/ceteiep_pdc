@@ -8,7 +8,10 @@
   * [timer.h](./assignment1/timer.h) κώδικας από το [IPP](https://www.cs.usfca.edu/~peter/ipp/) για χρονομέτρηση.
 * [Λύση εργασίας 1](./assignment1_sol/README.md) 
 
-<!-- * Εργασία 2
+* [Εργασία 2](./assignment2/20200424_assignment2.pdf)
+  
+
+<!-- 
 * Εργασία 3
 * Εργασία 4 -->
 
