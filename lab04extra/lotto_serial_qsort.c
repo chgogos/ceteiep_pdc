@@ -76,3 +76,23 @@ int main()
     free(played);
     return 0;
 }
+
+
+/*
+##############################################
+CPU: Intel Core i7-7700K @ 4.2GHz  (4C/8T)
+RAM: 32GB DDR4
+----------------------------------------------
+Windows 10
+##############################################
+6 20 28 32 38 39
+Finished generating data after 19.34 seconds. Start counting...
+Time elapsed = 1.21
+Found 0 lucky numbers by 77246399 columns
+Found 1 lucky numbers by 19805112 columns
+Found 2 lucky numbers by 2691419 columns
+Found 3 lucky numbers by 242761 columns
+Found 4 lucky numbers by 13841 columns
+Found 5 lucky numbers by 463 columns
+Found 6 lucky numbers by 5 columns
+*/

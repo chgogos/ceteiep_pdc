@@ -1,5 +1,4 @@
 // vector addition
-// TBC
 
 #include <omp.h>
 #include <stdlib.h> // RAND_MAX
@@ -33,3 +32,11 @@ int main()
     }
     return 0;
 }
+
+/*
+139.54 
+121.08
+91.72
+98.49
+156.69
+*/
