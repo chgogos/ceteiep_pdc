@@ -54,3 +54,8 @@
 
 * [Ασκήσεις με το OpenMP](../lab04x/README.md)
 
+
+## OpenMP: 08/05/2020
+
+* [Ασκήσεις με το OpenMP](../lab04extra/README.md)
+* [Ασκήσεις με το OpenMP (PRACE - CodeVault)](https://repository.prace-ri.eu/git/CodeVault/training-material/parallel-programming/OpenMP)
