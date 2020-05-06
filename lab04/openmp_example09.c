@@ -57,3 +57,27 @@ int main() {
 
 	return 0;
 }
+
+/*
+1. Sum is 50000005000000
+2. Sum is 10408994963981 (should be incorrect)
+3. Partial sum by thread 4 is 7031250625000
+3. Partial sum by thread 1 is 2343750625000
+3. Partial sum by thread 5 is 8593750625000
+3. Partial sum by thread 3 is 5468750625000
+3. Partial sum by thread 2 is 3906250625000
+3. Partial sum by thread 6 is 10156250625000
+3. Partial sum by thread 7 is 11718750625000
+3. Partial sum by thread 0 is 781250625000
+3. Sum is 50000005000000
+4. Sum is 50000005000000
+5. Partial sum by thread 1 is 2343750625000
+5. Partial sum by thread 4 is 7031250625000
+5. Partial sum by thread 6 is 10156250625000
+5. Partial sum by thread 3 is 5468750625000
+5. Partial sum by thread 5 is 8593750625000
+5. Partial sum by thread 2 is 3906250625000
+5. Partial sum by thread 7 is 11718750625000
+5. Partial sum by thread 0 is 781250625000
+5. Sum is 50000005000000
+*/

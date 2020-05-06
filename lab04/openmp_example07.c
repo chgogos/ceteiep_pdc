@@ -13,6 +13,21 @@ void bubble_sort_serial(int *a, int n) {
       }
 }
 
+// Παράδειγμα ODD-EVEN ΤΑΞΟΝΟΜΗΣΗΣ
+// 32 41 15 12 18 22 70 44 
+// ----- +++++ ----- +++++
+// 32 41 12 15 18 22 70 44
+//    +++++ ----- -----
+// 32 12 41 15 18 22 70 44
+// +++++ +++++ ----- +++++
+// 12 32 15 41 18 22 44 70
+//    +++++ +++++ -----
+// 12 15 32 18 41 22 44 70
+// ----- +++++ +++++ -----
+// 12 15 18 32 22 41 44 70
+//    ----- +++++ -----
+// 12 15 18 22 32 41 44 70
+
 void odd_even_sort_serial(int *a, int n) {
   int i, phase, tmp;
   for (phase = 0; phase < n; phase++)
@@ -125,3 +140,13 @@ int main() {
 
   return 0;
 }
+
+/*
+##############################################
+Intel Core i7-7700K CPU @ 4.2GHz
+##############################################
+Time elapsed bubble sort serial 3.47 seconds
+Time elapsed odd even sort serial 2.72 seconds
+Time elapsed odd even sort parallel1 2.59 seconds
+Time elapsed odd even sort parallel2 1.68 seconds
+*/

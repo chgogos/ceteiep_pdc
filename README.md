@@ -4,7 +4,7 @@
 
 Γκόγκος Χρήστος @ Άρτα 2020
 
-Τελευταία ενημέρωση: 26/4/2020
+Τελευταία ενημέρωση: 6/5/2020
 
 ## Θεωρία
 
@@ -68,6 +68,7 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [A hands on introduction to OpenMP by Tim Mattson (pdf)](./resources/Intro_To_OpenMP_Mattson.pdf)
 * [Παραδείγματα OpenMP(Tim Mattson) (pdf)](./docs/08.OPENMP(Tim%20Mattson).pdf)
   * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
+  * [OpenMP Reference Card 5.0](./resources/OpenMPRef-5.0-111802.pdf)
 
 ### Εργαστήριο (MPI)
 
