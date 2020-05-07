@@ -91,3 +91,23 @@ Found 5 lucky numbers by 1722 columns
 Found 6 lucky numbers by 4 columns
 Time elapsed = 6.81
 */
+
+
+/*
+##############################################
+CPU: Intel Core i7 @ 2.9 GHz           (2C/4T)
+RAM: 8GB
+----------------------------------------------
+macOS Catalina
+##############################################
+35 42 29 7 17 24 
+Finished generating data after 11.19 seconds. Start counting...
+Found 0 lucky numbers by 44416038 columns
+Found 1 lucky numbers by 41006598 columns
+Found 2 lucky numbers by 12817590 columns
+Found 3 lucky numbers by 1668890 columns
+Found 4 lucky numbers by 89205 columns
+Found 5 lucky numbers by 1672 columns
+Found 6 lucky numbers by 7 columns
+Time elapsed = 15.43
+*/

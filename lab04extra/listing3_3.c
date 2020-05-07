@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 /*
 $ gcc listing3_3.c -o listing3_3.exe -fopenmp
-$ listing3_3.exe 
+$ listing3_3.exe 16
 ##############################################
 CPU: Intel Core i7-7700K @ 4.2GHz  (4C/8T)
 RAM: 32GB DDR4
@@ -37,4 +37,29 @@ Thread1: Value3
 Thread1: Value4
 Thread6: Value13
 Thread6: Value14
+*/
+
+/*
+##############################################
+CPU: Intel Core i7 @ 2.9 GHz           (2C/4T)
+RAM: 8GB
+----------------------------------------------
+macOS Catalina
+##############################################
+Thread0: Value1
+Thread0: Value2
+Thread2: Value9
+Thread2: Value10
+Thread2: Value11
+Thread2: Value12
+Thread0: Value3
+Thread0: Value4
+Thread3: Value13
+Thread3: Value14
+Thread1: Value5
+Thread1: Value6
+Thread1: Value7
+Thread1: Value8
+Thread3: Value15
+Thread3: Value16
 */

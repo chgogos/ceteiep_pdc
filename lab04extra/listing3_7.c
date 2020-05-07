@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 /*
 $ gcc listing3_7.c -o listing3_7.exe -fopenmp
-$ listing3_7.exe 
+$ listing3_7.exe 4
 ##############################################
 CPU: Intel Core i7-7700K @ 4.2GHz  (4C/8T)
 RAM: 32GB DDR4
