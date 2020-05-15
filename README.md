@@ -72,6 +72,8 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 
 ### Εργαστήριο (MPI)
 
+* [Οδηγίες εγκατάστασης WSL (Windows Subsystem for Linux) for Windows και MPICH2 στο WSL](https://spyros3000.gitlab.io/uoi-pdc/WSL-MPICH-Instructions.html)  
+* [Εγκατάσταση MPICH2 σε UBUNTU](https://mpitutorial.com/tutorials/installing-mpich2/)  
 * [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
   * [Κώδικας παραδειγμάτων](./lab05/README.md)
 * [Ασκήσεις εργαστηρίου 5 (pdf)](./docs/11.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%205%20(MPI).pdf)
