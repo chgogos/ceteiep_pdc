@@ -8,10 +8,8 @@
   * [timer.h](./assignment1/timer.h) κώδικας από το [IPP](https://www.cs.usfca.edu/~peter/ipp/) για χρονομέτρηση.
 * [Λύση εργασίας 1](./assignment1_sol/README.md) 
 
-* [Εργασία 2](./assignment2/20200424_assignment2.pdf) ημερομηνία παράδοσης: 15/5/2020
-  
+* [Εργασία 2](./assignment2/20200424_assignment2.pdf) ημερομηνία παράδοσης: ~~15/5/2020~~
+* [Λύση εργασίας 2](./assignment2_sol/README.md)
 
-<!-- 
-* Εργασία 3
-* Εργασία 4 -->
+* [Εργασία 3](./assignment3/20200521_assignment3.pdf)  ημερομηνία παράδοσης: 3/6/2020
 
