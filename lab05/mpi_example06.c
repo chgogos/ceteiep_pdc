@@ -21,3 +21,16 @@ int main(int argc, char *argv[]) {
   MPI_Finalize();
   return 0;
 }
+
+/*
+$ mpicc mpi_example06.c
+$ mpiexec -n 4 ./a.out
+Process 0 produced value 84
+Process 3 produced value 19
+Process 1 produced value 33
+Process 2 produced value 26
+Process 0 knows that the sum is 162
+Process 1 knows that the sum is 162
+Process 2 knows that the sum is 162
+Process 3 knows that the sum is 162
+*/

@@ -26,3 +26,12 @@ int main(void) {
   MPI_Finalize();
   return 0;
 }
+
+/*
+$ mpicc mpi_example01.c
+$ mpiexec -n 4 ./a.out
+This is  process 0 waiting for messages
+Process 1 of 4 says hello.
+Process 2 of 4 says hello.
+Process 3 of 4 says hello.
+*/

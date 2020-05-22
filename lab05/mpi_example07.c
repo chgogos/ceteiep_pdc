@@ -1,7 +1,7 @@
+#include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <mpi.h>
 
 #define N 10
 
@@ -56,3 +56,13 @@ int main(int argc, char *argv[]) {
   MPI_Finalize();
   return 0;
 }
+
+/*
+$ mpicc mpi_example07.c
+$ mpiexec -n 2 ./a.out
+a[0]=3 a[1]=4 a[2]=4 a[3]=10 a[4]=9 a[5]=1 a[6]=10 a[7]=5 a[8]=7 a[9]=9
+Process 0 3 4 4 10 9
+Process 1 1 10 5 7 9
+Result after gather a[0]=6 a[1]=8 a[2]=8 a[3]=20 a[4]=18 a[5]=2 a[6]=20 a[7]=10
+a[8]=14 a[9]=18
+*/

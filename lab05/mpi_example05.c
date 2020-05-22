@@ -25,3 +25,15 @@ int main(int argc, char* argv[]){
 	MPI_Finalize();
 	return 0;
 }
+
+/*
+$ mpicc mpi_example05.c
+$ mpiexec -n 4 ./a.out
+Process 1 produced value 4
+Process 3 produced value 58
+Process 2 produced value 23
+The sum is 85 (for process 0)
+The value of sum that process 1 knows is 85
+The value of sum that process 2 knows is 85
+The value of sum that process 3 knows is 85
+*/

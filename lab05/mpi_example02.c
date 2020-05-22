@@ -24,3 +24,12 @@ int main(int argc, char *argv[]) {
   MPI_Finalize();
   return 0;
 }
+
+/*
+$ mpicc mpi_example02.c
+$ mpiexec -n 4 ./a.out
+Enter 2 values (double and int): 3.1 5
+Process 1 got value 3.100000 and value 5
+Process 2 got value 3.100000 and value 5
+Process 3 got value 3.100000 and value 5
+*/
