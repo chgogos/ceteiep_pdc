@@ -1,3 +1,5 @@
+// to be deleted
+
 #include <mpi.h>
 #include <stdio.h>
 
