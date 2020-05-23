@@ -13,7 +13,11 @@
 
 * [Εργασία 3](./assignment3/20200521_assignment3.pdf)  ημερομηνία παράδοσης: 3/6/2020
   * [Κώδικας για σχεδίαση κορυφών πενταγώνου](./assignment3_sol/Pentagon.java)
-  * <img src="./assignment3_sol/pentagon.PNG" alt="pentagon"	title="pentagon" width="200" height="200" />
-  * <img src="./assignment3_sol/fractal.PNG" alt="fractal"	title="fractal" width="200" height="200" />
+    
+<img src="./assignment3_sol/pentagon.PNG" alt="pentagon"	title="pentagon" width="200" height="200" />  
+  
   * Λύση εργασίας 3
+
+<img src="./assignment3_sol/fractal.PNG" alt="fractal"	title="fractal" width="200" height="200" />
+
 
