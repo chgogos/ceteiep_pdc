@@ -20,4 +20,7 @@
 
 <img src="./assignment3_sol/fractal.PNG" alt="fractal"	title="fractal" width="200" height="200" />
 
+## Βαθμοί εργασιών
 
+* [ΒΑΘΜΟΙ ΕΡΓΑΣΙΩΝ](./ΕΡΓΑΣΙΕΣ%202019-2020.pdf)
+  
