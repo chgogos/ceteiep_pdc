@@ -1,4 +1,4 @@
-# Εργασίες εργαστηρίου
+# Εργασίες εργαστηρίου (Εαρινό 2019-2020)
 
 Οι εργασίες του εργαστηρίου είναι υποχρεωτικές.
 
@@ -12,8 +12,8 @@
 * [Λύση εργασίας 2](./assignment2_sol/README.md)
 
 * [Εργασία 3](./assignment3/20200521_assignment3.pdf)  ημερομηνία παράδοσης: 3/6/2020
-  * [Κώδικας για σχεδίαση πενταγώνου](./assignment3_sol/Pentagon.java)
-  * ![pentagon](./assignment3_sol/pentagon.PNG)
-  * ![fractal](./assignment3_sol/fractal.PNG)
-* Λύση εργασίας 3
+  * [Κώδικας για σχεδίαση κορυφών πενταγώνου](./assignment3_sol/Pentagon.java)
+  * <img src="./assignment3_sol/pentagon.PNG" alt="pentagon"	title="pentagon" width="400" height="400" />
+  * <img src="./assignment3_sol/pentagon.PNG" alt="fractal"	title="fractal" width="400" height="400" />
+  * Λύση εργασίας 3
 
