@@ -28,3 +28,12 @@ int main(int argc, char *argv[]) {
   MPI_Finalize();
   return 0;
 }
+
+/*
+$ mpicc mpi_example02.c
+$ mpiexec -n 4 ./a.out
+Process 0 got value 44 from process 1
+Process 0 got value 37 from process 2
+Process 0 got value 23 from process 3
+The sum is 104
+*/

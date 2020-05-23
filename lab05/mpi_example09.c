@@ -21,3 +21,17 @@ int main(){
     MPI_Finalize();
 }
 
+/*
+$ mpicc mpi_example09.c
+$ mpiexec -n 5 ./a.out
+MPI Process 0 has value 0
+MPI Process 0 has value 1
+MPI Process 2 has value 4
+MPI Process 2 has value 5
+MPI Process 3 has value 6
+MPI Process 3 has value 7
+MPI Process 4 has value 8
+MPI Process 4 has value 9
+MPI Process 1 has value 2
+MPI Process 1 has value 3
+*/

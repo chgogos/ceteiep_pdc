@@ -43,3 +43,10 @@ int main(int argc, char *argv[]) {
   MPI_Finalize();
   return 0;
 }
+
+/*
+$ mpicc mpi_example08.c
+$ mpiexec -n 2 ./a.out
+Enter number of divisions: 1000000
+pi=3.14159265358995
+*/
