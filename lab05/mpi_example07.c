@@ -1,5 +1,5 @@
 // Ένας πίνακας Ν θέσεων γίνεται scatter σε n διεργασίες 
-// Κάθε διεργασία διπλασιάζει κάθε στοιχείο που πίνακα που λαμβάνει
+// Κάθε διεργασία διπλασιάζει κάθε στοιχείο του πίνακα που λαμβάνει
 // Τα αποτελέσματα συγκεντρώνονται (gather) σε έναν πίνακα Ν θέσεων
 
 #include <mpi.h>
@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define N 10
+#define N 20
 
 int main(int argc, char *argv[]) {
   int *a = NULL;
@@ -37,11 +37,12 @@ int main(int argc, char *argv[]) {
     MPI_Scatter(a, local_n, MPI_INT, local_a, local_n, MPI_INT, 0,
                 MPI_COMM_WORLD);
   }
-  printf("Process %d ", my_rank);
+  printf("Process %d : ", my_rank);
   for (i = 0; i < local_n; i++)
     printf("%d ", local_a[i]);
   printf("\n");
 
+  // dummy processing
   for (i = 0; i < local_n; i++)
     local_a[i] = local_a[i] * 2;
 
