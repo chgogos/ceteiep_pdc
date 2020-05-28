@@ -1,7 +1,3 @@
-// n σε πλήθος διεργασίες μοιράζονται N τιμές ενός πίνακα, η κάθε μια λαμβάνει Ν/n τιμές
-// κάθε διεργασία υπολογίζει το άθροισμα των τιμών που λαμβάνει και το επιστρέφει 
-// όλα τα αποτελέσματα συγκεντρώνονται από τη διεργασία 0 και εμφανίζονται
-
 #include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,18 +26,13 @@ int main() {
   }
   printf("MPI Process %d computed result %d\n", my_rank, local_sum);
 
-  int *results = NULL;
-
-  if (my_rank == 0) {
-    results = malloc(comm_sz * sizeof(int));
-    MPI_Gather(&local_sum, 1, MPI_INT, results, 1, MPI_INT, 0, MPI_COMM_WORLD);
-    printf("MPI Process %d: ", my_rank);
-    for (int i = 0; i < comm_sz; i++)
-      printf("results[%d]=%d ", i, results[i]);
-    printf("\n");
-  } else {
-    MPI_Gather(&local_sum, 1, MPI_INT, results, 1, MPI_INT, 0, MPI_COMM_WORLD);
-  }
+  int *results = malloc(comm_sz * sizeof(int));
+  MPI_Allgather(&local_sum, 1, MPI_INT, results, 1, MPI_INT, MPI_COMM_WORLD);
+  
+  printf("MPI Process %d: ", my_rank);
+  for (int i = 0; i < comm_sz; i++)
+    printf("results[%d]=%d ", i, results[i]);
+  printf("\n");
 
   MPI_Finalize();
 }
@@ -62,16 +53,19 @@ MPI Process 1 has value 8
 MPI Process 1 has value 9
 MPI Process 1 computed result 35
 MPI Process 2 has value 10
-MPI Process 2 has value 11
-MPI Process 2 has value 12
-MPI Process 2 has value 13
-MPI Process 2 has value 14
-MPI Process 2 computed result 60
 MPI Process 3 has value 15
 MPI Process 3 has value 16
 MPI Process 3 has value 17
 MPI Process 3 has value 18
 MPI Process 3 has value 19
 MPI Process 3 computed result 85
+MPI Process 2 has value 11
+MPI Process 2 has value 12
+MPI Process 2 has value 13
+MPI Process 2 has value 14
+MPI Process 2 computed result 60
 MPI Process 0: results[0]=10 results[1]=35 results[2]=60 results[3]=85
+MPI Process 1: results[0]=10 results[1]=35 results[2]=60 results[3]=85
+MPI Process 2: results[0]=10 results[1]=35 results[2]=60 results[3]=85
+MPI Process 3: results[0]=10 results[1]=35 results[2]=60 results[3]=85
 */
