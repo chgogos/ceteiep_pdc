@@ -1,6 +1,6 @@
 public class Exercise02 {
   static Object lock = new Object();
-  static long SUM = 0;
+  static long MAX = 0;
   static long A[]={1,7,3,2,5,1,3,7,8,2}; 
   static long X=10;
   static int NUMBER_OF_THREADS=2;
@@ -19,7 +19,7 @@ public class Exercise02 {
         e.printStackTrace();
       }
     }
-    System.out.println("Total sum is " + SUM);
+    System.out.println("Max is " + MAX);
   }
 
   static class TotalizatorThread extends Thread {
@@ -28,17 +28,22 @@ public class Exercise02 {
     public TotalizatorThread(int id) { tid = id; }
 
     public void run() {
-      long mysum = 0L;
+      long mymax = 0L;
       long stride = X / NUMBER_OF_THREADS;
       long left = tid * stride;
       long right = tid * stride + stride;
       if (right > X)
         right = X;
       for (long i = left; i < right; i++) {
-        mysum += A[(int)i];
+          if (A[(int)i]>mymax)
+            mymax = A[(int)i];
       }
-      synchronized (lock) { SUM += mysum; }
-      System.out.printf("Sum computed by thread %d is %d\n", tid, mysum);
+      synchronized (lock) { 
+          if (mymax > MAX){
+              MAX=mymax;
+          }
+       }
+      System.out.printf("max computed by thread %d is %d\n", tid, mymax);
     }
   }
 }
