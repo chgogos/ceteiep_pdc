@@ -35,7 +35,7 @@ public class Exercise02 {
       if (right > X)
         right = X;
       for (long i = left; i < right; i++) {
-        mysum += i;
+        mysum += A[(int)i];
       }
       synchronized (lock) { SUM += mysum; }
       System.out.printf("Sum computed by thread %d is %d\n", tid, mysum);
