@@ -34,13 +34,14 @@ int main(int argc, char *argv[]) {
 }
 
 /*
-$ mpicc mpi_example05.c
+$ mpicc mpi_example05b.c
 $ mpiexec -n 4 ./a.out
-Process 1 produced value 4
-Process 3 produced value 58
-Process 2 produced value 23
-The sum is 85 (for process 0)
-The value of sum that process 1 knows is 85
-The value of sum that process 2 knows is 85
-The value of sum that process 3 knows is 85
+Process 2 produced value 55
+Process 1 produced value 82
+Process 3 produced value 28
+Process 0 produced value 84
+The sum is 249 (for process 0)
+The product is 10607520 (for process 0)
+The max is 84 (for process 0)
+The min is 28 (for process 0)
 */
