@@ -1,6 +1,3 @@
-
-package gr.uoi.pdc;
-
 public class Exercise02 {
   static Object lock = new Object();
   static long SUM = 0;
