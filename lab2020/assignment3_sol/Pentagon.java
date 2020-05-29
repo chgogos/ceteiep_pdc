@@ -17,7 +17,7 @@ public class Pentagon extends JFrame {
 
 	public final static int WIDTH = 1000;
 	public final static int HEIGHT = 1000;
-	public static final int V = 5; // # of initial vertices (5 for pentagon)
+	public final static int V = 5; // # of initial vertices (5 for pentagon)
 
 	private Vector<Point> polygon_vertices = new Vector<Point>();
 
