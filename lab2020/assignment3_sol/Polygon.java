@@ -13,7 +13,7 @@ import java.util.Vector;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-public class Pentagon extends JFrame {
+public class Polygon extends JFrame {
 
 	public final static int WIDTH = 1000;
 	public final static int HEIGHT = 1000;
@@ -25,12 +25,12 @@ public class Pentagon extends JFrame {
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				new Pentagon("Pentagon");
+				new Polygon("Polygon");
 			}
 		});
 	}
 
-	public Pentagon(String title) {
+	public Polygon(String title) {
 		super(title);
 		setSize(WIDTH, HEIGHT);
 		setLayout(new BorderLayout());
@@ -45,7 +45,10 @@ public class Pentagon extends JFrame {
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setColor(Color.RED);
 		for (Point p : polygon_vertices) {
-			g2d.fillOval((int) p.x, (int) p.y, 10, 10);
+			int x = (int) p.x;
+			int y = (int) p.y;
+			g2d.fillOval(x, y, 10, 10);
+			g2d.drawString(String.format("(%d,%d)", x, y), x, y);
 		}
 	}
 
@@ -64,6 +67,7 @@ public class Pentagon extends JFrame {
 	class Point {
 		public double x;
 		public double y;
+
 		public Point(double _x, double _y) {
 			x = _x;
 			y = _y;
