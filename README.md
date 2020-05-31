@@ -4,13 +4,14 @@
 
 Γκόγκος Χρήστος @ Άρτα 2020
 
-Τελευταία ενημέρωση: 23/5/2020
+Τελευταία ενημέρωση: 29/5/2020
+
+* [Ύλη εξέτασης Ιουνίου 2020 για τη θεωρία και το εργαστήριο](./teliki.md)
 
 ## Θεωρία
 
 Παράλληλο υλικό και λογισμικό, προγραμματισμός κοινόχρηστης μνήμης, προγραμματισμός συστημάτων κατανεμημένης μνήμης.
 
-* [Ύλη θεωρίας](./teliki.md)
 * [Προαιρετικές εργασίες θεωρίας](./docs/ΚΠΣ_ΕΡΓΑΣΙΕΣ_2019-2020.pdf)
 
 ### Σύγγραμμα μαθήματος
@@ -57,7 +58,6 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 * [Java concurrent animated](http://www.jconcurrent.com/), [executable jar](./lab03ca/javaConcurrentAnimated.jar)
 * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency)
 * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
-* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
 
 ### Εργαστήριο (OpenMP)
 
@@ -90,8 +90,9 @@ POSIX processes, POSIX threads, Java concurrency, OpenMP, MPI.
 
 ## MOOCs
 
-* [Python in High Performance Computing](https://www.futurelearn.com/courses/python-in-hpc/2) ξεκινά στις 27-4-2020 (διάρκεια 4 εβδομάδες)
-* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided) ξεκινά στις 20-4-2020 (διάρκεια 2 εβδομάδες)
+* [Udemy Java Multithreading MOOC](https://www.udemy.com/java-multithreading/)
+* [Python in High Performance Computing](https://www.futurelearn.com/courses/python-in-hpc/2)
+* [MPI: A Short Introduction to One-sided Communication](https://www.futurelearn.com/courses/mpi-one-sided)
 
 ## Ενδιαφέρουσες ιστοσελίδες
 
