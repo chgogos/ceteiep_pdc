@@ -12,7 +12,7 @@
 * [Λύση εργασίας 2](./assignment2_sol/README.md)
 
 * [Εργασία 3](./assignment3/20200521_assignment3.pdf)  ημερομηνία παράδοσης: 3/6/2020
-  * [Κώδικας για σχεδίαση κορυφών πενταγώνου](./assignment3_sol/Pentagon.java)
+  * [Κώδικας για σχεδίαση κορυφών πενταγώνου](./assignment3_sol/Polygon.java)
     
 <img src="./assignment3_sol/Polygon.PNG" alt="polygon"	title="polygon" width="400" height="400" />  
   
