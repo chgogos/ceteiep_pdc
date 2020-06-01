@@ -4,8 +4,8 @@
 #define N 8
 
 int main() {
-// #pragma omp parallel for num_threads(4) 
-#pragma omp parallel for num_threads(4) schedule(static, 1)
+#pragma omp parallel for num_threads(4) 
+// #pragma omp parallel for num_threads(4) schedule(static, 1)
 for (int i = 0; i < N; i++) {
     int my_rank=omp_get_thread_num();
     if (my_rank==3)
