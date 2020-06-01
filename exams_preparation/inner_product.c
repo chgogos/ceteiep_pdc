@@ -1,4 +1,4 @@
-// σειριακός κώδικας για τον υπολογισμό του εσωτερικού γινομένου 
+// σειριακός κώδικας για τον υπολογισμό του εσωτερικού γινομένου
 // δύο τυχαίων διανυσμάτων με Ν τιμές το καθένα.
 
 #include <stdio.h>
@@ -7,11 +7,10 @@
 
 #define N 1000000
 
-double *a;
-double *b;
-double inner_prod = 0.0;
-
 int main() {
+  double *a;
+  double *b;
+  double inner_prod = 0.0;
   a = (double *)malloc(sizeof(double) * N);
   b = (double *)malloc(sizeof(double) * N);
   srand(time(NULL));
@@ -29,3 +28,6 @@ int main() {
   free(b);
 }
 
+/*
+249875.97
+*/
