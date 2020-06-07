@@ -20,7 +20,7 @@
 
 <img src="./assignment3_sol/fractal.PNG" alt="fractal"	title="fractal" width="400" height="400" />
 
-<img src="./assignment3_sol/fractal.gif" alt="fractal"	title="fractal animated" width="400" height="400" />
+<!-- <img src="./assignment3_sol/fractal.gif" alt="fractal"	title="fractal animated" width="400" height="400" /> -->
 
 ## Βαθμοί εργασιών
 
