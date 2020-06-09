@@ -1,0 +1,1 @@
+inner_prod += local_inner_product;
