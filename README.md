@@ -4,9 +4,17 @@
 
 Γκόγκος Χρήστος @ Άρτα 2020
 
-Τελευταία ενημέρωση: 11/6/2020
+Τελευταία ενημέρωση: 12/6/2020
 
 * [Ύλη εξέτασης Ιουνίου 2020 για τη θεωρία και το εργαστήριο](./teliki.md)
+
+## Quizzes
+
+* [ΚΠΣ-Θεωρία](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMUlQTFlXR1dIMjg1M0MzQ0hKVDlMNEU4Ui4u)
+* [ΚΠΣ-Pthreads](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNU5aQzdNMFkzNVlCUVBHWDRQN0tLOEVSVy4u)
+* [ΚΠΣ-OpenMP](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNEtPV1ZZQUZWQ1lIV1gyTjVWSU5EWjlJUC4u)
+* [ΚΠΣ-MPI](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOElQT0tXSVBURzlCRUNFQ0lRSVZLVFYxUy4u)
+* [ΚΠΣ-Java Concurrency](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUQTJCWjFROVE1WVpZSUlORDRYMTlHTFJUUC4u)
 
 ## Θεωρία
 

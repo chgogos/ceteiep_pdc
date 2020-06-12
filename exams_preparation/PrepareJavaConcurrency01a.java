@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class PrepareJavaConcurrency01 {
+public class PrepareJavaConcurrency01a {
     final static int N = 1_000_000;
     final static int M = 100;
 
