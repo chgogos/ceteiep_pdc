@@ -3,10 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-// #define WIDTH 10000
-// #define HEIGHT 8000
-#define WIDTH 640
-#define HEIGHT 480
+#define WIDTH 10000
+#define HEIGHT 8000
 #define MAX_ITER 100
 #define X_MIN -2.5
 #define X_MAX 1.5
