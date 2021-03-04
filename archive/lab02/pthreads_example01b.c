@@ -1,6 +1,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h> // intptr_t
 
 #define THREAD_COUNT 4
 
@@ -9,7 +10,7 @@ void *work(void *tid)
   // υποτίθεται ότι οι ακόλουθες τιμές υπολογίζονται με χρονοβόρα επεξεργασία εντός του κάθε thread
   // το thread 0 υπολογίζει την τιμή 23, το thread 1 την τιμή 12 κοκ
   long dummy_values[] = {23, 12, 78, 90};
-  long mytid = (long)tid;
+  intptr_t mytid = (intptr_t)tid;
   long r = dummy_values[mytid];
   printf("Thread %ld produces %ld\n", mytid, r);
   pthread_exit((void *)r);
@@ -17,11 +18,12 @@ void *work(void *tid)
 
 int main()
 {
-  long t;
+  intptr_t t;
   pthread_t thread_handles[THREAD_COUNT];
-  for (t = 0; t < THREAD_COUNT; t++)
+  for (t = 0; t < THREAD_COUNT; t++) {
     pthread_create(&thread_handles[t], NULL, work, (void *)t);
-
+  }
+  
   for (t = 0; t < THREAD_COUNT; t++)
   {
     void *r;

@@ -1,6 +1,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <assert.h>
 
 // Pacheco (program 4.1 )
 // gcc -g -Wall -pthread pthreads_example01a.c -o pthreads_example01a
@@ -19,6 +20,7 @@ void *hello(void *rank)
 
 int main(int argc, char *argv[])
 {
+  assert(argc==2);
   long thread;
   thread_count = strtol(argv[1], NULL, 10);
   pthread_t *thread_handles;
