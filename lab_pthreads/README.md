@@ -262,3 +262,14 @@ int main(){
 Μετατρέψτε τον κώδικα της άσκησης 5 έτσι ώστε να χρησιμοποιεί αναμονή σε εκρήγορση (busy wait) αντί για mutex έτσι ώστε να πετύχει το ίδιο αποτέλεσμα.
 
 * [pthreads_exercise06.c](./pthreads_exercise06.c)
+
+
+--- 
+
+## Εργασίες
+
+* 2019-2020
+  * [Εκφώνηση](https://chgogos.github.io/ceteiep_pdc/archive/lab2020/assignment1/20200224_assignment1.pdf)
+    * [serial_count_primes.c](https://chgogos.github.io/ceteiep_pdc/archive/lab2020/assignment1/serial_count_primes.c)
+    * [timer.h](https://chgogos.github.io/ceteiep_pdc/archive/lab2020/assignment1/timer.h)
+  * [Λύση](https://chgogos.github.io/ceteiep_pdc/archive/lab2020/assignment1_sol/)
