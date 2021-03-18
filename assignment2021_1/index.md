@@ -14,4 +14,7 @@
 ```
 $  gcc mandelbrot_serial.c lodepng.c -O3 -std=gnu99 -lm -o mandelbrot_serial
 $ ./mandelbrot_serial
+Calculation took 8.236076 seconds.
 ```
+
+Η εκτέλεση του κώδικα παράγει το αρχείο [out.png](./out.png)

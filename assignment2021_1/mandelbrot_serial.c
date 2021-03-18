@@ -42,7 +42,6 @@ int main() {
 		image[j*4 + 2] = 	255 - (i/(double)MAX_ITER) * 255;
 		image[j*4 + 3] = 	255;
 	}
-	
 	GET_TIME(finishtime);
 
 	printf("Calculation took %lf seconds.\n",(finishtime-starttime));
