@@ -178,6 +178,8 @@ Main: The sum is 18
 
 Ένα thread παράγει μια τιμή και εννέα άλλα threads περιμένουν έτσι ώστε να παραχθεί και στη συνέχεια να την εμφανίσουν.
 
+* [pthreads_example04b.c](pthreads_example04b.c)
+
 ```bash
 gcc pthreads_example04b.c -o pthreads_example04b -lpthread
 ./pthreads_example04b

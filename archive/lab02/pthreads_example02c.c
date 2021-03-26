@@ -6,7 +6,7 @@
 // άνω όριο για τους τυχαίους πραγματικούς αριθμούς που θα παραχθούν
 #define a 10.0
 
-#define M 100000
+#define M 10000
 #define N 8000
 
 // αριθμός νημάτων
@@ -21,7 +21,7 @@
  ./pthreads_example02c
 */
 
-// global variables
+// global variables (αποθηκεύονται στην static memory)
 double A[M][N];
 double x[N], y[M];
 
