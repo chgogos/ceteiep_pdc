@@ -55,9 +55,9 @@
   * [Livermore computing center - Διεπαφή Μεταβίβασης Μηνυμάτων](http://pdplab.it.uom.gr/teaching/llnl-gr/Message%20Passing%20Interface%20%28MPI%29.htm)
   * [MPI tutorials](http://mpitutorial.com/tutorials/)
   * [An introduction to the MPI using C](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml)
-* Java concurrency
+<!-- * Java concurrency
   * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
-  * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency)
+  * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency) -->
 
 ---
 
