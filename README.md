@@ -17,7 +17,7 @@
 ## Εργασίες
 
 * [Πρώτη εργασία (pThreads)](./assignment2021_1/index.md)
-* [Δεύτερη εργασία (OpenMP)](./assignment2021_1/index.md)
+* [Δεύτερη εργασία (OpenMP)](./assignment2021_2/index.md)
 
 ## Α. Θεωρία
 
