@@ -4,7 +4,7 @@
 
 Γκόγκος Χρήστος @ Άρτα 2021
 
-Τελευταία ενημέρωση: 20/4/2021
+Τελευταία ενημέρωση: 22/4/2021
 
 ## Συγγράμματα μαθήματος
 
@@ -27,7 +27,7 @@
 
 ## Β. Εργαστήριο
 
-Θέματα που καλύπτονται στο εργαστήριο: pThreads, OpenMP, Java concurrency και MPI
+Θέματα που καλύπτονται στο εργαστήριο: pThreads, OpenMP, MPI
 
 ### 1. pThreads
 
@@ -40,7 +40,7 @@
 
 ### 3. MPI
 
-Παραδείγματα με MPI
+[Παραδείγματα με MPI](./lab_mpi/README.md)
 
 ---
 
@@ -55,46 +55,13 @@
   * [Livermore computing center - Διεπαφή Μεταβίβασης Μηνυμάτων](http://pdplab.it.uom.gr/teaching/llnl-gr/Message%20Passing%20Interface%20%28MPI%29.htm)
   * [MPI tutorials](http://mpitutorial.com/tutorials/)
   * [An introduction to the MPI using C](http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml)
-<!-- * Java concurrency
-  * [Introduction to Java Programming using java - Chapter 12 Threads and Multiprocessing](http://math.hws.edu/javanotes/c12/index.html)
-  * [DZone Java concurrency - reference card](https://dzone.com/refcardz/core-java-concurrency) -->
 
 ---
 
 * [Αρχείο υλικού από το ακαδημαϊκό έτος 2019-2020](./archive/README.md)
 
 
-<!-- ## Εργαστήριο (υλικό εαρινού εξαμήνου 2019-2020)
-
-* [Κώδικας εργαστηρίου](./lab2020/)
-* [Εκφωνήσεις ασκήσεων](./lab2020/lab_exercises.md)
-* [Λυμένα θέματα προετοιμασίας για την εξέταση του εργαστηρίου (pdf)](./exams_preparation/lab_exams_prep.pdf)
-
-
-### Εργαστήριο (POSIX threads)
-
-* [Παραδείγματα με POSIX threads (pdf)](./docs/03.POSIX%20threads.pdf)
-  * [Κώδικας παραδειγμάτων](./lab02/README.md)
-* [Ασκήσεις εργαστηρίου 2 (pdf)](./docs/04.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%202%20(POSIX%20THREADS).pdf)
-  * [Λύσεις ασκήσεων εργαστηρίου 2](./lab02x/README.md)
-
-### Εργαστήριο (java concurrency)
-
-* [Παραδείγματα java concurrency (pdf)](./docs/05.JAVA%20CONCURRENCY.pdf)
-  * [Κώδικας παραδειγμάτων](./lab03/README.md)
-* [Ασκήσεις εργαστηρίου 3 (pdf)](./docs/06.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%203%20(JAVA%20CONCURRENCY).pdf)
-  * [Λύσεις ασκήσεων εργαστηρίου 3](./lab03x/README.md)
-
-### Εργαστήριο (OpenMP)
-
-* [Παραδείγματα με OpenMP (pdf)](./docs/07.OPENMP.pdf)
-  * [Κώδικας παραδειγμάτων](./lab04/README.md)
-* [Ασκήσεις εργαστηρίου 4 (pdf)](./docs/09.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%204%20(OPENMP).pdf)
-  * [Λύσεις ασκήσεων εργαστηρίου 4](./lab04x/README.md)
-* [Παραδείγματα OpenMP(Tim Mattson) (pdf)](./docs/08.OPENMP(Tim%20Mattson).pdf)
-  * [Κώδικας για τα επιπλέον παραδείγματα](./lab04ma/README.md)
-
-### Εργαστήριο (MPI)
+<!-- ### Εργαστήριο (MPI)
 
 * Εγκατάσταση MPICH2
   * [Εγκατάσταση MPICH2 σε UBUNTU 18.04](https://www.howtoinstall.me/ubuntu/18-04/mpich/)
@@ -104,4 +71,3 @@
   * [Κώδικας παραδειγμάτων](./lab05/README.md)
 * [Ασκήσεις εργαστηρίου 5 (pdf)](./docs/11.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%205%20(MPI).pdf)
   * [Λύσεις ασκήσεων εργαστηρίου 5](./lab05x/README.md) -->
-
