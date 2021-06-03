@@ -17,7 +17,7 @@ int main(void)
   int local_a[local_n];
   MPI_Scatter(a, local_n, MPI_INT, local_a, local_n, MPI_INT, 0, MPI_COMM_WORLD);
 
-  if (my_rank == 1)
+  if (my_rank == 0)
   {
     for (int i = 0; i < local_n; i++)
     {
@@ -32,5 +32,7 @@ int main(void)
 /*
 $ mpicc prepare_mpi04.c
 $ mpirun -n 2 ./a.out
-678910
+12345
+$ mpirun -n 5 ./a.out
+12
 */

@@ -31,3 +31,7 @@ int main(void)
   MPI_Finalize();
   return 0;
 }
+
+
+// $ mpicc prepare_mpi01.c -o mpi_prepare01
+// $ mpirun -n 2 ./mpi_prepare01

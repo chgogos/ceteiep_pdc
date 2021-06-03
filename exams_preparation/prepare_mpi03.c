@@ -30,3 +30,6 @@ int main()
     MPI_Finalize();
     return 0;
 }
+
+// $ mpicc prepare_mpi03.c -o mpi_prepare03
+// $ mpirun -n 7 ./mpi_prepare03
