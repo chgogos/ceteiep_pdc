@@ -5,8 +5,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdint.h>
 
-#define N 1000
+#define N 1000000
 #define T 5
 
 double *a;
@@ -14,7 +15,6 @@ double *b;
 double inner_prod = 0.0;
 pthread_mutex_t mx;
 
-pthread_t threads[T];
 
 void *thread_work(void *rank) {
   intptr_t myrank = (intptr_t)rank;

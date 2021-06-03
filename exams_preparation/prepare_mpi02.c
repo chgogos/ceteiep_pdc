@@ -23,11 +23,11 @@ int main()
     else
     {
         int sum = 0;
-        int a;
+        int tmp;
         for (int i = 1; i <= 6; i++)
         {
-            MPI_Recv(&a, 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-            sum += a;
+            MPI_Recv(&tmp, 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+            sum += tmp;
         }
         printf("The total sum is %d\n", sum);
     }

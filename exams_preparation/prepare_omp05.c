@@ -18,7 +18,7 @@ int main() {
     b[i] = (double)rand() / (double)RAND_MAX;
   }
 
-#pragma omp parallel for num_threads(4) reduction(+ : inner_prod)
+#pragma omp parallel for num_threads(5) reduction(+ : inner_prod)
   for (int i = 0; i < N; i++) {
     inner_prod += a[i] * b[i];
   }
