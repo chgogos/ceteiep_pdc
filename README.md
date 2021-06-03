@@ -1,10 +1,23 @@
 # Παράλληλα και Κατανεμημένα Συστήματα (Θεωρία και εργαστήριο)
 
-Τμήμα Πληροφορικής και Τηλεπικοινωνιών Πανεπιστημίου Ιωαννίνων
+Τμήμα Πληροφορικής και Τηλεπικοινωνιών Πανεπιστημίου Ιωαννίνων - Άρτα 2021
 
-Γκόγκος Χρήστος @ Άρτα 2021
+Γκόγκος Χρήστος & Γεωργίου Γεώργιος 
 
-Τελευταία ενημέρωση: 19/5/2021
+Τελευταία ενημέρωση: 03/06/2021
+
+## Προετοιμασία για τις εξετάσεις
+
+[Ύλη εξετάσεων](./teliki2021.md) 
+
+**Quizzes**
+
+* [ΚΠΣ-Θεωρία](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUMUlQTFlXR1dIMjg1M0MzQ0hKVDlMNEU4Ui4u)
+* [ΚΠΣ-Pthreads](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNU5aQzdNMFkzNVlCUVBHWDRQN0tLOEVSVy4u)
+* [ΚΠΣ-OpenMP](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUNEtPV1ZZQUZWQ1lIV1gyTjVWSU5EWjlJUC4u)
+* [ΚΠΣ-MPI](https://forms.office.com/Pages/ResponsePage.aspx?id=KqW-CNNaJ0aVSV_zplZ2vipdBmu1BS9Kl7T5PdVBgURUOElQT0tXSVBURzlCRUNFQ0lRSVZLVFYxUy4u)
+
+**[Εκφωνήσεις θεμάτων προετοιμασίας για pThreads, OpenMP, MPI](./exams_preparation/exams_prep_pthreads_openmp_mpi.pdf)**
 
 ## Συγγράμματα μαθήματος
 
@@ -18,11 +31,11 @@
 
 * [Πρώτη εργασία (pThreads)](./assignment2021_1/index.md)
 * [Δεύτερη εργασία (OpenMP)](./assignment2021_2/index.md)
+* [Τρίτη εργασία (MPI)](./assignment2021_3/index.md))
 
 ## Α. Θεωρία
 
 * Κεφάλαια 1 έως και 5 από το "Εισαγωγή στον παράλληλο προγραμματισμό" του P. Pacheco.
-* Java Concurrency
 * Apache Hadoop και Apache Spark
 
 ## Β. Εργαστήριο
@@ -60,14 +73,3 @@
 
 * [Αρχείο υλικού από το ακαδημαϊκό έτος 2019-2020](./archive/README.md)
 
-
-<!-- ### Εργαστήριο (MPI)
-
-* Εγκατάσταση MPICH2
-  * [Εγκατάσταση MPICH2 σε UBUNTU 18.04](https://www.howtoinstall.me/ubuntu/18-04/mpich/)
-  * [Εγκατάσταση MPICH2 σε UBUNTU](https://mpitutorial.com/tutorials/installing-mpich2/)  
-  * [Οδηγίες εγκατάστασης WSL (Windows Subsystem for Linux) for Windows και MPICH2 στο WSL](https://spyros3000.gitlab.io/uoi-pdc/WSL-MPICH-Instructions.html)  
-* [Παραδείγματα με MPI (pdf)](./docs/10.MPI.pdf)
-  * [Κώδικας παραδειγμάτων](./lab05/README.md)
-* [Ασκήσεις εργαστηρίου 5 (pdf)](./docs/11.ΑΣΚΗΣΕΙΣ%20ΕΡΓΑΣΤΗΡΙΟΥ%205%20(MPI).pdf)
-  * [Λύσεις ασκήσεων εργαστηρίου 5](./lab05x/README.md) -->
