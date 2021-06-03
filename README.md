@@ -21,7 +21,7 @@
 
 ## Συγγράμματα μαθήματος
 
-* Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 [ΕΛ](http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo)|[EN](https://www.cs.usfca.edu/~peter/ipp/) 
+* Εισαγωγή στον παράλληλο προγραμματισμό, Peter Pacheco, Εκδόσεις Κλειδάριθμος, 2011 [ΕΛ](http://www.klidarithmos.gr/eisagwgh-ston-parallhlo-programmatismo)\|[EN](https://www.cs.usfca.edu/~peter/ipp/) 
 * Παράλληλα συστήματα και προγραμματισμός, Δημακόπουλος Βασίλειος, [ΚΑΛΛΙΠΟΣ](https://repository.kallipos.gr/handle/11419/3209), 2016
 
 ## Εργασίες
