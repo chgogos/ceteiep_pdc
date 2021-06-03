@@ -33,7 +33,7 @@
 ## Α. Θεωρία
 
 * Κεφάλαια 1 έως και 5 από το "Εισαγωγή στον παράλληλο προγραμματισμό" του P. Pacheco.
-* Apache Hadoop και Apache Spark
+* [Apache Hadoop και Apache Spark](./resources/Comparison_Of_Apache_Hadoop_With_Apache_Spark_For_Big_Data_Processing.pdf)
 
 ## Β. Εργαστήριο
 
