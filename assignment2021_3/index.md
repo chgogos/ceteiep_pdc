@@ -5,4 +5,4 @@
 
 ## Κώδικας
 
-* [heat_serial.c](./heat_serial.c)
+* [PoissonSerial.c](./PoissonSerial.c)
